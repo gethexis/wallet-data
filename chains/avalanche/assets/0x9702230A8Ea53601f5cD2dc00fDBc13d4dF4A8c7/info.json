@@ -1,0 +1,11 @@
+{
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "type": "ERC20",
+  "decimals": 6,
+  "description": "Tether is a stablecoin pegged to the US Dollar",
+  "website": "https://tether.to",
+  "explorer": "https://snowtrace.io/token/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+  "status": "active",
+  "tags": ["stablecoin"]
+}

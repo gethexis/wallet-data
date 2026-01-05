@@ -1,0 +1,11 @@
+{
+  "name": "USD Coin",
+  "symbol": "USDC",
+  "type": "ERC20",
+  "decimals": 6,
+  "description": "USD Coin is a fully collateralized US dollar stablecoin",
+  "website": "https://www.circle.com/usdc",
+  "explorer": "https://basescan.org/token/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "status": "active",
+  "tags": ["stablecoin"]
+}

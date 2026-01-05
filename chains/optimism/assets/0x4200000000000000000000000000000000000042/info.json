@@ -1,0 +1,11 @@
+{
+  "name": "Optimism",
+  "symbol": "OP",
+  "type": "ERC20",
+  "decimals": 18,
+  "description": "Optimism governance token for the OP Stack ecosystem",
+  "website": "https://optimism.io",
+  "explorer": "https://optimistic.etherscan.io/token/0x4200000000000000000000000000000000000042",
+  "status": "active",
+  "tags": ["governance", "layer2"]
+}

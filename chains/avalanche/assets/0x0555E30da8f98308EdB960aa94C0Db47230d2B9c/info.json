@@ -1,0 +1,11 @@
+{
+  "name": "Wrapped Bitcoin",
+  "symbol": "WBTC",
+  "type": "ERC20",
+  "decimals": 8,
+  "description": "Wrapped Bitcoin is an ERC20 token backed 1:1 by Bitcoin",
+  "website": "https://wbtc.network",
+  "explorer": "https://snowtrace.io/token/0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+  "status": "active",
+  "tags": ["wrapped", "bitcoin"]
+}

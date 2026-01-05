@@ -1,0 +1,11 @@
+{
+  "name": "Chainlink",
+  "symbol": "LINK",
+  "type": "ERC20",
+  "decimals": 18,
+  "description": "Chainlink is a decentralized oracle network",
+  "website": "https://chain.link",
+  "explorer": "https://snowtrace.io/token/0x5947BB275c521040051D82396192181b413227A3",
+  "status": "active",
+  "tags": ["defi", "oracle"]
+}

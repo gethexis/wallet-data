@@ -1,0 +1,11 @@
+{
+  "name": "Uniswap",
+  "symbol": "UNI",
+  "type": "ERC20",
+  "decimals": 18,
+  "description": "Uniswap governance token",
+  "website": "https://uniswap.org",
+  "explorer": "https://snowtrace.io/token/0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580",
+  "status": "active",
+  "tags": ["defi", "governance", "dex"]
+}

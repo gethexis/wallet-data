@@ -1,0 +1,11 @@
+{
+  "name": "Chainlink",
+  "symbol": "LINK",
+  "type": "ERC20",
+  "decimals": 18,
+  "description": "Chainlink is a decentralized oracle network",
+  "website": "https://chain.link",
+  "explorer": "https://optimistic.etherscan.io/token/0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+  "status": "active",
+  "tags": ["defi", "oracle"]
+}
