@@ -1,0 +1,33 @@
+{
+  "network_id": "solana",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "validators": [
+    {
+      "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+      "name": "Jito",
+      "type": "liquid_staking",
+      "description": "MEV-optimized liquid staking protocol",
+      "website": "https://jito.network",
+      "token": {
+        "symbol": "JitoSOL",
+        "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"
+      },
+      "verified": true,
+      "tags": ["liquid-staking", "mev"]
+    },
+    {
+      "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+      "name": "Marinade Finance",
+      "type": "liquid_staking",
+      "description": "Decentralized liquid staking protocol",
+      "website": "https://marinade.finance",
+      "token": {
+        "symbol": "mSOL",
+        "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+      },
+      "verified": true,
+      "tags": ["liquid-staking", "decentralized"]
+    }
+  ]
+}

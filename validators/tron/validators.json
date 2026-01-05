@@ -1,0 +1,134 @@
+{
+  "network_id": "tron",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "source": "https://apilist.tronscanapi.com/api/pagewitness",
+  "validators": [
+    {
+      "address": "TLyqzVGLV1srkB7dToTAEqgDSfPtXRJZYH",
+      "name": "Binance Staking",
+      "website": "https://www.binance.com/en/staking",
+      "verified": true,
+      "tags": ["exchange"]
+    },
+    {
+      "address": "TJvaAeFb8Lykt9RQcVyyTFN2iDvGMuyD4M",
+      "name": "Poloniex",
+      "website": "https://poloniex.com/",
+      "verified": true,
+      "tags": ["exchange"]
+    },
+    {
+      "address": "TN2W4cc7a4dsYyTLiLMWa9m7jVpdLjGvYs",
+      "name": "HTX.COM",
+      "website": "https://www.htx.com/",
+      "verified": true,
+      "tags": ["exchange"]
+    },
+    {
+      "address": "TTxrh32VJveqiYRwbLEX2wLTMFCfbpAUQj",
+      "name": "OKX Earn",
+      "website": "https://www.okx.com/earn/home",
+      "verified": true,
+      "tags": ["exchange"]
+    },
+    {
+      "address": "TNeEwWHXLLUgEtfzTnYN8wtVenGxuMzZCE",
+      "name": "OKCoinJapan",
+      "website": "https://okcoin.jp/",
+      "verified": true,
+      "tags": ["exchange"]
+    },
+    {
+      "address": "TQhuVjZtmp6k4fPmGZLr4wyXdziCVSPkEX",
+      "name": "Google Cloud",
+      "website": "https://cloud.google.com/",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "TGyrSc9ZmTdbYziuk1SKEmdtCdETafewJ9",
+      "name": "Luganodes",
+      "website": "https://luganodes.com",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "TQzd66b9EFVHJfZK5AmiVhBjtJvXGeSPPZ",
+      "name": "Kiln_Staking",
+      "website": "https://kiln.fi",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "TBsyKdNsCKNXLgvneeUJ3rbXgWSgk6paTM",
+      "name": "StakedTron",
+      "website": "https://staked.us",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "TH7Fe1W8CcLeqN4LGfqX1R9EpsnrJBQJij",
+      "name": "P2P.ORG",
+      "website": "https://www.p2p.org",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "TTMNxTmRpBZnjtUnohX84j25NLkTqDga7j",
+      "name": "TronSpark",
+      "website": "https://tronspark.com",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "TTcYhypP8m4phDhN6oRexz2174zAerjEWP",
+      "name": "CryptoGuyInZA",
+      "website": "https://www.cryptoguyinza.co.za/",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "TKSXDA8HfE9E1y39RczVQ1ZascUEtaSToF",
+      "name": "CryptoChain",
+      "website": "http://cryptochain.network",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "TLG2B6w4K18HSnje7udYvqMMdJYQ9uYxjJ",
+      "name": "Nansen_ai",
+      "website": "https://nansen.ai",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "TTW663tQYJTTCtHh6DWKAfexRhPMf2DxQ1",
+      "name": "TRONALLIANCE",
+      "website": "http://tronalliance.org",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "TAQpCTFeJvwdWf6MQZtXXkzWrTS9aymshb",
+      "name": "Abra Capital Management",
+      "website": "https://valkyrieinvest.com",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "TQopP5GM68QoqLzpz8YReDfSoCMkvwcZYd",
+      "name": "cryptoAI",
+      "website": "https://cryptoai.com",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "TVFKwzE8qeETLaZEHMx2tjEsdnujAgAWaA",
+      "name": "BlockchainOrg",
+      "website": "http://blockchain.org",
+      "verified": true,
+      "tags": ["community"]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "network_id": "ethereum",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "validators": [
+    {
+      "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+      "name": "Lido",
+      "type": "liquid_staking",
+      "description": "Liquid staking protocol - Stake ETH and receive stETH",
+      "website": "https://lido.fi",
+      "token": {
+        "symbol": "stETH",
+        "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
+      },
+      "verified": true,
+      "tags": ["liquid-staking", "defi"]
+    },
+    {
+      "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+      "name": "Lido Wrapped stETH",
+      "type": "liquid_staking",
+      "description": "Wrapped version of stETH for DeFi compatibility",
+      "website": "https://lido.fi",
+      "token": {
+        "symbol": "wstETH",
+        "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0"
+      },
+      "verified": true,
+      "tags": ["liquid-staking", "defi", "wrapped"]
+    },
+    {
+      "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+      "name": "Rocket Pool",
+      "type": "liquid_staking",
+      "description": "Decentralized staking protocol - Stake ETH and receive rETH",
+      "website": "https://rocketpool.net",
+      "token": {
+        "symbol": "rETH",
+        "address": "0xae78736Cd615f374D3085123A210448E74Fc6393"
+      },
+      "verified": true,
+      "tags": ["liquid-staking", "decentralized"]
+    },
+    {
+      "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+      "name": "Coinbase Wrapped Staked ETH",
+      "type": "liquid_staking",
+      "description": "Coinbase liquid staking token",
+      "website": "https://www.coinbase.com/cbeth",
+      "token": {
+        "symbol": "cbETH",
+        "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704"
+      },
+      "verified": true,
+      "tags": ["liquid-staking", "exchange"]
+    }
+  ]
+}

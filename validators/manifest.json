@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "networks": {
+    "klever": {
+      "version": "1.0.0",
+      "description": "Klever blockchain validators",
+      "source": "https://api.mainnet.klever.org/v1.0/validator/list"
+    },
+    "ethereum": {
+      "version": "1.0.0",
+      "description": "Ethereum liquid staking protocols",
+      "source": "CoinGecko API, Lido docs, Etherscan"
+    },
+    "solana": {
+      "version": "1.0.0",
+      "description": "Solana liquid staking protocols",
+      "source": "CoinGecko API"
+    },
+    "tron": {
+      "version": "1.0.0",
+      "description": "Tron Super Representatives",
+      "source": "https://apilist.tronscanapi.com/api/pagewitness"
+    },
+    "cosmos": {
+      "version": "1.0.0",
+      "description": "Cosmos Hub validators",
+      "source": "https://rest.cosmos.directory/cosmoshub/cosmos/staking/v1beta1/validators"
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "network_id": "klever",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "validators": [
+    {
+      "address": "klv1rwunhy3haml8c4xgs43gjn8smkstz0cg7y6u4jeetr7xpq5tl0fsjx6y7r",
+      "name": "Prospective_LLc",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1tsjhuxn6v93agmvskws06j9seqa6pa75c9awcwks24fj4deq6rtsxnhmt6",
+      "name": "Community-Node-#1",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1hwuhr7jeerhp5d2pu2954z6peyrawek2d87m7szyex2fjshze6nse9udx5",
+      "name": "HISPANO",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv18n7qw3x4mfme083umx6x3x3u7zhcx8d62hx9ms4z58emgpmrhmysfp3cq8",
+      "name": "Staking4All-4",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1pytanys0agrdgza6hf7p3xrtchta763r4l6utnf7a2u957cwv97sda8ckm",
+      "name": "Kiyuovia-I",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1haqzfj4qsppnxvazzfu8aa6mr4e5zgujdcgn2p5wa0ulvp2kd9dqya4vgt",
+      "name": "BlockPort.me-4",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1c5lzutc34nrhjtuhx3ch69yjucm3pjefuuag0pysy5s27m43404sqchqcv",
+      "name": "BlockPort.me-1",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1n9au5gy6dpmu98ak4tqjc3xdq47tw3hpgpc2yxaz3m7nrgy6v0yqf3kkl0",
+      "name": "BlockPort.me-3",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1ezwtwurj24ttqrvl5l7z0uhderlwp7qv6zln4fl8u2uafurwd09se44upt",
+      "name": "DaxDoge-2",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv144900ddpcstny207msg8d4xn9n22hht2xp08xjeedfqmf7zw5kxse7m60z",
+      "name": "Kleverland",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv12agsp5duvvqthrcmzegwdmnm2nrtr3k2g6y997vg5t8unfz4jf5s0pe4rm",
+      "name": "Prometheus",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1u02guyc7tthfm46eyk2gdnr5ed7aducte9wukqw8mht6xsm69m5sg0rsc0",
+      "name": "NODE-NL-V3",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv17mag4k76j6qv4xx5l042g5dqge5dm3rz4pq20m9m0qxhwx9rr5zstyh36j",
+      "name": "Stake it Easy",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1zje2prapt85y4h69wtq38lcx8ruddutgh9hvck8lk0ztm4mpyfhqa4vq9r",
+      "name": "NODE-NL-V4",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv17yls95upzsg7z9wfpcskpqyhj6vdta09gqt2jezqpnk4tl8djthsm9rnrp",
+      "name": "Kiyuovia-V",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1j7j9drsfkacmuv0j8x04zh5xsqszejzwk9uat8c4puhza9g6tk4qr9g4p4",
+      "name": "Compass-1",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1w04lmzzvk3auw9wxkvsneu2v8yd80kqgmjmsp076v09x2fkr3nsqv0s2lu",
+      "name": "CryptoJaeger_#2",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv15u50yajhadxl59pwcp34qnlh7gmkfaxe4c88x388uc9pexgeu3jqm9z4wr",
+      "name": "Klever-Radar",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1apnq55lqxtlz83ax82pvtdjmegv6xvvlpzeplvwznnql3ld76cpq8q3fmg",
+      "name": "KVGermany-II",
+      "description": "German validator node",
+      "logo": "https://kvgermany.de/wp-content/uploads/2024/03/web.png",
+      "website": "https://kvgermany.de",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1a4kvwary2vtqmjzrv7cn8w69rm8pgujms0e0ga06srxwfelzea4q2vcfvz",
+      "name": "KVGermany-III",
+      "description": "German validator node",
+      "logo": "https://kvgermany.de/wp-content/uploads/2024/03/web.png",
+      "website": "https://kvgermany.de",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv16j7axueeqy9h3yrq0w3s7s42q4qhagneumetl6pmwfg6dtle5rvqsvkffz",
+      "name": "KVGermany-IX",
+      "description": "German validator node",
+      "logo": "https://kvgermany.de/wp-content/uploads/2024/03/web.png",
+      "website": "https://kvgermany.de",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1ta6q6jv5cwgd33rjy09zx46z2ym2ed6hnxjg30x7f6m0h24y9hws7d5xn0",
+      "name": "KVGermany-V",
+      "description": "German validator node",
+      "logo": "https://kvgermany.de/wp-content/uploads/2024/03/web.png",
+      "website": "https://kvgermany.de",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1963tv324dc4v4dwd23fk0nn2zwgtwjdf3qlln6an9qhwtle90zvqe6txtk",
+      "name": "KVGermany-XI",
+      "description": "German validator node",
+      "logo": "https://kvgermany.de/wp-content/uploads/2024/03/web.png",
+      "website": "https://kvgermany.de",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1zz4ptex8wuma45m2l0aerx48uq8gtrv0sq6qadghkkqr4dyds2xsd2k4aj",
+      "name": "Compass-2",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1kzvrdhg5fcarltz7qmtu5n004whanjd2rmv62n85c9mawunpncfqy40ljw",
+      "name": "Compass-3",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv165l7mvqadgt8f7vgw2yc23xf5v2lh4vlnx3pxvx3h77kv6qzmv8qt5t032",
+      "name": "Compass-4",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv16fhysef032ccv2648d697p9u6mk9d9y5mucnj370atwghp57ll4s2u5r4h",
+      "name": "Devikins",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1rpurpzyp72yudqycdm3zcpd46s0n3u3et0v2kgfzkngpz6l2nu7qe8r040",
+      "name": "KVGermany",
+      "description": "German validator node",
+      "logo": "https://kvgermany.de/wp-content/uploads/2024/03/web.png",
+      "website": "https://kvgermany.de",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv1a5fayp75j7h98uweu3hrc72xlc80nlza8q9jpys8u6gj7pspgd4s95249m",
+      "name": "PandemicMultiverse",
+      "verified": false,
+      "tags": ["community"]
+    },
+    {
+      "address": "klv13nun0wvmmgj8h6utj9sq4tz799kunjd5dk02539vfvrzmelu3kfq886xuc",
+      "name": "SCROOGE",
+      "verified": false,
+      "tags": ["community"]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "network_id": "cosmos",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "source": "https://rest.cosmos.directory/cosmoshub/cosmos/staking/v1beta1/validators",
+  "validators": [
+    {
+      "address": "cosmosvaloper18ruzecmqj9pv8ac0gvkgryuc7u004te9rh7w5s",
+      "name": "Binance Node",
+      "verified": true,
+      "tags": ["exchange"]
+    },
+    {
+      "address": "cosmosvaloper1gqem6t55xrjc8nqf7y8jyp9xzgnm60zu007nrl",
+      "name": "Coinbase02",
+      "website": "https://coinbase.com/staking",
+      "verified": true,
+      "tags": ["exchange"]
+    },
+    {
+      "address": "cosmosvaloper19yy989ka5usws6gsd8vl94y7l6ssgdwsrnscjc",
+      "name": "OKXEarn",
+      "website": "https://www.okx.com",
+      "verified": true,
+      "tags": ["exchange"]
+    },
+    {
+      "address": "cosmosvaloper1x8efhljzvs52u5xa6m7crcwes7v9u0nlwdgw30",
+      "name": "Upbit Staking",
+      "website": "https://upbit.com",
+      "verified": true,
+      "tags": ["exchange"]
+    },
+    {
+      "address": "cosmosvaloper1gf3dm2mvqhymts6ksrstlyuu2m8pw6dhfp9md2",
+      "name": "Keplr",
+      "website": "https://infra.keplr.app",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "cosmosvaloper1grgelyng2v6v3t8z87wu3sxgt9m5s03xfytvz7",
+      "name": "iqlusion",
+      "website": "https://iqlusion.io",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "cosmosvaloper1gp957czryfgyvxwn3tfnyy2f0t9g2p4pqeemx8",
+      "name": "polkachu.com",
+      "website": "https://polkachu.com",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "cosmosvaloper196ax4vc0lwpxndu9dyhvca7jhxp70rmcvrj90c",
+      "name": "SG-1",
+      "website": "https://sg-1.online",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "cosmosvaloper1q6d3d089hg59x6gcx92uumx70s5y5wadklue8s",
+      "name": "Ubik Capital",
+      "website": "https://www.ubik.capital",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "cosmosvaloper199mlc7fr6ll5t54w7tts7f4s0cvnqgc59nmuxf",
+      "name": "ShapeShift DAO",
+      "website": "https://www.shapeshift.com",
+      "verified": true,
+      "tags": ["institutional"]
+    },
+    {
+      "address": "cosmosvaloper19f0w9svr905fhefusyx4z8sf83j6et0g9l5yhl",
+      "name": "NodeStake",
+      "website": "https://nodestake.org",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "cosmosvaloper18extdhzzl5c8tr6453e5hzaj3exrdlea90fj3y",
+      "name": "Smart Stake",
+      "website": "https://smartstake.io",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "cosmosvaloper1yw5s259jkcg0jzmh7sce29uk0lqqw2ump7578p",
+      "name": "CEX.IO Validator",
+      "website": "https://cex.io",
+      "verified": true,
+      "tags": ["exchange"]
+    },
+    {
+      "address": "cosmosvaloper1y0us8xvsvfvqkk9c6nt5cfyu5au5tww2ztve7q",
+      "name": "Swiss Staking",
+      "website": "https://swiss-staking.ch",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "cosmosvaloper1ptyzewnns2kn37ewtmv6ppsvhdnmeapvtfc9y5",
+      "name": "WeStaking",
+      "website": "https://www.westaking.io",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "cosmosvaloper1yfnaup5wa3vdzx3wx9auhvzl85saqj37tqxqnu",
+      "name": "Moonlet",
+      "website": "https://moonlet.io",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "cosmosvaloper1xqz9pemz5e5zycaa89kys5aw6m8rhgsvw4328e",
+      "name": "Quokka Stake",
+      "website": "https://quokkastake.io",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "cosmosvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7sxzwx",
+      "name": "EZ Staking",
+      "website": "https://ezstaking.io",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "cosmosvaloper1rjujxmsdk3n7hj07q54huh4esf4v0ts8mezqam",
+      "name": "DELIGHT",
+      "website": "https://delightlabs.io",
+      "verified": true,
+      "tags": ["community"]
+    },
+    {
+      "address": "cosmosvaloper1gpx52r9h3zeul45amvcy2pysgvcwddxrgx6cnv",
+      "name": "StakeLab",
+      "website": "https://www.stakelab.zone",
+      "verified": true,
+      "tags": ["community"]
+    }
+  ]
+}

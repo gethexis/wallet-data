@@ -26,12 +26,11 @@ validators/
   "networks": {
     "klever": {
       "version": "1.0.0",
-      "count": 25,
-      "total_staked": "5000000000"
+      "description": "Klever blockchain validators"
     },
     "ethereum": {
       "version": "1.0.0",
-      "count": 10
+      "description": "Ethereum liquid staking protocols"
     }
   }
 }
@@ -53,18 +52,8 @@ validators/
       "description": "Official Klever Foundation validator",
       "logo": "https://example.com/logo.png",
       "website": "https://klever.org",
-      "commission": 5.0,
-      "status": "active",
-      "staked": "500000000",
-      "delegators": 1250,
-      "uptime": 99.9,
       "verified": true,
-      "tags": ["foundation", "high-uptime"],
-      "contact": {
-        "email": "validators@klever.org",
-        "twitter": "@klever_io",
-        "telegram": "klever_io"
-      }
+      "tags": ["foundation"]
     }
   ]
 }
@@ -78,25 +67,16 @@ validators/
 |-------|------|----------|-------------|
 | `address` | string | Yes | Validator address |
 | `name` | string | Yes | Validator name |
+| `type` | string | No | `validator`, `liquid_staking`, `native_staking` |
 | `description` | string | No | Brief description |
 | `logo` | string | No | Logo URL |
 | `website` | string | No | Official website |
-| `commission` | number | Yes | Commission rate (percentage) |
-| `status` | string | Yes | `active`, `inactive`, `jailed` |
-| `staked` | string | No | Total staked amount (raw units) |
-| `delegators` | number | No | Number of delegators |
-| `uptime` | number | No | Uptime percentage |
+| `token` | object | No | LST token info (for liquid staking) |
 | `verified` | boolean | No | Identity verified |
 | `tags` | string[] | No | Categorization tags |
 | `contact` | object | No | Contact information |
 
-### Status Values
-
-| Status | Description |
-|--------|-------------|
-| `active` | Currently validating blocks |
-| `inactive` | Not currently validating |
-| `jailed` | Penalized for misbehavior |
+**Note**: Dynamic fields like `commission`, `status`, `staked`, `delegators`, and `uptime` are intentionally omitted as they change frequently. These should be fetched from on-chain data at runtime.
 
 ### Common Tags
 
@@ -118,20 +98,13 @@ validators/
   "network_id": "klever",
   "validators": [
     {
-      "address": "klv1foundation...",
-      "name": "Klever Foundation",
-      "commission": 5.0,
-      "status": "active",
-      "verified": true,
-      "tags": ["foundation"]
-    },
-    {
-      "address": "klv1community...",
-      "name": "Community Validator",
-      "commission": 8.0,
-      "status": "active",
-      "website": "https://example.com",
-      "tags": ["community", "high-uptime"]
+      "address": "klv1apnq55lqxtlz83ax82pvtdjmegv6xvvlpzeplvwznnql3ld76cpq8q3fmg",
+      "name": "KVGermany-II",
+      "description": "German validator node",
+      "logo": "https://kvgermany.de/wp-content/uploads/2024/03/web.png",
+      "website": "https://kvgermany.de",
+      "verified": false,
+      "tags": ["community"]
     }
   ]
 }
@@ -146,34 +119,18 @@ For Ethereum, we track staking pools/services rather than individual validators:
   "network_id": "ethereum",
   "validators": [
     {
-      "address": "0x...",
+      "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
       "name": "Lido",
       "type": "liquid_staking",
-      "description": "Liquid staking protocol",
+      "description": "Liquid staking protocol - Stake ETH and receive stETH",
       "website": "https://lido.fi",
-      "fee": 10.0,
-      "status": "active",
+      "logo": "https://assets.coingecko.com/coins/images/13442/standard/steth_logo.png",
       "token": {
         "symbol": "stETH",
         "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84"
       },
       "verified": true,
-      "tags": ["liquid-staking", "defi"]
-    },
-    {
-      "address": "0x...",
-      "name": "Rocket Pool",
-      "type": "liquid_staking",
-      "description": "Decentralized staking protocol",
-      "website": "https://rocketpool.net",
-      "fee": 15.0,
-      "status": "active",
-      "token": {
-        "symbol": "rETH",
-        "address": "0xae78736Cd615f374D3085123A210448E74Fc6393"
-      },
-      "verified": true,
-      "tags": ["liquid-staking", "decentralized"]
+      "tags": ["liquid-staking", "defi", "audited"]
     }
   ]
 }
@@ -186,13 +143,17 @@ For Ethereum, we track staking pools/services rather than individual validators:
   "network_id": "solana",
   "validators": [
     {
-      "address": "Vote111...",
-      "name": "Solana Foundation",
-      "commission": 0,
-      "status": "active",
-      "staked": "5000000000000",
+      "address": "J1to1yufRnoWn81KYg1XkTWzmKjnYSnmE2VY8DGUJ9Qv",
+      "name": "Jito",
+      "type": "liquid_staking",
+      "description": "MEV-optimized liquid staking protocol",
+      "website": "https://jito.network",
+      "token": {
+        "symbol": "JitoSOL",
+        "address": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"
+      },
       "verified": true,
-      "tags": ["foundation"]
+      "tags": ["liquid-staking", "mev"]
     }
   ]
 }
