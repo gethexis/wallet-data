@@ -1,0 +1,30 @@
+{
+  "name": "DigiByte",
+  "symbol": "DGB",
+  "type": "native",
+  "decimals": 8,
+  "status": "active",
+  "id": "DGB",
+  "description": "DigiByte is a blockchain which focuses mainly on cybersecurity and fast transactions with 15-second block times.",
+  "website": "https://digibyte.io/",
+  "explorer": "https://digiexplorer.info/",
+  "api": {
+    "mainnet": {
+      "node": ["https://digiexplorer.info/api", "https://blockchair.com/digibyte/api"],
+      "indexer": ["https://digiexplorer.info/api", "https://blockchair.com/digibyte/api"]
+    }
+  },
+  "tags": ["pow", "payments", "layer-1", "security"],
+  "links": [
+    {"name": "github", "url": "https://github.com/DigiByte-Core"},
+    {"name": "twitter", "url": "https://x.com/DigiByteCoin"},
+    {"name": "reddit", "url": "https://reddit.com/r/Digibyte"},
+    {"name": "docs", "url": "https://www.digibyte.io/digibyte-blockchain-faq"}
+  ],
+  "pricing": {
+    "coingecko_id": "digibyte"
+  },
+  "staking": {
+    "enabled": false
+  }
+}

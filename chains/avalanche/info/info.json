@@ -1,0 +1,40 @@
+{
+  "name": "Avalanche C-Chain",
+  "symbol": "AVAX",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "AVAX",
+  "description": "Avalanche is an open-source platform for launching highly decentralized applications, new financial primitives, and new interoperable blockchains.",
+  "website": "https://avax.network/",
+  "explorer": "https://snowtrace.io/",
+  "chain_id": 43114,
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://api.avax.network/ext/bc/C/rpc",
+        "https://avalanche.llamarpc.com",
+        "https://avalanche-c-chain-rpc.publicnode.com",
+        "https://rpc.ankr.com/avalanche"
+      ]
+    },
+    "testnet": {
+      "node": ["https://api.avax-test.network/ext/bc/C/rpc"]
+    }
+  },
+  "tags": ["smart-contracts", "evm", "layer-1", "defi"],
+  "links": [
+    {"name": "github", "url": "https://github.com/ava-labs"},
+    {"name": "twitter", "url": "https://x.com/avax"},
+    {"name": "whitepaper", "url": "https://www.avalabs.org/whitepapers"}
+  ],
+  "pricing": {
+    "coingecko_id": "avalanche-2"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "AVAX"
+  }
+}

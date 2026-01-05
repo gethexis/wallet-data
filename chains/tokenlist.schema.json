@@ -1,0 +1,125 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tokenlist.schema.json",
+  "title": "Hexis Wallet Token List",
+  "description": "Schema for token lists compatible with Uniswap Token List standard",
+  "type": "object",
+  "required": ["name", "timestamp", "version", "tokens"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the token list",
+      "minLength": 1,
+      "maxLength": 30
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The timestamp of this list version"
+    },
+    "version": {
+      "type": "object",
+      "description": "The version of the list, used in change detection",
+      "required": ["major", "minor", "patch"],
+      "properties": {
+        "major": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Major version - increment for breaking changes"
+        },
+        "minor": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Minor version - increment for new tokens"
+        },
+        "patch": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Patch version - increment for metadata changes"
+        }
+      }
+    },
+    "tokens": {
+      "type": "array",
+      "description": "The list of tokens",
+      "items": {
+        "$ref": "#/definitions/TokenInfo"
+      }
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Keywords for searching the list",
+      "items": {
+        "type": "string"
+      }
+    },
+    "logoURI": {
+      "type": "string",
+      "format": "uri",
+      "description": "URI of the list logo"
+    }
+  },
+  "definitions": {
+    "TokenInfo": {
+      "type": "object",
+      "required": ["chainId", "address", "name", "symbol", "decimals"],
+      "properties": {
+        "chainId": {
+          "type": "integer",
+          "description": "The chain ID of the network",
+          "minimum": 1
+        },
+        "address": {
+          "type": "string",
+          "description": "The token contract address or asset ID"
+        },
+        "name": {
+          "type": "string",
+          "description": "The token name",
+          "minLength": 1,
+          "maxLength": 60
+        },
+        "symbol": {
+          "type": "string",
+          "description": "The token symbol",
+          "minLength": 1,
+          "maxLength": 20
+        },
+        "decimals": {
+          "type": "integer",
+          "description": "The number of decimals",
+          "minimum": 0,
+          "maximum": 255
+        },
+        "logoURI": {
+          "type": "string",
+          "format": "uri",
+          "description": "URI of the token logo"
+        },
+        "tags": {
+          "type": "array",
+          "description": "Tags for categorization",
+          "items": {
+            "type": "string"
+          }
+        },
+        "extensions": {
+          "type": "object",
+          "description": "Additional metadata",
+          "properties": {
+            "coingeckoId": {
+              "type": "string"
+            },
+            "website": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

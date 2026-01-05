@@ -1,0 +1,185 @@
+name: Validate & Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    name: Validate Data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get install -y jq file
+
+      - name: Validate all data
+        run: ./scripts/validate.sh all
+
+  validate-logos:
+    name: Validate Logos
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ImageMagick
+        run: sudo apt-get install -y imagemagick file
+
+      - name: Validate logo files
+        run: |
+          echo "Validating logo files..."
+          errors=0
+
+          # Find all logo.png files
+          for logo in $(find . -name "logo.png" -not -path "./.git/*"); do
+            echo "Checking: $logo"
+
+            # Check file exists and is PNG
+            if ! file "$logo" | grep -q "PNG image"; then
+              echo "ERROR: $logo is not a valid PNG file"
+              errors=$((errors + 1))
+              continue
+            fi
+
+            # Get dimensions
+            dimensions=$(identify -format "%wx%h" "$logo" 2>/dev/null || echo "unknown")
+            if [ "$dimensions" != "256x256" ]; then
+              echo "WARNING: $logo is $dimensions (should be 256x256)"
+            fi
+
+            # Check file size (max 100KB)
+            size=$(stat -c%s "$logo" 2>/dev/null || stat -f%z "$logo" 2>/dev/null)
+            if [ "$size" -gt 102400 ]; then
+              echo "WARNING: $logo exceeds 100KB ($size bytes)"
+            fi
+          done
+
+          if [ $errors -gt 0 ]; then
+            echo "Found $errors invalid logo files"
+            exit 1
+          fi
+
+          echo "Logo validation complete"
+
+  build:
+    name: Build Token Lists
+    runs-on: ubuntu-latest
+    needs: [validate]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Build token lists
+        run: ./scripts/build.sh all
+
+      - name: Verify built files
+        run: |
+          echo "Verifying built tokenlist files..."
+          for file in $(find ./chains -name "tokenlist.json"); do
+            echo "Checking: $file"
+            if ! jq empty "$file" 2>/dev/null; then
+              echo "ERROR: Invalid JSON in $file"
+              exit 1
+            fi
+            count=$(jq '.tokens | length' "$file")
+            echo "  Contains $count tokens"
+          done
+
+  schema-validate:
+    name: Schema Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli ajv-formats
+
+      - name: Validate token info.json files
+        run: |
+          echo "Validating token info.json files against schema..."
+          schema="./chains/asset.schema.json"
+
+          if [ -f "$schema" ]; then
+            for info in $(find ./chains/*/assets/*/info.json 2>/dev/null); do
+              echo "Validating: $info"
+              ajv validate -s "$schema" -d "$info" --spec=draft7 || true
+            done
+          else
+            echo "Schema file not found, skipping"
+          fi
+
+      - name: Validate tokenlist.json files
+        run: |
+          echo "Validating tokenlist.json files against schema..."
+          schema="./chains/tokenlist.schema.json"
+
+          if [ -f "$schema" ]; then
+            for tokenlist in $(find ./chains/*/tokenlist.json 2>/dev/null); do
+              echo "Validating: $tokenlist"
+              ajv validate -s "$schema" -d "$tokenlist" --spec=draft7 || true
+            done
+          else
+            echo "Schema file not found, skipping"
+          fi
+
+  check-duplicates:
+    name: Check Duplicates
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for duplicate tokens
+        run: |
+          echo "Checking for duplicate token addresses..."
+
+          for network_dir in ./chains/*/; do
+            network=$(basename "$network_dir")
+            if [ -d "$network_dir/assets" ]; then
+              # Get all asset directories
+              addresses=$(ls -1 "$network_dir/assets" 2>/dev/null | sort | uniq -d)
+              if [ -n "$addresses" ]; then
+                echo "ERROR: Duplicate addresses in $network:"
+                echo "$addresses"
+                exit 1
+              fi
+            fi
+          done
+
+          echo "No duplicates found"
+
+  security-check:
+    name: Security Check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for sensitive data
+        run: |
+          echo "Checking for sensitive data in changes..."
+
+          # Get changed files
+          changed_files=$(git diff --name-only origin/main...HEAD 2>/dev/null || git diff --name-only HEAD~1)
+
+          for file in $changed_files; do
+            if [ -f "$file" ]; then
+              # Check for potential private keys or secrets
+              if grep -qE "(private[_-]?key|secret|password|api[_-]?key)" "$file" 2>/dev/null; then
+                echo "WARNING: Potential sensitive data in $file"
+              fi
+            fi
+          done
+
+          echo "Security check complete"

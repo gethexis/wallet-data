@@ -1,0 +1,37 @@
+{
+  "name": "Optimism",
+  "symbol": "ETH",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "OP",
+  "description": "Optimism is a Layer 2 scaling solution for Ethereum using optimistic rollups.",
+  "website": "https://optimism.io/",
+  "explorer": "https://optimistic.etherscan.io/",
+  "chain_id": 10,
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://mainnet.optimism.io",
+        "https://optimism.llamarpc.com",
+        "https://optimism-rpc.publicnode.com",
+        "https://rpc.ankr.com/optimism"
+      ]
+    },
+    "testnet": {
+      "node": ["https://sepolia.optimism.io"]
+    }
+  },
+  "tags": ["smart-contracts", "evm", "layer-2", "optimistic-rollup"],
+  "links": [
+    {"name": "github", "url": "https://github.com/ethereum-optimism"},
+    {"name": "twitter", "url": "https://x.com/optimism"},
+    {"name": "docs", "url": "https://docs.optimism.io/"}
+  ],
+  "pricing": {
+    "coingecko_id": "ethereum"
+  },
+  "staking": {
+    "enabled": false
+  }
+}

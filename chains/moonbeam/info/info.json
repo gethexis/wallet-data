@@ -1,0 +1,35 @@
+{
+  "name": "Moonbeam",
+  "symbol": "GLMR",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "GLMR",
+  "description": "Moonbeam combines the best of both worlds: the familiar and easy-to-use tooling of Ethereum and the scalable, interoperable architecture of Polkadot.",
+  "website": "https://moonbeam.network/",
+  "explorer": "https://moonscan.io/",
+  "chain_id": 1284,
+  "api": {
+    "mainnet": {
+      "node": ["https://rpc.api.moonbeam.network", "https://rpc.ankr.com/moonbeam"]
+    },
+    "testnet": {
+      "node": ["https://rpc.api.moonbase.moonbeam.network"]
+    }
+  },
+  "tags": ["smart-contracts", "evm", "parachain", "polkadot"],
+  "links": [
+    {"name": "github", "url": "https://github.com/moonbeam-foundation/moonbeam"},
+    {"name": "twitter", "url": "https://x.com/moonbeamnetwork"},
+    {"name": "docs", "url": "https://docs.moonbeam.network/"}
+  ],
+  "pricing": {
+    "coingecko_id": "moonbeam"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "GLMR"
+  }
+}

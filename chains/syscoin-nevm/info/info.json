@@ -1,0 +1,32 @@
+{
+  "name": "Syscoin NEVM",
+  "symbol": "SYS",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "SYS_NEVM",
+  "description": "Syscoin NEVM is the Network-Enhanced Virtual Machine providing Ethereum compatibility with Bitcoin-merged mining security.",
+  "website": "https://syscoin.org/",
+  "explorer": "https://explorer.syscoin.org/nevm",
+  "chain_id": 57,
+  "api": {
+    "mainnet": {
+      "node": ["https://rpc.syscoin.org", "https://rpc.ankr.com/syscoin"]
+    },
+    "testnet": {
+      "node": ["https://rpc.tanenbaum.io"]
+    }
+  },
+  "tags": ["smart-contracts", "evm", "layer-2"],
+  "links": [
+    {"name": "github", "url": "https://github.com/syscoin"},
+    {"name": "twitter", "url": "https://x.com/syscoin"},
+    {"name": "docs", "url": "https://docs.syscoin.org/"}
+  ],
+  "pricing": {
+    "coingecko_id": "syscoin"
+  },
+  "staking": {
+    "enabled": false
+  }
+}

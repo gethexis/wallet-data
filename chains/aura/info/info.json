@@ -1,0 +1,35 @@
+{
+  "name": "Aura Network",
+  "symbol": "AURA",
+  "type": "native",
+  "decimals": 6,
+  "status": "active",
+  "id": "AURA",
+  "description": "Aura Network is a scalable, agile and effortless Layer-1 blockchain platform built on Cosmos SDK for NFTs and enterprise applications.",
+  "website": "https://aura.network/",
+  "explorer": "https://aurascan.io/",
+  "api": {
+    "mainnet": {
+      "node": ["https://rpc.aura.network", "https://lcd.aura.network"]
+    },
+    "testnet": {
+      "node": ["https://rpc.euphoria.aura.network"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "cosmos", "nft"],
+  "links": [
+    {"name": "github", "url": "https://github.com/aura-nw"},
+    {"name": "twitter", "url": "https://x.com/AuraNetworkHQ"},
+    {"name": "discord", "url": "https://discord.gg/auranetwork"},
+    {"name": "docs", "url": "https://docs.aura.network/"}
+  ],
+  "pricing": {
+    "coingecko_id": "aura-network"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "AURA"
+  }
+}

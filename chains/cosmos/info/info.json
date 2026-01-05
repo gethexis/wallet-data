@@ -1,0 +1,35 @@
+{
+  "name": "Cosmos",
+  "symbol": "ATOM",
+  "type": "native",
+  "decimals": 6,
+  "status": "active",
+  "id": "ATOM",
+  "description": "Cosmos is a secure & scalable blockchain ecosystem where thousands of dApps interoperate to create the foundation for a new token economy.",
+  "website": "https://cosmos.network/",
+  "explorer": "https://www.mintscan.io/cosmos",
+  "api": {
+    "mainnet": {
+      "node": ["https://cosmos-rpc.polkachu.com", "https://rpc.cosmos.network"]
+    },
+    "testnet": {
+      "node": ["https://rpc.testnet.cosmos.network"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "layer-1", "ibc"],
+  "links": [
+    {"name": "github", "url": "https://github.com/cosmos"},
+    {"name": "twitter", "url": "https://x.com/cosmos"},
+    {"name": "reddit", "url": "https://reddit.com/r/cosmosnetwork"},
+    {"name": "whitepaper", "url": "https://cosmos.network/resources/whitepaper"}
+  ],
+  "pricing": {
+    "coingecko_id": "cosmos"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "ATOM"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Internet Computer",
+  "symbol": "ICP",
+  "type": "native",
+  "decimals": 8,
+  "status": "active",
+  "id": "ICP",
+  "description": "The Internet Computer is a blockchain that enables developers to build and deploy decentralized applications at web speed.",
+  "website": "https://internetcomputer.org/",
+  "explorer": "https://dashboard.internetcomputer.org/",
+  "api": {
+    "mainnet": {
+      "node": ["https://ic0.app", "https://icp-api.io"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "layer-1", "web3"],
+  "links": [
+    {"name": "github", "url": "https://github.com/dfinity"},
+    {"name": "twitter", "url": "https://x.com/dfinity"},
+    {"name": "reddit", "url": "https://reddit.com/r/dfinity"},
+    {"name": "docs", "url": "https://internetcomputer.org/docs/"}
+  ],
+  "pricing": {
+    "coingecko_id": "internet-computer"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "ICP"
+  }
+}

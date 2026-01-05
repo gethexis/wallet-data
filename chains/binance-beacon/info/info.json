@@ -1,0 +1,35 @@
+{
+  "name": "BNB Beacon Chain",
+  "symbol": "BNB",
+  "type": "native",
+  "decimals": 8,
+  "status": "active",
+  "id": "BNB",
+  "description": "BNB Beacon Chain is a fast and secure decentralized digital asset exchange chain.",
+  "website": "https://www.bnbchain.org/",
+  "explorer": "https://explorer.bnbchain.org/",
+  "api": {
+    "mainnet": {
+      "indexer": ["https://dex.binance.org", "https://api.binance.org"]
+    },
+    "testnet": {
+      "indexer": ["https://testnet-dex.binance.org"]
+    }
+  },
+  "tags": ["staking-native", "dex", "layer-1"],
+  "links": [
+    {"name": "github", "url": "https://github.com/bnb-chain"},
+    {"name": "twitter", "url": "https://x.com/BNBCHAIN"},
+    {"name": "reddit", "url": "https://reddit.com/r/BinanceExchange"},
+    {"name": "whitepaper", "url": "https://www.binance.com/resources/ico/Binance_WhitePaper_en.pdf"}
+  ],
+  "pricing": {
+    "coingecko_id": "binancecoin"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "BNB"
+  }
+}

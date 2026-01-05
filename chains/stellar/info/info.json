@@ -1,0 +1,32 @@
+{
+  "name": "Stellar",
+  "symbol": "XLM",
+  "type": "native",
+  "decimals": 7,
+  "status": "active",
+  "id": "XLM",
+  "description": "Stellar is an open platform for building financial products with near instant payments and almost zero fees.",
+  "website": "https://stellar.org/",
+  "explorer": "https://stellarscan.io/",
+  "api": {
+    "mainnet": {
+      "node": ["https://horizon.stellar.org", "https://stellar.publicnode.com"]
+    },
+    "testnet": {
+      "node": ["https://horizon-testnet.stellar.org"]
+    }
+  },
+  "tags": ["payments", "smart-contracts", "layer-1"],
+  "links": [
+    {"name": "github", "url": "https://github.com/stellar"},
+    {"name": "twitter", "url": "https://x.com/StellarOrg"},
+    {"name": "reddit", "url": "https://reddit.com/r/stellar"},
+    {"name": "whitepaper", "url": "https://www.stellar.org/papers/stellar-consensus-protocol.pdf"}
+  ],
+  "pricing": {
+    "coingecko_id": "stellar"
+  },
+  "staking": {
+    "enabled": false
+  }
+}

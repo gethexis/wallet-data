@@ -1,0 +1,37 @@
+{
+  "name": "Base",
+  "symbol": "ETH",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "BASE",
+  "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
+  "website": "https://base.org/",
+  "explorer": "https://basescan.org/",
+  "chain_id": 8453,
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://mainnet.base.org",
+        "https://base.llamarpc.com",
+        "https://base-rpc.publicnode.com",
+        "https://rpc.ankr.com/base"
+      ]
+    },
+    "testnet": {
+      "node": ["https://sepolia.base.org"]
+    }
+  },
+  "tags": ["smart-contracts", "evm", "layer-2", "optimistic-rollup"],
+  "links": [
+    {"name": "github", "url": "https://github.com/base-org"},
+    {"name": "twitter", "url": "https://x.com/buildonbase"},
+    {"name": "docs", "url": "https://docs.base.org/"}
+  ],
+  "pricing": {
+    "coingecko_id": "ethereum"
+  },
+  "staking": {
+    "enabled": false
+  }
+}

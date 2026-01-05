@@ -1,0 +1,37 @@
+{
+  "name": "Arbitrum",
+  "symbol": "ETH",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "ARB",
+  "description": "Arbitrum is a Layer 2 cryptocurrency platform that makes smart contracts scalable, fast, and private.",
+  "website": "https://arbitrum.io/",
+  "explorer": "https://arbiscan.io/",
+  "chain_id": 42161,
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://arb1.arbitrum.io/rpc",
+        "https://arbitrum.llamarpc.com",
+        "https://arbitrum-one-rpc.publicnode.com",
+        "https://rpc.ankr.com/arbitrum"
+      ]
+    },
+    "testnet": {
+      "node": ["https://sepolia-rollup.arbitrum.io/rpc"]
+    }
+  },
+  "tags": ["smart-contracts", "evm", "layer-2", "optimistic-rollup"],
+  "links": [
+    {"name": "github", "url": "https://github.com/OffchainLabs"},
+    {"name": "twitter", "url": "https://x.com/arbitrum"},
+    {"name": "docs", "url": "https://docs.arbitrum.io/"}
+  ],
+  "pricing": {
+    "coingecko_id": "ethereum"
+  },
+  "staking": {
+    "enabled": false
+  }
+}

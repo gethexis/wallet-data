@@ -1,0 +1,40 @@
+{
+  "name": "MultiversX",
+  "symbol": "EGLD",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "EGLD",
+  "description": "MultiversX is a highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy.",
+  "website": "https://multiversx.com/",
+  "explorer": "https://explorer.multiversx.com/",
+  "api": {
+    "mainnet": {
+      "node": ["https://gateway.multiversx.com"],
+      "indexer": ["https://api.multiversx.com"]
+    },
+    "testnet": {
+      "node": ["https://testnet-gateway.multiversx.com"]
+    },
+    "devnet": {
+      "node": ["https://devnet-gateway.multiversx.com"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "layer-1", "sharding"],
+  "links": [
+    {"name": "github", "url": "https://github.com/multiversx"},
+    {"name": "twitter", "url": "https://x.com/MultiversX"},
+    {"name": "telegram", "url": "https://t.me/MultiversX"},
+    {"name": "whitepaper", "url": "https://github.com/multiversx/mx-chain-whitepaper/blob/master/out/MultiversX_Whitepaper_EN.pdf"},
+    {"name": "docs", "url": "https://docs.multiversx.com/"}
+  ],
+  "pricing": {
+    "coingecko_id": "multiversx-egld"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "EGLD"
+  }
+}

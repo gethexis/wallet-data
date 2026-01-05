@@ -1,0 +1,32 @@
+{
+  "name": "Moonriver",
+  "symbol": "MOVR",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "MOVR",
+  "description": "Moonriver is a sister network of Moonbeam providing an environment to test new code under real economic conditions on Kusama.",
+  "website": "https://moonbeam.network/networks/moonriver/",
+  "explorer": "https://moonriver.moonscan.io/",
+  "chain_id": 1285,
+  "api": {
+    "mainnet": {
+      "node": ["https://rpc.api.moonriver.moonbeam.network", "https://rpc.ankr.com/moonriver"]
+    }
+  },
+  "tags": ["smart-contracts", "evm", "parachain", "kusama"],
+  "links": [
+    {"name": "github", "url": "https://github.com/moonbeam-foundation/moonbeam"},
+    {"name": "twitter", "url": "https://x.com/moonrivernw"},
+    {"name": "docs", "url": "https://docs.moonbeam.network/"}
+  ],
+  "pricing": {
+    "coingecko_id": "moonriver"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "MOVR"
+  }
+}

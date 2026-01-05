@@ -1,0 +1,31 @@
+{
+  "name": "Acala",
+  "symbol": "ACA",
+  "type": "native",
+  "decimals": 12,
+  "status": "active",
+  "id": "ACA",
+  "description": "Acala is the decentralized finance hub and stablecoin platform of Polkadot providing DeFi infrastructure for the ecosystem.",
+  "website": "https://acala.network/",
+  "explorer": "https://acala.subscan.io/",
+  "api": {
+    "mainnet": {
+      "node": ["wss://acala-rpc.aca-api.network", "wss://acala.polkawallet.io"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "parachain", "polkadot", "defi"],
+  "links": [
+    {"name": "github", "url": "https://github.com/AcalaNetwork"},
+    {"name": "twitter", "url": "https://x.com/AcalaNetwork"},
+    {"name": "docs", "url": "https://wiki.acala.network/"}
+  ],
+  "pricing": {
+    "coingecko_id": "acala"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "ACA"
+  }
+}

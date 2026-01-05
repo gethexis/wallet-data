@@ -1,0 +1,37 @@
+{
+  "name": "Sui",
+  "symbol": "SUI",
+  "type": "native",
+  "decimals": 9,
+  "status": "active",
+  "id": "SUI",
+  "description": "Sui is a boundless platform to build rich and dynamic on-chain assets from gaming to finance.",
+  "website": "https://sui.io/",
+  "explorer": "https://explorer.sui.io/",
+  "api": {
+    "mainnet": {
+      "node": ["https://fullnode.mainnet.sui.io:443", "https://sui-mainnet.nodeinfra.com"]
+    },
+    "testnet": {
+      "node": ["https://fullnode.testnet.sui.io:443"]
+    },
+    "devnet": {
+      "node": ["https://fullnode.devnet.sui.io:443"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "layer-1", "move"],
+  "links": [
+    {"name": "github", "url": "https://github.com/MystenLabs/sui"},
+    {"name": "twitter", "url": "https://x.com/SuiNetwork"},
+    {"name": "discord", "url": "https://discord.com/invite/suiglobal"}
+  ],
+  "pricing": {
+    "coingecko_id": "sui"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "SUI"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "KILT Protocol",
+  "symbol": "KILT",
+  "type": "native",
+  "decimals": 15,
+  "status": "active",
+  "id": "KILT",
+  "description": "KILT Protocol, now evolved as Primer Systems, provides infrastructure for autonomous AI agents including micropayments, agent identities, and decentralized credentials.",
+  "website": "https://primer.systems/",
+  "explorer": "https://kilt.subscan.io/",
+  "api": {
+    "mainnet": {
+      "node": ["wss://spiritnet.kilt.io", "wss://kilt-rpc.dwellir.com"]
+    },
+    "testnet": {
+      "node": ["wss://peregrine.kilt.io"]
+    }
+  },
+  "tags": ["identity", "staking-native", "parachain", "polkadot", "ai-agents"],
+  "links": [
+    {"name": "github", "url": "https://github.com/Primer-Systems"},
+    {"name": "twitter", "url": "https://x.com/primer_systems"},
+    {"name": "telegram", "url": "https://t.me/primer_HQ"},
+    {"name": "docs", "url": "https://docs.kilt.io/"}
+  ],
+  "pricing": {
+    "coingecko_id": "kilt-protocol"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "KILT"
+  }
+}

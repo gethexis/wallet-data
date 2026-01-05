@@ -1,0 +1,35 @@
+{
+  "name": "Cardano",
+  "symbol": "ADA",
+  "type": "native",
+  "decimals": 6,
+  "status": "active",
+  "id": "ADA",
+  "description": "Cardano is a decentralized platform that allows complex programmable transfers of value in a secure and scalable fashion.",
+  "website": "https://cardano.org/",
+  "explorer": "https://cardanoscan.io/",
+  "api": {
+    "mainnet": {
+      "indexer": ["https://cardano-mainnet.blockfrost.io/api", "https://api.koios.rest/api"]
+    },
+    "testnet": {
+      "indexer": ["https://cardano-preprod.blockfrost.io/api"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "layer-1", "proof-of-stake"],
+  "links": [
+    {"name": "github", "url": "https://github.com/input-output-hk/cardano-node"},
+    {"name": "twitter", "url": "https://x.com/cardano"},
+    {"name": "reddit", "url": "https://reddit.com/r/cardano"},
+    {"name": "docs", "url": "https://docs.cardano.org/"}
+  ],
+  "pricing": {
+    "coingecko_id": "cardano"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "ADA"
+  }
+}

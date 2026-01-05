@@ -1,0 +1,41 @@
+{
+  "name": "Polygon",
+  "symbol": "POL",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "POL",
+  "description": "Polygon strives to solve the scalability and usability issues while not compromising on decentralization.",
+  "website": "https://polygon.technology/",
+  "explorer": "https://polygonscan.com/",
+  "chain_id": 137,
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://polygon-rpc.com",
+        "https://polygon-bor-rpc.publicnode.com",
+        "https://rpc.ankr.com/polygon"
+      ]
+    },
+    "testnet": {
+      "node": ["https://rpc-amoy.polygon.technology"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "evm", "layer-2"],
+  "links": [
+    {"name": "github", "url": "https://github.com/maticnetwork"},
+    {"name": "twitter", "url": "https://x.com/0xPolygon"},
+    {"name": "reddit", "url": "https://reddit.com/r/maticnetwork"},
+    {"name": "whitepaper", "url": "https://github.com/maticnetwork/whitepaper"},
+    {"name": "docs", "url": "https://docs.polygon.technology/"}
+  ],
+  "pricing": {
+    "coingecko_id": "polygon-ecosystem-token"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "POL"
+  }
+}

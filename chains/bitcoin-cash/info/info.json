@@ -1,0 +1,30 @@
+{
+  "name": "Bitcoin Cash",
+  "symbol": "BCH",
+  "type": "native",
+  "decimals": 8,
+  "status": "active",
+  "id": "BCH",
+  "description": "Bitcoin Cash is a peer-to-peer electronic cash system, a fork of Bitcoin with larger block sizes for faster transactions.",
+  "website": "https://bitcoincash.org/",
+  "explorer": "https://blockchair.com/bitcoin-cash",
+  "api": {
+    "mainnet": {
+      "node": ["https://bch.blockbook.bitcoin-cash.org/api", "https://blockchair.com/bitcoin-cash/api"],
+      "indexer": ["https://bch.blockbook.bitcoin-cash.org/api", "https://blockchair.com/bitcoin-cash/api"]
+    }
+  },
+  "tags": ["pow", "payments", "layer-1"],
+  "links": [
+    {"name": "github", "url": "https://github.com/bitcoincashorg"},
+    {"name": "twitter", "url": "https://x.com/bitcoincash"},
+    {"name": "reddit", "url": "https://reddit.com/r/Bitcoincash"},
+    {"name": "whitepaper", "url": "https://www.bitcoincash.org/bitcoin.pdf"}
+  ],
+  "pricing": {
+    "coingecko_id": "bitcoin-cash"
+  },
+  "staking": {
+    "enabled": false
+  }
+}

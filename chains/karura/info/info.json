@@ -1,0 +1,31 @@
+{
+  "name": "Karura",
+  "symbol": "KAR",
+  "type": "native",
+  "decimals": 12,
+  "status": "active",
+  "id": "KAR",
+  "description": "Karura is the all-in-one DeFi hub of Kusama, providing a suite of DeFi applications including a trustless staking derivative.",
+  "website": "https://acala.network/karura",
+  "explorer": "https://karura.subscan.io/",
+  "api": {
+    "mainnet": {
+      "node": ["wss://karura-rpc.aca-api.network", "wss://karura.polkawallet.io"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "parachain", "kusama", "defi"],
+  "links": [
+    {"name": "github", "url": "https://github.com/AcalaNetwork"},
+    {"name": "twitter", "url": "https://x.com/KaruraNetwork"},
+    {"name": "docs", "url": "https://wiki.acala.network/karura/"}
+  ],
+  "pricing": {
+    "coingecko_id": "karura"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "KAR"
+  }
+}

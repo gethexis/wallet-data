@@ -1,0 +1,471 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/asset.schema.json",
+  "title": "Token Asset Info v2",
+  "description": "Enhanced schema for token metadata including staking, features, and safety info",
+  "type": "object",
+  "required": ["name", "symbol", "type", "decimals", "status", "id"],
+  "properties": {
+    "_schema": {
+      "type": "string",
+      "description": "Schema version identifier"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name of the token",
+      "minLength": 1,
+      "maxLength": 60
+    },
+    "symbol": {
+      "type": "string",
+      "description": "Token symbol/ticker",
+      "minLength": 1,
+      "maxLength": 20
+    },
+    "type": {
+      "type": "string",
+      "description": "Token standard",
+      "enum": ["ERC20", "BEP20", "TRC20", "TRC10", "SPL", "KDA", "native"]
+    },
+    "decimals": {
+      "type": "integer",
+      "description": "Number of decimal places",
+      "minimum": 0,
+      "maximum": 255
+    },
+    "status": {
+      "type": "string",
+      "description": "Token status",
+      "enum": ["active", "deprecated", "spam"]
+    },
+    "id": {
+      "type": "string",
+      "description": "Contract address or asset ID (must match folder name)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the token",
+      "maxLength": 500
+    },
+    "website": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "description": "Official website URL"
+    },
+    "explorer": {
+      "type": "string",
+      "format": "uri",
+      "description": "Block explorer URL for the token"
+    },
+    "chain_id": {
+      "type": "integer",
+      "description": "Chain ID for EVM-compatible networks"
+    },
+    "api": {
+      "type": "object",
+      "description": "API/Node endpoint configuration by network and type",
+      "properties": {
+        "mainnet": {
+          "$ref": "#/definitions/NetworkEndpoints"
+        },
+        "testnet": {
+          "$ref": "#/definitions/NetworkEndpoints"
+        },
+        "devnet": {
+          "$ref": "#/definitions/NetworkEndpoints"
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "Categorization tags",
+      "items": {
+        "type": "string"
+      }
+    },
+    "links": {
+      "type": "array",
+      "description": "Social and external links",
+      "items": {
+        "type": "object",
+        "required": ["name", "url"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "pricing": {
+      "type": "object",
+      "description": "Price feed information",
+      "properties": {
+        "coingecko_id": {
+          "type": "string",
+          "description": "CoinGecko API identifier"
+        },
+        "coinmarketcap_id": {
+          "type": "integer",
+          "description": "CoinMarketCap ID"
+        },
+        "chainlink_feed": {
+          "type": "string",
+          "description": "Chainlink price feed contract address"
+        },
+        "pegged_to": {
+          "type": "object",
+          "description": "Peg information for stablecoins",
+          "properties": {
+            "asset": {
+              "type": "string",
+              "description": "USD, ETH, BTC, etc."
+            },
+            "ratio": {
+              "type": "string",
+              "description": "Peg ratio e.g. 1:1"
+            },
+            "type": {
+              "type": "string",
+              "enum": ["hard", "soft", "algorithmic"]
+            }
+          }
+        }
+      }
+    },
+    "supply": {
+      "type": "object",
+      "description": "Token supply information",
+      "properties": {
+        "total": {
+          "type": "string",
+          "description": "Total supply in raw units"
+        },
+        "circulating": {
+          "type": "string",
+          "description": "Circulating supply in raw units"
+        },
+        "max": {
+          "type": ["string", "null"],
+          "description": "Maximum supply (null if unlimited)"
+        },
+        "burnable": {
+          "type": "boolean"
+        },
+        "mintable": {
+          "type": "boolean"
+        }
+      }
+    },
+    "staking": {
+      "type": "object",
+      "description": "Staking information",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether this token can be staked"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["native", "liquid", "pool", "farm", "vault"],
+          "description": "Type of staking"
+        },
+        "native_staking": {
+          "type": "boolean",
+          "description": "Staked on native blockchain protocol"
+        },
+        "protocol": {
+          "type": "string",
+          "description": "Staking protocol name"
+        },
+        "apy_source": {
+          "type": "string",
+          "description": "API URL for current APY"
+        },
+        "rewards_token": {
+          "type": "string",
+          "description": "Symbol of rewards token"
+        },
+        "auto_compound": {
+          "type": "boolean",
+          "description": "Auto-compounds rewards"
+        },
+        "lock_period": {
+          "type": ["string", "null"],
+          "description": "Lock period duration"
+        },
+        "min_stake": {
+          "type": "string",
+          "description": "Minimum stake amount in raw units"
+        },
+        "unstake_period": {
+          "type": "string",
+          "description": "Time required to unstake"
+        },
+        "staking_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to stake"
+        }
+      }
+    },
+    "features": {
+      "type": "object",
+      "description": "Special token behaviors",
+      "properties": {
+        "rebasing": {
+          "type": "boolean",
+          "description": "Balance changes automatically (stETH, OHM)"
+        },
+        "fee_on_transfer": {
+          "type": "boolean",
+          "description": "Takes fee on each transfer"
+        },
+        "reflection": {
+          "type": "boolean",
+          "description": "Auto-distributes to holders"
+        },
+        "burnable": {
+          "type": "boolean",
+          "description": "Burns tokens on transfer"
+        },
+        "pausable": {
+          "type": "boolean",
+          "description": "Can be paused by owner"
+        },
+        "blacklistable": {
+          "type": "boolean",
+          "description": "Can blacklist/freeze addresses"
+        },
+        "wrapped_native": {
+          "type": "boolean",
+          "description": "Is wrapped native token (WETH, WBNB)"
+        },
+        "governance": {
+          "type": "boolean",
+          "description": "Has governance/voting power"
+        }
+      }
+    },
+    "contract": {
+      "type": "object",
+      "description": "Smart contract details",
+      "properties": {
+        "verified": {
+          "type": "boolean",
+          "description": "Source code verified on explorer"
+        },
+        "proxy": {
+          "type": "boolean",
+          "description": "Is a proxy contract"
+        },
+        "proxy_type": {
+          "type": "string",
+          "enum": ["transparent", "uups", "beacon", "minimal"]
+        },
+        "upgradeable": {
+          "type": "boolean",
+          "description": "Can be upgraded"
+        },
+        "has_owner": {
+          "type": "boolean",
+          "description": "Has owner/admin functions"
+        },
+        "renounced": {
+          "type": "boolean",
+          "description": "Ownership has been renounced"
+        },
+        "deployer": {
+          "type": "string",
+          "description": "Deployer address"
+        },
+        "deploy_date": {
+          "type": "string",
+          "description": "Deployment date (YYYY-MM-DD)"
+        }
+      }
+    },
+    "security": {
+      "type": "object",
+      "description": "Security information",
+      "properties": {
+        "audited": {
+          "type": "boolean",
+          "description": "Has been audited"
+        },
+        "audits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "auditor": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string"
+              },
+              "report": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          }
+        },
+        "bug_bounty": {
+          "type": "string",
+          "format": "uri"
+        },
+        "risk_level": {
+          "type": "string",
+          "enum": ["low", "medium", "high", "critical"]
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "crosschain": {
+      "type": "object",
+      "description": "Cross-chain token information",
+      "properties": {
+        "canonical_chain": {
+          "type": "integer",
+          "description": "Chain ID of canonical/original version"
+        },
+        "bridges": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "chain_id": {
+                "type": "integer"
+              },
+              "chain_name": {
+                "type": "string"
+              },
+              "address": {
+                "type": "string"
+              },
+              "bridge": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": ["canonical", "bridged", "native"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "trading": {
+      "type": "object",
+      "description": "Trading/DEX information",
+      "properties": {
+        "tradeable": {
+          "type": "boolean"
+        },
+        "primary_dex": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "pool": {
+              "type": "string"
+            },
+            "router": {
+              "type": "string"
+            }
+          }
+        },
+        "pairs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "klever": {
+      "type": ["object", "null"],
+      "description": "Klever-specific KDA token properties",
+      "properties": {
+        "asset_type": {
+          "type": "string",
+          "enum": ["Fungible", "NonFungible", "SemiFungible"]
+        },
+        "precision": {
+          "type": "integer"
+        },
+        "owner": {
+          "type": "string"
+        },
+        "royalties": {
+          "type": "object",
+          "properties": {
+            "transfer": {
+              "type": "number"
+            },
+            "market": {
+              "type": "number"
+            }
+          }
+        },
+        "properties": {
+          "type": "object",
+          "properties": {
+            "can_freeze": {"type": "boolean"},
+            "can_wipe": {"type": "boolean"},
+            "can_pause": {"type": "boolean"},
+            "can_mint": {"type": "boolean"},
+            "can_burn": {"type": "boolean"},
+            "can_change_owner": {"type": "boolean"}
+          }
+        },
+        "staking": {
+          "type": "object",
+          "properties": {
+            "enabled": {"type": "boolean"},
+            "apr": {"type": "string"},
+            "min_stake": {"type": "string"},
+            "claim_type": {
+              "type": "string",
+              "enum": ["manual", "auto"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "NetworkEndpoints": {
+      "type": "object",
+      "description": "Endpoints for a specific network (mainnet/testnet/devnet)",
+      "properties": {
+        "node": {
+          "type": "array",
+          "description": "Node endpoints for sending transactions and basic RPC queries",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "indexer": {
+          "type": "array",
+          "description": "Indexer/API endpoints for transaction history, token balances, rich queries",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    }
+  }
+}

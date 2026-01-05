@@ -1,0 +1,32 @@
+{
+  "name": "Centrifuge",
+  "symbol": "CFG",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "CFG",
+  "description": "Centrifuge is the infrastructure for decentralized finance, bringing real-world assets on-chain to unlock liquidity.",
+  "website": "https://centrifuge.io/",
+  "explorer": "https://centrifuge.subscan.io/",
+  "api": {
+    "mainnet": {
+      "node": ["wss://fullnode.centrifuge.io", "wss://centrifuge-rpc.dwellir.com"]
+    }
+  },
+  "tags": ["rwa", "staking-native", "parachain", "polkadot", "defi"],
+  "links": [
+    {"name": "github", "url": "https://github.com/centrifuge"},
+    {"name": "twitter", "url": "https://x.com/centrifuge"},
+    {"name": "discord", "url": "https://discord.gg/yEzyUq5gxF"},
+    {"name": "docs", "url": "https://docs.centrifuge.io/"}
+  ],
+  "pricing": {
+    "coingecko_id": "centrifuge"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "CFG"
+  }
+}

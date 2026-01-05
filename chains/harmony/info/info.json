@@ -1,0 +1,36 @@
+{
+  "name": "Harmony",
+  "symbol": "ONE",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "ONE",
+  "description": "Harmony aims to offer a high-throughput, low-latency, and low-fee consensus platform designed to power decentralized economies.",
+  "website": "https://harmony.one/",
+  "explorer": "https://explorer.harmony.one/",
+  "chain_id": 1666600000,
+  "api": {
+    "mainnet": {
+      "node": ["https://api.harmony.one", "https://rpc.ankr.com/harmony"]
+    },
+    "testnet": {
+      "node": ["https://api.s0.b.hmny.io"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "evm", "layer-1", "sharding"],
+  "links": [
+    {"name": "github", "url": "https://github.com/harmony-one"},
+    {"name": "twitter", "url": "https://x.com/harmonyprotocol"},
+    {"name": "reddit", "url": "https://reddit.com/r/harmony_one"},
+    {"name": "whitepaper", "url": "https://harmony.one/pdf/whitepaper.pdf"}
+  ],
+  "pricing": {
+    "coingecko_id": "harmony"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "ONE"
+  }
+}

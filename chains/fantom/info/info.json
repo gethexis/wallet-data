@@ -1,0 +1,40 @@
+{
+  "name": "Fantom",
+  "symbol": "FTM",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "FTM",
+  "description": "A DAG-Based Smart-Contract Platform.",
+  "website": "https://fantom.foundation/",
+  "explorer": "https://ftmscan.com/",
+  "chain_id": 250,
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://rpc.ftm.tools",
+        "https://fantom-rpc.publicnode.com",
+        "https://rpc.ankr.com/fantom"
+      ]
+    },
+    "testnet": {
+      "node": ["https://rpc.testnet.fantom.network"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "evm", "layer-1"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/FantomFDN"},
+    {"name": "telegram", "url": "https://t.me/fantomfoundation"},
+    {"name": "reddit", "url": "https://reddit.com/r/FantomFoundation"},
+    {"name": "discord", "url": "https://discord.com/invite/fantom"}
+  ],
+  "pricing": {
+    "coingecko_id": "fantom"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "FTM"
+  }
+}

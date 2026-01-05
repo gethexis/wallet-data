@@ -1,0 +1,34 @@
+{
+  "name": "Hedera",
+  "symbol": "HBAR",
+  "type": "native",
+  "decimals": 8,
+  "status": "active",
+  "id": "HBAR",
+  "description": "Hedera is the 3rd generation public ledger using hashgraph consensus for high throughput and low fees.",
+  "website": "https://hedera.com/",
+  "explorer": "https://hashscan.io/",
+  "api": {
+    "mainnet": {
+      "indexer": ["https://mainnet-public.mirrornode.hedera.com/api/v1", "https://mainnet.hashio.io/api"]
+    },
+    "testnet": {
+      "indexer": ["https://testnet.mirrornode.hedera.com/api/v1"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "layer-1", "hashgraph"],
+  "links": [
+    {"name": "github", "url": "https://github.com/hashgraph"},
+    {"name": "twitter", "url": "https://x.com/hedera"},
+    {"name": "discord", "url": "https://discord.com/invite/hedera"}
+  ],
+  "pricing": {
+    "coingecko_id": "hedera-hashgraph"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "HBAR"
+  }
+}

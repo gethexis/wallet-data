@@ -1,0 +1,47 @@
+{
+  "name": "Klever",
+  "symbol": "KLV",
+  "type": "native",
+  "decimals": 6,
+  "status": "active",
+  "id": "KLV",
+  "description": "Klever is a next-generation blockchain platform built for scalability, security, and user-friendly decentralized applications.",
+  "website": "https://klever.org/",
+  "explorer": "https://kleverscan.org/",
+  "api": {
+    "mainnet": {
+      "node": ["https://node.mainnet.klever.finance"],
+      "indexer": ["https://api.mainnet.klever.org", "https://api.mainnet.klever.finance"]
+    },
+    "testnet": {
+      "node": ["https://node.testnet.klever.finance"],
+      "indexer": ["https://api.testnet.klever.org"]
+    },
+    "devnet": {
+      "indexer": ["https://api.devnet.klever.org"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "layer-1", "kda"],
+  "links": [
+    {"name": "github", "url": "https://github.com/klever-io"},
+    {"name": "twitter", "url": "https://x.com/klever_org"},
+    {"name": "telegram", "url": "https://t.me/Klever_io"},
+    {"name": "docs", "url": "https://docs.klever.org/"}
+  ],
+  "pricing": {
+    "coingecko_id": "klever"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "min_stake": "1000000000",
+    "rewards_token": "KLV"
+  },
+  "klever": {
+    "kda_enabled": true,
+    "smart_contracts": true,
+    "nft_support": true,
+    "ito_support": true
+  }
+}

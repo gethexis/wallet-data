@@ -1,0 +1,35 @@
+{
+  "name": "Celestia",
+  "symbol": "TIA",
+  "type": "native",
+  "decimals": 6,
+  "status": "active",
+  "id": "TIA",
+  "description": "Celestia is a modular data availability network that makes it easy for anyone to securely launch their own blockchain.",
+  "website": "https://celestia.org/",
+  "explorer": "https://celenium.io/",
+  "api": {
+    "mainnet": {
+      "node": ["https://rpc.celestia.nodestake.top", "https://celestia-rpc.publicnode.com:443"]
+    },
+    "testnet": {
+      "node": ["https://celestia-mocha-rpc.publicnode.com:443"]
+    }
+  },
+  "tags": ["modular", "staking-native", "data-availability", "cosmos"],
+  "links": [
+    {"name": "github", "url": "https://github.com/celestiaorg"},
+    {"name": "twitter", "url": "https://x.com/CelestiaOrg"},
+    {"name": "discord", "url": "https://discord.gg/celestiacommunity"},
+    {"name": "docs", "url": "https://docs.celestia.org/"}
+  ],
+  "pricing": {
+    "coingecko_id": "celestia"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "rewards_token": "TIA"
+  }
+}

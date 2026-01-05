@@ -1,0 +1,42 @@
+{
+  "name": "Ethereum",
+  "symbol": "ETH",
+  "type": "native",
+  "decimals": 18,
+  "status": "active",
+  "id": "ETH",
+  "description": "Open source platform to write and distribute decentralized applications.",
+  "website": "https://ethereum.org/",
+  "explorer": "https://etherscan.io/",
+  "chain_id": 1,
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://eth.llamarpc.com",
+        "https://ethereum-rpc.publicnode.com",
+        "https://rpc.ankr.com/eth",
+        "https://eth.drpc.org"
+      ]
+    },
+    "testnet": {
+      "node": ["https://rpc.sepolia.org"]
+    }
+  },
+  "tags": ["smart-contracts", "staking-native", "evm", "layer-1"],
+  "links": [
+    {"name": "github", "url": "https://github.com/ethereum"},
+    {"name": "twitter", "url": "https://x.com/ethereum"},
+    {"name": "reddit", "url": "https://reddit.com/r/ethereum"},
+    {"name": "whitepaper", "url": "https://github.com/ethereum/wiki/wiki/White-Paper"}
+  ],
+  "pricing": {
+    "coingecko_id": "ethereum"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "min_stake": "32000000000000000000",
+    "rewards_token": "ETH"
+  }
+}

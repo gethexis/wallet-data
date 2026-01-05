@@ -1,0 +1,29 @@
+{
+  "name": "Dogecoin",
+  "symbol": "DOGE",
+  "type": "native",
+  "decimals": 8,
+  "status": "active",
+  "id": "DOGE",
+  "description": "Dogecoin is a peer-to-peer cryptocurrency featuring a Shiba Inu dog from the popular Doge meme as its logo.",
+  "website": "https://dogecoin.com/",
+  "explorer": "https://dogechain.info/",
+  "api": {
+    "mainnet": {
+      "node": ["https://dogechain.info/api", "https://blockchair.com/dogecoin/api"],
+      "indexer": ["https://dogechain.info/api", "https://blockchair.com/dogecoin/api"]
+    }
+  },
+  "tags": ["pow", "payments", "layer-1", "meme"],
+  "links": [
+    {"name": "github", "url": "https://github.com/dogecoin/dogecoin"},
+    {"name": "twitter", "url": "https://x.com/dogecoin"},
+    {"name": "reddit", "url": "https://reddit.com/r/dogecoin"}
+  ],
+  "pricing": {
+    "coingecko_id": "dogecoin"
+  },
+  "staking": {
+    "enabled": false
+  }
+}
