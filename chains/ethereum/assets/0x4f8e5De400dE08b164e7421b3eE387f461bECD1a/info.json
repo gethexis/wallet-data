@@ -1,0 +1,19 @@
+{
+  "name": "USDD",
+  "symbol": "USDD",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x4f8e5De400dE08b164e7421b3eE387f461bECD1a",
+  "description": "USDD is a decentralized stablecoin on TRON, managed by the TRON DAO Reserve.",
+  "website": "https://usdd.io/",
+  "explorer": "https://etherscan.io/token/0x4f8e5De400dE08b164e7421b3eE387f461bECD1a",
+  "tags": ["stablecoin", "defi"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/usddio"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/usdd"}
+  ],
+  "pricing": {
+    "coingecko_id": "usdd"
+  }
+}

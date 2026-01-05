@@ -1,0 +1,19 @@
+{
+  "name": "USD Coin",
+  "symbol": "USDC",
+  "type": "TRC20",
+  "decimals": 6,
+  "status": "active",
+  "id": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+  "description": "USD Coin on Tron network.",
+  "website": "https://www.circle.com/usdc",
+  "explorer": "https://tronscan.org/#/token20/TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+  "tags": ["stablecoin", "defi"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/circle"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/usd-coin"}
+  ],
+  "pricing": {
+    "coingecko_id": "usd-coin"
+  }
+}

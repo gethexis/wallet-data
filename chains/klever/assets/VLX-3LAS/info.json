@@ -1,0 +1,32 @@
+{
+  "name": "VELIX",
+  "symbol": "VLX",
+  "type": "KDA",
+  "decimals": 6,
+  "status": "active",
+  "id": "VLX-3LAS",
+  "description": "VELIX is a community token on the Klever blockchain.",
+  "website": null,
+  "explorer": "https://kleverscan.org/asset/VLX-3LAS",
+  "tags": ["community", "defi"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/VLX-3LAS"}
+  ],
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "protocol": "Klever KDA Pool",
+    "rewards_token": "VLX"
+  },
+  "klever": {
+    "asset_type": "Fungible",
+    "precision": 6,
+    "owner": "klv1lmghnxzq54fztlrk2um0zymz96sk3t632wrgzx8qdh9ntpq4q57sla5nvr",
+    "staking": {
+      "enabled": true,
+      "apr": "20%",
+      "claim_type": "manual"
+    }
+  }
+}

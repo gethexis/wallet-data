@@ -1,0 +1,32 @@
+{
+  "name": "KleverKid Coin",
+  "symbol": "KID",
+  "type": "KDA",
+  "decimals": 3,
+  "status": "active",
+  "id": "KID-36W3",
+  "description": "KleverKid Coin is a community token on the Klever blockchain.",
+  "website": null,
+  "explorer": "https://kleverscan.org/asset/KID-36W3",
+  "tags": ["community", "defi"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/KID-36W3"}
+  ],
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "protocol": "Klever KDA Pool",
+    "rewards_token": "KID"
+  },
+  "klever": {
+    "asset_type": "Fungible",
+    "precision": 3,
+    "owner": "klv1un8gk5mmyhllmsjw8f0d9hyu6wzc590cyvvfuvgndth8w0jthvssquhjlw",
+    "staking": {
+      "enabled": true,
+      "apr": "20.22%",
+      "claim_type": "manual"
+    }
+  }
+}

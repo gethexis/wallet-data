@@ -1,0 +1,18 @@
+{
+  "name": "Wrapped Ether",
+  "symbol": "WETH",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+  "description": "Wrapped Ether bridged to Polygon.",
+  "website": "https://weth.io",
+  "explorer": "https://polygonscan.com/token/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+  "tags": ["wrapped", "defi"],
+  "links": [
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/weth"}
+  ],
+  "pricing": {
+    "coingecko_id": "weth"
+  }
+}

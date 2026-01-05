@@ -1,0 +1,189 @@
+{
+  "name": "Hexis Wallet: Klever",
+  "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/info/logo.png",
+  "timestamp": "2026-01-05T19:12:23Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "hexis",
+    "hexis-wallet:-klever"
+  ],
+  "tokens": [
+    {
+      "chainId": 38,
+      "address": "DVK-34ZH",
+      "name": "Devicoin",
+      "symbol": "DVK",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/DVK-34ZH/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 38,
+      "address": "DVKNFT-1SW5",
+      "name": "Devikins NFT",
+      "symbol": "DVKNFT",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/DVKNFT-1SW5/logo.png",
+      "tags": [
+        "nft",
+        "collectible",
+        "gaming"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 38,
+      "address": "DXB-3SBO",
+      "name": "Dexbet",
+      "symbol": "DXB",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/DXB-3SBO/logo.png",
+      "tags": [
+        "gaming",
+        "defi",
+        "betting"
+      ],
+      "extensions": {
+        "website": "https://dexbet.io"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "DXBBFS-193P",
+      "name": "Dexbet BFS",
+      "symbol": "DXBBFS",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/DXBBFS-193P/logo.png",
+      "tags": [
+        "nft",
+        "collectible",
+        "gaming"
+      ],
+      "extensions": {
+        "website": "https://dexbet.io"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "KFI",
+      "name": "Klever Finance",
+      "symbol": "KFI",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/KFI/logo.png",
+      "tags": [
+        "governance",
+        "defi",
+        "utility"
+      ],
+      "extensions": {
+        "website": "https://klever.io",
+        "coingeckoId": "klever-finance"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "KID-36W3",
+      "name": "KleverKid Coin",
+      "symbol": "KID",
+      "decimals": 3,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/KID-36W3/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 38,
+      "address": "KPEPE-1EOD",
+      "name": "KleverPepe",
+      "symbol": "KPEPE",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/KPEPE-1EOD/logo.png",
+      "tags": [
+        "meme",
+        "community"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 38,
+      "address": "KUNAI-18TK",
+      "name": "KunaiKash",
+      "symbol": "KUNAI",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/KUNAI-18TK/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://kunaikash.com"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "MOTO-2XES",
+      "name": "MotoKoin",
+      "symbol": "MOTO",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/MOTO-2XES/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 38,
+      "address": "PMD-2U7V",
+      "name": "Pandemic Diamond",
+      "symbol": "PMD",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/PMD-2U7V/logo.png",
+      "tags": [
+        "gaming",
+        "community"
+      ],
+      "extensions": {
+        "website": "https://tgcworld.org"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "SAME-3LRL",
+      "name": "SAME",
+      "symbol": "SAME",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/SAME-3LRL/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://app.want-same.com"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "VLX-3LAS",
+      "name": "VELIX",
+      "symbol": "VLX",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/VLX-3LAS/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {}
+    }
+  ]
+}

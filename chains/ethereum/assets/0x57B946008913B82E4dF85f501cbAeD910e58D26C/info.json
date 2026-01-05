@@ -1,0 +1,19 @@
+{
+  "name": "Marlin",
+  "symbol": "POND",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x57B946008913B82E4dF85f501cbAeD910e58D26C",
+  "description": "Marlin provides high-performance network infrastructure for modern decentralized networks.",
+  "website": "https://www.marlin.org/",
+  "explorer": "https://etherscan.io/token/0x57B946008913B82E4dF85f501cbAeD910e58D26C",
+  "tags": ["infrastructure", "defi", "layer2"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/MarlinProtocol"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/marlin"}
+  ],
+  "pricing": {
+    "coingecko_id": "marlin"
+  }
+}

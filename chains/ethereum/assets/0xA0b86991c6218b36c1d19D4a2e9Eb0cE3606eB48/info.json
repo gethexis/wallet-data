@@ -1,0 +1,19 @@
+{
+  "name": "USD Coin",
+  "symbol": "USDC",
+  "type": "ERC20",
+  "decimals": 6,
+  "status": "active",
+  "id": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "description": "USD Coin is a fully collateralized US dollar stablecoin by Circle.",
+  "website": "https://www.circle.com/usdc",
+  "explorer": "https://etherscan.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  "tags": ["stablecoin", "defi"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/circle"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/usd-coin"}
+  ],
+  "pricing": {
+    "coingecko_id": "usd-coin"
+  }
+}

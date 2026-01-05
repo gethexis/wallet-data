@@ -1,0 +1,19 @@
+{
+  "name": "Bitget Token",
+  "symbol": "BGB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x54D2252757e1672EEaD234D27B1270728fF90581",
+  "description": "BGB is the utility token of the Bitget exchange and wallet ecosystem.",
+  "website": "https://www.bitget.com",
+  "explorer": "https://etherscan.io/token/0x54D2252757e1672EEaD234D27B1270728fF90581",
+  "tags": ["exchange", "utility"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/bitgetglobal"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/bitget-token"}
+  ],
+  "pricing": {
+    "coingecko_id": "bitget-token"
+  }
+}

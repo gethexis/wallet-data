@@ -1,0 +1,32 @@
+{
+  "name": "SAME",
+  "symbol": "SAME",
+  "type": "KDA",
+  "decimals": 6,
+  "status": "active",
+  "id": "SAME-3LRL",
+  "description": "SAME is a community token on the Klever blockchain.",
+  "website": "https://app.want-same.com",
+  "explorer": "https://kleverscan.org/asset/SAME-3LRL",
+  "tags": ["community", "defi"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/SAME-3LRL"}
+  ],
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "protocol": "Klever KDA Pool",
+    "rewards_token": "SAME"
+  },
+  "klever": {
+    "asset_type": "Fungible",
+    "precision": 6,
+    "owner": "klv1v8nv90fz5e84m6fhtpaq56v2rd6m2nnzupsg9kucypszlaemg32qyvdrzk",
+    "staking": {
+      "enabled": true,
+      "apr": "2%",
+      "claim_type": "manual"
+    }
+  }
+}

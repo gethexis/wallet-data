@@ -1,0 +1,30 @@
+{
+  "name": "Uniswap",
+  "symbol": "UNI",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+  "description": "Uniswap is a governance token for the Uniswap decentralized exchange protocol.",
+  "website": "https://uniswap.org",
+  "explorer": "https://etherscan.io/token/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+  "tags": ["governance", "defi", "dex"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/Uniswap"},
+    {"name": "github", "url": "https://github.com/Uniswap"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/uniswap"}
+  ],
+  "pricing": {
+    "coingecko_id": "uniswap"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "protocol": "Uniswap DAO",
+    "rewards_token": "UNI",
+    "staking_url": "https://app.uniswap.org/vote"
+  },
+  "features": {
+    "governance": true
+  }
+}

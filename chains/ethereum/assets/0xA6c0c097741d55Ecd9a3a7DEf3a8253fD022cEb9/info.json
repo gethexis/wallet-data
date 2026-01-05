@@ -1,0 +1,19 @@
+{
+  "name": "Travala",
+  "symbol": "AVA",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xA6c0c097741d55Ecd9a3a7DEf3a8253fD022cEb9",
+  "description": "AVA is a web3 loyalty program token powering blockchain-based travel and loyalty ecosystems.",
+  "website": "https://www.travala.com",
+  "explorer": "https://etherscan.io/token/0xA6c0c097741d55Ecd9a3a7DEf3a8253fD022cEb9",
+  "tags": ["travel", "loyalty", "utility"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/Travala"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/ava"}
+  ],
+  "pricing": {
+    "coingecko_id": "concierge-io"
+  }
+}

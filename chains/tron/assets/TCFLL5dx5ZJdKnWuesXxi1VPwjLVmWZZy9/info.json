@@ -1,0 +1,25 @@
+{
+  "name": "JUST",
+  "symbol": "JST",
+  "type": "TRC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+  "description": "JUST is the next generation of DeFi on TRON, enabling stablecoin minting and decentralized lending.",
+  "website": "https://just.network/",
+  "explorer": "https://tronscan.org/#/token20/TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+  "tags": ["defi", "governance", "lending"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/defi_just"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/just"}
+  ],
+  "pricing": {
+    "coingecko_id": "just"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "pool",
+    "protocol": "JUST",
+    "staking_url": "https://just.network/"
+  }
+}

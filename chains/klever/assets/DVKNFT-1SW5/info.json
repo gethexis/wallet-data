@@ -1,0 +1,23 @@
+{
+  "name": "Devikins NFT",
+  "symbol": "DVKNFT",
+  "type": "KDA",
+  "decimals": 0,
+  "status": "active",
+  "id": "DVKNFT-1SW5",
+  "description": "Devikins NFT collection on the Klever blockchain.",
+  "website": null,
+  "explorer": "https://kleverscan.org/asset/DVKNFT-1SW5",
+  "tags": ["nft", "collectible", "gaming"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/DVKNFT-1SW5"}
+  ],
+  "klever": {
+    "asset_type": "NonFungible",
+    "precision": 0,
+    "owner": "klv1emdk35p99kck9egr4c7fpqkc5qptj5l6h0mj7lugtqqn08wekecsy7nra7",
+    "royalties": {
+      "market": 2.0
+    }
+  }
+}

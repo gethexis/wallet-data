@@ -1,0 +1,19 @@
+{
+  "name": "USD Coin",
+  "symbol": "USDC",
+  "type": "SPL",
+  "decimals": 6,
+  "status": "active",
+  "id": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+  "description": "USD Coin on Solana.",
+  "website": "https://www.circle.com/usdc",
+  "explorer": "https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+  "tags": ["stablecoin", "defi"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/circle"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/usd-coin"}
+  ],
+  "pricing": {
+    "coingecko_id": "usd-coin"
+  }
+}

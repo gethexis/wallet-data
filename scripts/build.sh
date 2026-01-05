@@ -66,7 +66,7 @@ build_tokenlist() {
     local token_count=0
     for asset_dir in "$assets_dir"/*/; do
         if [ -f "$asset_dir/info.json" ]; then
-            ((token_count++))
+            token_count=$((token_count + 1))
         fi
     done
 
@@ -168,6 +168,19 @@ build_tokenlist() {
             tokens: $tokens
         }')
 
+    # Check if content changed (compare tokens only)
+    if [ -f "$output_file" ]; then
+        local existing_tokens
+        existing_tokens=$(jq -cS '.tokens' "$output_file" 2>/dev/null || echo "[]")
+        local new_tokens
+        new_tokens=$(echo "$tokenlist" | jq -cS '.tokens' 2>/dev/null || echo "[]")
+
+        if [ "$existing_tokens" = "$new_tokens" ]; then
+            log_success "No changes for $output_file ($token_count tokens)"
+            return 0
+        fi
+    fi
+
     echo "$tokenlist" | jq '.' > "$output_file"
     log_success "Built $output_file ($token_count tokens)"
 }
@@ -218,6 +231,19 @@ build_combined() {
             keywords: ["hexis", "multichain"],
             tokens: $tokens
         }')
+
+    # Check if content changed (compare tokens only)
+    if [ -f "$output_file" ]; then
+        local existing_tokens
+        existing_tokens=$(jq -cS '.tokens' "$output_file" 2>/dev/null || echo "[]")
+        local new_tokens
+        new_tokens=$(echo "$combined" | jq -cS '.tokens' 2>/dev/null || echo "[]")
+
+        if [ "$existing_tokens" = "$new_tokens" ]; then
+            log_success "No changes for combined tokenlist ($token_count tokens)"
+            return 0
+        fi
+    fi
 
     echo "$combined" | jq '.' > "$output_file"
     log_success "Built combined tokenlist ($token_count tokens)"

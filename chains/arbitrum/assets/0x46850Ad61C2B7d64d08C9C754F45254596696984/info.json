@@ -1,0 +1,19 @@
+{
+  "name": "PayPal USD",
+  "symbol": "PYUSD",
+  "type": "ERC20",
+  "decimals": 6,
+  "status": "active",
+  "id": "0x46850Ad61C2B7d64d08C9C754F45254596696984",
+  "description": "PayPal USD is a stablecoin backed 1:1 by U.S. dollar deposits and short-term U.S Treasuries, issued by Paxos Trust Company.",
+  "website": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+  "explorer": "https://arbiscan.io/token/0x46850Ad61C2B7d64d08C9C754F45254596696984",
+  "tags": ["stablecoin", "payments"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/PayPal"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/paypal-usd"}
+  ],
+  "pricing": {
+    "coingecko_id": "paypal-usd"
+  }
+}

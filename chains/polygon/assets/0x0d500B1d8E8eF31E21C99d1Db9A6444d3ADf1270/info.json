@@ -1,0 +1,21 @@
+{
+  "name": "Wrapped MATIC",
+  "symbol": "WMATIC",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+  "description": "Wrapped MATIC is an ERC20 token representing MATIC 1:1.",
+  "website": "https://polygon.technology",
+  "explorer": "https://polygonscan.com/token/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+  "tags": ["wrapped", "defi"],
+  "links": [
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/wmatic"}
+  ],
+  "pricing": {
+    "coingecko_id": "wmatic"
+  },
+  "features": {
+    "wrapped_native": true
+  }
+}

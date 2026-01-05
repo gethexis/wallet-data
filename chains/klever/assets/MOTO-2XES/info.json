@@ -1,0 +1,32 @@
+{
+  "name": "MotoKoin",
+  "symbol": "MOTO",
+  "type": "KDA",
+  "decimals": 8,
+  "status": "active",
+  "id": "MOTO-2XES",
+  "description": "MotoKoin is a community token on the Klever blockchain.",
+  "website": null,
+  "explorer": "https://kleverscan.org/asset/MOTO-2XES",
+  "tags": ["community", "defi"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/MOTO-2XES"}
+  ],
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "protocol": "Klever KDA Pool",
+    "rewards_token": "MOTO"
+  },
+  "klever": {
+    "asset_type": "Fungible",
+    "precision": 8,
+    "owner": "klv1pvp3lrrp6tu9ecqtr7jan3ymu7jlqjdw83qmrr7n7dpq6n6mmmcsneype8",
+    "staking": {
+      "enabled": true,
+      "apr": "20%",
+      "claim_type": "manual"
+    }
+  }
+}

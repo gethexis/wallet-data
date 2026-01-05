@@ -1,0 +1,162 @@
+{
+  "name": "Hexis Wallet: BNB Smart Chain",
+  "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/info/logo.png",
+  "timestamp": "2026-01-05T19:12:22Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "hexis",
+    "hexis-wallet:-bnb-smart-chain"
+  ],
+  "tokens": [
+    {
+      "chainId": 0,
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "name": "PancakeSwap",
+      "symbol": "CAKE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
+      "tags": [
+        "governance",
+        "defi",
+        "dex"
+      ],
+      "extensions": {
+        "website": "https://pancakeswap.finance",
+        "coingeckoId": "pancakeswap-token"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00/logo.png",
+      "tags": [
+        "meme",
+        "community"
+      ],
+      "extensions": {
+        "website": "https://www.pepe.vip/",
+        "coingeckoId": "pepe"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
+      "name": "BitTorrent",
+      "symbol": "BTT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x352Cb5E19b12FC216548a2677bD0fce83BaE434B/logo.png",
+      "tags": [
+        "storage",
+        "utility",
+        "infrastructure"
+      ],
+      "extensions": {
+        "website": "https://www.bittorrent.com/btt/",
+        "coingeckoId": "bittorrent"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x392004Bee213f1FF580C867359C246924f21E6Ad",
+      "name": "USDD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x392004Bee213f1FF580C867359C246924f21E6Ad/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://usdd.io/",
+        "coingeckoId": "usdd"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://tusd.io/",
+        "coingeckoId": "true-usd"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x4B0F1812e5Df2A09796481Ff14017e6005508003",
+      "name": "Trust Wallet Token",
+      "symbol": "TWT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x4B0F1812e5Df2A09796481Ff14017e6005508003/logo.png",
+      "tags": [
+        "wallet",
+        "utility",
+        "governance"
+      ],
+      "extensions": {
+        "website": "https://trustwallet.com/",
+        "coingeckoId": "trust-wallet-token"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://tether.to",
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://www.circle.com/usdc",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/logo.png",
+      "tags": [
+        "wrapped",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://www.bnbchain.org",
+        "coingeckoId": "wbnb"
+      }
+    }
+  ]
+}

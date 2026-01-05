@@ -1,0 +1,130 @@
+{
+  "name": "Hexis Wallet: TRON",
+  "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/info/logo.png",
+  "timestamp": "2026-01-05T19:12:24Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "hexis",
+    "hexis-wallet:-tron"
+  ],
+  "tokens": [
+    {
+      "chainId": 195,
+      "address": "TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4",
+      "name": "BitTorrent",
+      "symbol": "BTT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4/logo.png",
+      "tags": [
+        "storage",
+        "utility",
+        "infrastructure"
+      ],
+      "extensions": {
+        "website": "https://www.bittorrent.com/btt/",
+        "coingeckoId": "bittorrent"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+      "name": "JUST",
+      "symbol": "JST",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9/logo.png",
+      "tags": [
+        "defi",
+        "governance",
+        "lending"
+      ],
+      "extensions": {
+        "website": "https://just.network/",
+        "coingeckoId": "just"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://www.circle.com/usdc",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://tether.to",
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+      "name": "SUN",
+      "symbol": "SUN",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S/logo.png",
+      "tags": [
+        "defi",
+        "governance",
+        "dex"
+      ],
+      "extensions": {
+        "website": "https://sun.io/",
+        "coingeckoId": "sun-token"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4",
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://tusd.io/",
+        "coingeckoId": "true-usd"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz",
+      "name": "USDD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://usdd.io/",
+        "coingeckoId": "usdd"
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Pandemic Diamond",
+  "symbol": "PMD",
+  "type": "KDA",
+  "decimals": 0,
+  "status": "active",
+  "id": "PMD-2U7V",
+  "description": "Pandemic Diamond is a gaming token on the Klever blockchain.",
+  "website": "https://tgcworld.org",
+  "explorer": "https://kleverscan.org/asset/PMD-2U7V",
+  "tags": ["gaming", "community"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/PMD-2U7V"}
+  ],
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "protocol": "Klever KDA Pool",
+    "rewards_token": "PMD"
+  },
+  "klever": {
+    "asset_type": "Fungible",
+    "precision": 0,
+    "owner": "klv1ur0hkjham8vm5v9t4as6cxnqgr2k4jwlac3534kl5fwk3s59ny3quw065m",
+    "staking": {
+      "enabled": true,
+      "claim_type": "manual"
+    }
+  }
+}

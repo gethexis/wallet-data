@@ -1,0 +1,19 @@
+{
+  "name": "Tether USD",
+  "symbol": "USDT",
+  "type": "TRC20",
+  "decimals": 6,
+  "status": "active",
+  "id": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+  "description": "Tether USD on Tron network.",
+  "website": "https://tether.to",
+  "explorer": "https://tronscan.org/#/token20/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+  "tags": ["stablecoin", "defi"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/Tether_to"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/tether"}
+  ],
+  "pricing": {
+    "coingecko_id": "tether"
+  }
+}

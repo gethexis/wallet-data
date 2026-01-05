@@ -1,0 +1,19 @@
+{
+  "name": "Pepe",
+  "symbol": "PEPE",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+  "description": "Pepe is a community-based meme token inspired by the iconic Pepe the Frog meme.",
+  "website": "https://www.pepe.vip/",
+  "explorer": "https://arbiscan.io/token/0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+  "tags": ["meme", "community"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/pepecoineth"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/pepe"}
+  ],
+  "pricing": {
+    "coingecko_id": "pepe"
+  }
+}

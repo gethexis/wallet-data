@@ -1,0 +1,32 @@
+{
+  "name": "KleverPepe",
+  "symbol": "KPEPE",
+  "type": "KDA",
+  "decimals": 6,
+  "status": "active",
+  "id": "KPEPE-1EOD",
+  "description": "KleverPepe is a meme token on the Klever blockchain.",
+  "website": null,
+  "explorer": "https://kleverscan.org/asset/KPEPE-1EOD",
+  "tags": ["meme", "community"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/KPEPE-1EOD"}
+  ],
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "protocol": "Klever KDA Pool",
+    "rewards_token": "KPEPE"
+  },
+  "klever": {
+    "asset_type": "Fungible",
+    "precision": 6,
+    "owner": "klv18zx596wxvnqvd6cst09lely7903hkv8kln7g4g7thf06hc6yrtnq3xlu0z",
+    "staking": {
+      "enabled": true,
+      "apr": "50%",
+      "claim_type": "manual"
+    }
+  }
+}

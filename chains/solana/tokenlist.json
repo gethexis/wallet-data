@@ -1,0 +1,64 @@
+{
+  "name": "Hexis Wallet: Solana",
+  "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/solana/info/logo.png",
+  "timestamp": "2026-01-05T19:12:23Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "hexis",
+    "hexis-wallet:-solana"
+  ],
+  "tokens": [
+    {
+      "chainId": 101,
+      "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "name": "PayPal USD",
+      "symbol": "PYUSD",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/solana/assets/2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo/logo.png",
+      "tags": [
+        "stablecoin",
+        "payments"
+      ],
+      "extensions": {
+        "website": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+        "coingeckoId": "paypal-usd"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/solana/assets/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://www.circle.com/usdc",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 101,
+      "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/solana/assets/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://tether.to",
+        "coingeckoId": "tether"
+      }
+    }
+  ]
+}

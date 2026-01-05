@@ -1,0 +1,28 @@
+{
+  "name": "Chainlink",
+  "symbol": "LINK",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+  "description": "Chainlink is a decentralized oracle network providing real-world data to smart contracts.",
+  "website": "https://chain.link",
+  "explorer": "https://etherscan.io/token/0x514910771AF9Ca656af840dff83E8264EcF986CA",
+  "tags": ["oracle", "defi", "utility"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/chainlink"},
+    {"name": "github", "url": "https://github.com/smartcontractkit/chainlink"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/chainlink"}
+  ],
+  "pricing": {
+    "coingecko_id": "chainlink"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "pool",
+    "protocol": "Chainlink Staking",
+    "rewards_token": "LINK",
+    "min_stake": "1000000000000000000",
+    "staking_url": "https://staking.chain.link"
+  }
+}

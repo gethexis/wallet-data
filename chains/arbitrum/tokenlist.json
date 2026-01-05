@@ -1,0 +1,130 @@
+{
+  "name": "Hexis Wallet: Arbitrum",
+  "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/info/logo.png",
+  "timestamp": "2026-01-05T19:12:22Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "hexis",
+    "hexis-wallet:-arbitrum"
+  ],
+  "tokens": [
+    {
+      "chainId": 0,
+      "address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00/logo.png",
+      "tags": [
+        "meme",
+        "community"
+      ],
+      "extensions": {
+        "website": "https://www.pepe.vip/",
+        "coingeckoId": "pepe"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x46850Ad61C2B7d64d08C9C754F45254596696984",
+      "name": "PayPal USD",
+      "symbol": "PYUSD",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0x46850Ad61C2B7d64d08C9C754F45254596696984/logo.png",
+      "tags": [
+        "stablecoin",
+        "payments"
+      ],
+      "extensions": {
+        "website": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+        "coingeckoId": "paypal-usd"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x680447595e8b7b3Aa1B43beB9f6098C79ac2Ab3f",
+      "name": "USDD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0x680447595e8b7b3Aa1B43beB9f6098C79ac2Ab3f/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://usdd.io/",
+        "coingeckoId": "usdd"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "name": "Arbitrum",
+      "symbol": "ARB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0x912CE59144191C1204E64559FE8253a0e49E6548/logo.png",
+      "tags": [
+        "governance",
+        "defi",
+        "layer2"
+      ],
+      "extensions": {
+        "website": "https://arbitrum.io",
+        "coingeckoId": "arbitrum"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://tether.to",
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0xaf88d065e77c8cC2239327C5EDb3A432268e5831/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://www.circle.com/usdc",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0xdA0a57B710768ae17941a9Fa33f8B720c8bD9dDD",
+      "name": "Marlin",
+      "symbol": "POND",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0xdA0a57B710768ae17941a9Fa33f8B720c8bD9dDD/logo.png",
+      "tags": [
+        "infrastructure",
+        "defi",
+        "layer2"
+      ],
+      "extensions": {
+        "website": "https://www.marlin.org/",
+        "coingeckoId": "marlin"
+      }
+    }
+  ]
+}

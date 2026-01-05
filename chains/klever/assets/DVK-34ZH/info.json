@@ -1,0 +1,32 @@
+{
+  "name": "Devicoin",
+  "symbol": "DVK",
+  "type": "KDA",
+  "decimals": 6,
+  "status": "active",
+  "id": "DVK-34ZH",
+  "description": "Devicoin is a community token on the Klever blockchain.",
+  "website": null,
+  "explorer": "https://kleverscan.org/asset/DVK-34ZH",
+  "tags": ["community", "defi"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/DVK-34ZH"}
+  ],
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "protocol": "Klever KDA Pool",
+    "rewards_token": "DVK"
+  },
+  "klever": {
+    "asset_type": "Fungible",
+    "precision": 6,
+    "owner": "klv1u2qalu3wehkv7ycdvvzq0a85en7hdgg90q50tk6e56k6kfkudf2qxxk8px",
+    "staking": {
+      "enabled": true,
+      "apr": "4%",
+      "claim_type": "manual"
+    }
+  }
+}

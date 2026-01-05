@@ -1,0 +1,23 @@
+{
+  "name": "Dexbet BFS",
+  "symbol": "DXBBFS",
+  "type": "KDA",
+  "decimals": 0,
+  "status": "active",
+  "id": "DXBBFS-193P",
+  "description": "Dexbet BFS NFT collection on the Klever blockchain.",
+  "website": "https://dexbet.io",
+  "explorer": "https://kleverscan.org/asset/DXBBFS-193P",
+  "tags": ["nft", "collectible", "gaming"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/DXBBFS-193P"}
+  ],
+  "klever": {
+    "asset_type": "NonFungible",
+    "precision": 0,
+    "owner": "klv18r0yxx4acppep0wtl6pd0xpe964r3d7emzj5jd3zq4x2736rvf4s56gxdy",
+    "royalties": {
+      "market": 5.0
+    }
+  }
+}

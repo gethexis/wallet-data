@@ -1,0 +1,32 @@
+{
+  "name": "PancakeSwap",
+  "symbol": "CAKE",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+  "description": "PancakeSwap is the native token of the PancakeSwap DEX on BNB Smart Chain.",
+  "website": "https://pancakeswap.finance",
+  "explorer": "https://bscscan.com/token/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+  "tags": ["governance", "defi", "dex"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/PancakeSwap"},
+    {"name": "github", "url": "https://github.com/pancakeswap"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/pancakeswap-token"}
+  ],
+  "pricing": {
+    "coingecko_id": "pancakeswap-token"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "pool",
+    "protocol": "PancakeSwap Syrup Pools",
+    "rewards_token": "CAKE",
+    "auto_compound": true,
+    "lock_period": null,
+    "staking_url": "https://pancakeswap.finance/pools"
+  },
+  "features": {
+    "governance": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Wrapped Ether",
+  "symbol": "WETH",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "description": "Wrapped Ether is an ERC20 token representing Ether 1:1.",
+  "website": "https://weth.io",
+  "explorer": "https://etherscan.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+  "tags": ["wrapped", "defi"],
+  "links": [
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/weth"}
+  ],
+  "pricing": {
+    "coingecko_id": "weth"
+  },
+  "features": {
+    "wrapped_native": true
+  }
+}

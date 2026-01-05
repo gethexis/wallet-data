@@ -1,0 +1,35 @@
+{
+  "name": "Klever Finance",
+  "symbol": "KFI",
+  "type": "KDA",
+  "decimals": 6,
+  "status": "active",
+  "id": "KFI",
+  "description": "Klever Finance is the governance and utility token of the Klever ecosystem.",
+  "website": "https://klever.io",
+  "explorer": "https://kleverscan.org/asset/KFI",
+  "tags": ["governance", "defi", "utility"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/klaboratories"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/klever-finance"}
+  ],
+  "pricing": {
+    "coingecko_id": "klever-finance"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "protocol": "Klever",
+    "rewards_token": "KFI",
+    "staking_url": "https://kleverscan.org/staking"
+  },
+  "klever": {
+    "asset_type": "Fungible",
+    "precision": 6,
+    "staking": {
+      "enabled": true,
+      "claim_type": "manual"
+    }
+  }
+}

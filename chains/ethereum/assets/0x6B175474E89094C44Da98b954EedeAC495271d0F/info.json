@@ -1,0 +1,19 @@
+{
+  "name": "Dai Stablecoin",
+  "symbol": "DAI",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+  "description": "Dai is a decentralized, unbiased, collateral-backed stablecoin by MakerDAO.",
+  "website": "https://makerdao.com",
+  "explorer": "https://etherscan.io/token/0x6B175474E89094C44Da98b954EedeAC495271d0F",
+  "tags": ["stablecoin", "defi"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/MakerDAO"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/dai"}
+  ],
+  "pricing": {
+    "coingecko_id": "dai"
+  }
+}

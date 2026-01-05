@@ -1,0 +1,19 @@
+{
+  "name": "PayPal USD",
+  "symbol": "PYUSD",
+  "type": "SPL",
+  "decimals": 6,
+  "status": "active",
+  "id": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+  "description": "PayPal USD is a stablecoin backed 1:1 by U.S. dollar deposits and short-term U.S Treasuries, issued by Paxos Trust Company.",
+  "website": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+  "explorer": "https://solscan.io/token/2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+  "tags": ["stablecoin", "payments"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/PayPal"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/paypal-usd"}
+  ],
+  "pricing": {
+    "coingecko_id": "paypal-usd"
+  }
+}

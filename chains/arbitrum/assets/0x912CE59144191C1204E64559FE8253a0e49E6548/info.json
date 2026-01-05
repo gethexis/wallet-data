@@ -1,0 +1,30 @@
+{
+  "name": "Arbitrum",
+  "symbol": "ARB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+  "description": "Arbitrum is the governance token for the Arbitrum ecosystem.",
+  "website": "https://arbitrum.io",
+  "explorer": "https://arbiscan.io/token/0x912CE59144191C1204E64559FE8253a0e49E6548",
+  "tags": ["governance", "defi", "layer2"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/arbitrum"},
+    {"name": "github", "url": "https://github.com/OffchainLabs"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/arbitrum"}
+  ],
+  "pricing": {
+    "coingecko_id": "arbitrum"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "protocol": "Arbitrum DAO",
+    "rewards_token": "ARB",
+    "staking_url": "https://www.tally.xyz/gov/arbitrum"
+  },
+  "features": {
+    "governance": true
+  }
+}

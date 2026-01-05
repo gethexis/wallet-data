@@ -1,0 +1,31 @@
+{
+  "name": "Dexbet",
+  "symbol": "DXB",
+  "type": "KDA",
+  "decimals": 6,
+  "status": "active",
+  "id": "DXB-3SBO",
+  "description": "Dexbet is a decentralized betting platform token on Klever blockchain.",
+  "website": "https://dexbet.io",
+  "explorer": "https://kleverscan.org/asset/DXB-3SBO",
+  "tags": ["gaming", "defi", "betting"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/DXB-3SBO"}
+  ],
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "protocol": "Klever KDA Pool",
+    "rewards_token": "DXB"
+  },
+  "klever": {
+    "asset_type": "Fungible",
+    "precision": 6,
+    "owner": "klv135qm7dnpzqvan54690p8ty42w5gfp75jcfqkdekmrcka25c42v8sjw472e",
+    "staking": {
+      "enabled": true,
+      "claim_type": "manual"
+    }
+  }
+}

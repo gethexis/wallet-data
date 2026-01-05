@@ -1,740 +1,934 @@
 {
   "name": "Hexis Wallet: All Networks",
   "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/logo.png",
-  "timestamp": "2026-01-05T16:00:00Z",
+  "timestamp": "2026-01-05T19:12:24Z",
   "version": {
     "major": 1,
     "minor": 0,
     "patch": 0
   },
-  "keywords": ["hexis", "multichain", "native-tokens"],
+  "keywords": [
+    "hexis",
+    "multichain"
+  ],
   "tokens": [
     {
-      "chainId": 1,
-      "address": "ETH",
-      "name": "Ethereum",
-      "symbol": "ETH",
+      "chainId": 0,
+      "address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+      "name": "Pepe",
+      "symbol": "PEPE",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "evm"],
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00/logo.png",
+      "tags": [
+        "meme",
+        "community"
+      ],
       "extensions": {
-        "coingeckoId": "ethereum",
-        "isNative": true,
-        "network": "ethereum"
+        "website": "https://www.pepe.vip/",
+        "coingeckoId": "pepe"
       }
     },
     {
       "chainId": 0,
-      "address": "BTC",
-      "name": "Bitcoin",
-      "symbol": "BTC",
+      "address": "0x46850Ad61C2B7d64d08C9C754F45254596696984",
+      "name": "PayPal USD",
+      "symbol": "PYUSD",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0x46850Ad61C2B7d64d08C9C754F45254596696984/logo.png",
+      "tags": [
+        "stablecoin",
+        "payments"
+      ],
+      "extensions": {
+        "website": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+        "coingeckoId": "paypal-usd"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x680447595e8b7b3Aa1B43beB9f6098C79ac2Ab3f",
+      "name": "USDD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0x680447595e8b7b3Aa1B43beB9f6098C79ac2Ab3f/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://usdd.io/",
+        "coingeckoId": "usdd"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+      "name": "Arbitrum",
+      "symbol": "ARB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0x912CE59144191C1204E64559FE8253a0e49E6548/logo.png",
+      "tags": [
+        "governance",
+        "defi",
+        "layer2"
+      ],
+      "extensions": {
+        "website": "https://arbitrum.io",
+        "coingeckoId": "arbitrum"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://tether.to",
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0xaf88d065e77c8cC2239327C5EDb3A432268e5831/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://www.circle.com/usdc",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0xdA0a57B710768ae17941a9Fa33f8B720c8bD9dDD",
+      "name": "Marlin",
+      "symbol": "POND",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/assets/0xdA0a57B710768ae17941a9Fa33f8B720c8bD9dDD/logo.png",
+      "tags": [
+        "infrastructure",
+        "defi",
+        "layer2"
+      ],
+      "extensions": {
+        "website": "https://www.marlin.org/",
+        "coingeckoId": "marlin"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "name": "PancakeSwap",
+      "symbol": "CAKE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82/logo.png",
+      "tags": [
+        "governance",
+        "defi",
+        "dex"
+      ],
+      "extensions": {
+        "website": "https://pancakeswap.finance",
+        "coingeckoId": "pancakeswap-token"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00",
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00/logo.png",
+      "tags": [
+        "meme",
+        "community"
+      ],
+      "extensions": {
+        "website": "https://www.pepe.vip/",
+        "coingeckoId": "pepe"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B",
+      "name": "BitTorrent",
+      "symbol": "BTT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x352Cb5E19b12FC216548a2677bD0fce83BaE434B/logo.png",
+      "tags": [
+        "storage",
+        "utility",
+        "infrastructure"
+      ],
+      "extensions": {
+        "website": "https://www.bittorrent.com/btt/",
+        "coingeckoId": "bittorrent"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x392004Bee213f1FF580C867359C246924f21E6Ad",
+      "name": "USDD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x392004Bee213f1FF580C867359C246924f21E6Ad/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://usdd.io/",
+        "coingeckoId": "usdd"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://tusd.io/",
+        "coingeckoId": "true-usd"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x4B0F1812e5Df2A09796481Ff14017e6005508003",
+      "name": "Trust Wallet Token",
+      "symbol": "TWT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x4B0F1812e5Df2A09796481Ff14017e6005508003/logo.png",
+      "tags": [
+        "wallet",
+        "utility",
+        "governance"
+      ],
+      "extensions": {
+        "website": "https://trustwallet.com/",
+        "coingeckoId": "trust-wallet-token"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x55d398326f99059fF775485246999027B3197955/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://tether.to",
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://www.circle.com/usdc",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/assets/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c/logo.png",
+      "tags": [
+        "wrapped",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://www.bnbchain.org",
+        "coingeckoId": "wbnb"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x0000000000085d4780B73119b644AE5ecd22b376",
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x0000000000085d4780B73119b644AE5ecd22b376/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://tusd.io/",
+        "coingeckoId": "true-usd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png",
+      "tags": [
+        "governance",
+        "defi",
+        "dex"
+      ],
+      "extensions": {
+        "website": "https://uniswap.org",
+        "coingeckoId": "uniswap"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/bitcoin/info/logo.png",
-      "tags": ["native", "layer-1", "pow", "store-of-value"],
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+      "tags": [
+        "wrapped",
+        "defi"
+      ],
       "extensions": {
-        "coingeckoId": "bitcoin",
-        "isNative": true,
-        "network": "bitcoin"
+        "website": "https://wbtc.network",
+        "coingeckoId": "wrapped-bitcoin"
       }
     },
     {
-      "chainId": 0,
-      "address": "KLV",
-      "name": "Klever",
-      "symbol": "KLV",
+      "chainId": 1,
+      "address": "0x4f8e5De400dE08b164e7421b3eE387f461bECD1a",
+      "name": "USDD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x4f8e5De400dE08b164e7421b3eE387f461bECD1a/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://usdd.io/",
+        "coingeckoId": "usdd"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
+      "tags": [
+        "oracle",
+        "defi",
+        "utility"
+      ],
+      "extensions": {
+        "website": "https://chain.link",
+        "coingeckoId": "chainlink"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x54D2252757e1672EEaD234D27B1270728fF90581",
+      "name": "Bitget Token",
+      "symbol": "BGB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x54D2252757e1672EEaD234D27B1270728fF90581/logo.png",
+      "tags": [
+        "exchange",
+        "utility"
+      ],
+      "extensions": {
+        "website": "https://www.bitget.com",
+        "coingeckoId": "bitget-token"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x57B946008913B82E4dF85f501cbAeD910e58D26C",
+      "name": "Marlin",
+      "symbol": "POND",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x57B946008913B82E4dF85f501cbAeD910e58D26C/logo.png",
+      "tags": [
+        "infrastructure",
+        "defi",
+        "layer2"
+      ],
+      "extensions": {
+        "website": "https://www.marlin.org/",
+        "coingeckoId": "marlin"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x6982508145454Ce325dDbE47a25d4ec3d2311933/logo.png",
+      "tags": [
+        "meme",
+        "community"
+      ],
+      "extensions": {
+        "website": "https://www.pepe.vip/",
+        "coingeckoId": "pepe"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://makerdao.com",
+        "coingeckoId": "dai"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0x6c3ea9036406852006290770BEDFcAbA0e23A0e8",
+      "name": "PayPal USD",
+      "symbol": "PYUSD",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "kda"],
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x6c3ea9036406852006290770BEDFcAbA0e23A0e8/logo.png",
+      "tags": [
+        "stablecoin",
+        "payments"
+      ],
       "extensions": {
-        "coingeckoId": "klever",
-        "isNative": true,
-        "network": "klever"
+        "website": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+        "coingeckoId": "paypal-usd"
       }
     },
     {
-      "chainId": 0,
-      "address": "SOL",
-      "name": "Solana",
-      "symbol": "SOL",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/solana/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "high-performance"],
+      "chainId": 1,
+      "address": "0x75231F58b43240C9718Dd58B4967c5114342a86c",
+      "name": "OKB",
+      "symbol": "OKB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0x75231F58b43240C9718Dd58B4967c5114342a86c/logo.png",
+      "tags": [
+        "exchange",
+        "utility"
+      ],
       "extensions": {
-        "coingeckoId": "solana",
-        "isNative": true,
-        "network": "solana"
+        "website": "https://www.okx.com/okb",
+        "coingeckoId": "okb"
       }
     },
     {
-      "chainId": 0,
-      "address": "TRX",
-      "name": "TRON",
-      "symbol": "TRX",
+      "chainId": 1,
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "name": "USD Coin",
+      "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native"],
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
       "extensions": {
-        "coingeckoId": "tron",
-        "isNative": true,
-        "network": "tron"
+        "website": "https://www.circle.com/usdc",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xA6c0c097741d55Ecd9a3a7DEf3a8253fD022cEb9",
+      "name": "Travala",
+      "symbol": "AVA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0xA6c0c097741d55Ecd9a3a7DEf3a8253fD022cEb9/logo.png",
+      "tags": [
+        "travel",
+        "loyalty",
+        "utility"
+      ],
+      "extensions": {
+        "website": "https://www.travala.com",
+        "coingeckoId": "ava"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+      "tags": [
+        "wrapped",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://weth.io",
+        "coingeckoId": "weth"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xC669928185DbCE49d2230CC9B0979BE6DC797957",
+      "name": "BitTorrent",
+      "symbol": "BTT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0xC669928185DbCE49d2230CC9B0979BE6DC797957/logo.png",
+      "tags": [
+        "storage",
+        "utility",
+        "infrastructure"
+      ],
+      "extensions": {
+        "website": "https://www.bittorrent.com/btt/",
+        "coingeckoId": "bittorrent"
+      }
+    },
+    {
+      "chainId": 1,
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://tether.to",
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "DVK-34ZH",
+      "name": "Devicoin",
+      "symbol": "DVK",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/DVK-34ZH/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 38,
+      "address": "DVKNFT-1SW5",
+      "name": "Devikins NFT",
+      "symbol": "DVKNFT",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/DVKNFT-1SW5/logo.png",
+      "tags": [
+        "nft",
+        "collectible",
+        "gaming"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 38,
+      "address": "DXB-3SBO",
+      "name": "Dexbet",
+      "symbol": "DXB",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/DXB-3SBO/logo.png",
+      "tags": [
+        "gaming",
+        "defi",
+        "betting"
+      ],
+      "extensions": {
+        "website": "https://dexbet.io"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "DXBBFS-193P",
+      "name": "Dexbet BFS",
+      "symbol": "DXBBFS",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/DXBBFS-193P/logo.png",
+      "tags": [
+        "nft",
+        "collectible",
+        "gaming"
+      ],
+      "extensions": {
+        "website": "https://dexbet.io"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "KFI",
+      "name": "Klever Finance",
+      "symbol": "KFI",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/KFI/logo.png",
+      "tags": [
+        "governance",
+        "defi",
+        "utility"
+      ],
+      "extensions": {
+        "website": "https://klever.io",
+        "coingeckoId": "klever-finance"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "KID-36W3",
+      "name": "KleverKid Coin",
+      "symbol": "KID",
+      "decimals": 3,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/KID-36W3/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 38,
+      "address": "KPEPE-1EOD",
+      "name": "KleverPepe",
+      "symbol": "KPEPE",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/KPEPE-1EOD/logo.png",
+      "tags": [
+        "meme",
+        "community"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 38,
+      "address": "KUNAI-18TK",
+      "name": "KunaiKash",
+      "symbol": "KUNAI",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/KUNAI-18TK/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://kunaikash.com"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "MOTO-2XES",
+      "name": "MotoKoin",
+      "symbol": "MOTO",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/MOTO-2XES/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 38,
+      "address": "PMD-2U7V",
+      "name": "Pandemic Diamond",
+      "symbol": "PMD",
+      "decimals": 0,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/PMD-2U7V/logo.png",
+      "tags": [
+        "gaming",
+        "community"
+      ],
+      "extensions": {
+        "website": "https://tgcworld.org"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "SAME-3LRL",
+      "name": "SAME",
+      "symbol": "SAME",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/SAME-3LRL/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://app.want-same.com"
+      }
+    },
+    {
+      "chainId": 38,
+      "address": "VLX-3LAS",
+      "name": "VELIX",
+      "symbol": "VLX",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/klever/assets/VLX-3LAS/logo.png",
+      "tags": [
+        "community",
+        "defi"
+      ],
+      "extensions": {}
+    },
+    {
+      "chainId": 137,
+      "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "name": "Wrapped MATIC",
+      "symbol": "WMATIC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/polygon/assets/0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270/logo.png",
+      "tags": [
+        "wrapped",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://polygon.technology",
+        "coingeckoId": "wmatic"
       }
     },
     {
       "chainId": 137,
-      "address": "POL",
-      "name": "Polygon",
-      "symbol": "POL",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/polygon/info/logo.png",
-      "tags": ["native", "layer-2", "smart-contracts", "staking-native", "evm"],
-      "extensions": {
-        "coingeckoId": "polygon-ecosystem-token",
-        "isNative": true,
-        "network": "polygon"
-      }
-    },
-    {
-      "chainId": 56,
-      "address": "BNB",
-      "name": "BNB Smart Chain",
-      "symbol": "BNB",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-smart-chain/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "evm"],
-      "extensions": {
-        "coingeckoId": "binancecoin",
-        "isNative": true,
-        "network": "binance-smart-chain"
-      }
-    },
-    {
-      "chainId": 42161,
-      "address": "ETH",
-      "name": "Arbitrum",
-      "symbol": "ETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/arbitrum/info/logo.png",
-      "tags": ["native", "layer-2", "smart-contracts", "evm", "optimistic-rollup"],
-      "extensions": {
-        "coingeckoId": "ethereum",
-        "isNative": true,
-        "network": "arbitrum"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "ETH",
-      "name": "Optimism",
-      "symbol": "ETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/optimism/info/logo.png",
-      "tags": ["native", "layer-2", "smart-contracts", "evm", "optimistic-rollup"],
-      "extensions": {
-        "coingeckoId": "ethereum",
-        "isNative": true,
-        "network": "optimism"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "ETH",
-      "name": "Base",
-      "symbol": "ETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/base/info/logo.png",
-      "tags": ["native", "layer-2", "smart-contracts", "evm", "optimistic-rollup"],
-      "extensions": {
-        "coingeckoId": "ethereum",
-        "isNative": true,
-        "network": "base"
-      }
-    },
-    {
-      "chainId": 43114,
-      "address": "AVAX",
-      "name": "Avalanche C-Chain",
-      "symbol": "AVAX",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/avalanche/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "evm", "defi"],
-      "extensions": {
-        "coingeckoId": "avalanche-2",
-        "isNative": true,
-        "network": "avalanche"
-      }
-    },
-    {
-      "chainId": 250,
-      "address": "FTM",
-      "name": "Fantom",
-      "symbol": "FTM",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/fantom/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "evm"],
-      "extensions": {
-        "coingeckoId": "fantom",
-        "isNative": true,
-        "network": "fantom"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "ATOM",
-      "name": "Cosmos",
-      "symbol": "ATOM",
+      "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "name": "USD Coin",
+      "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/cosmos/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "ibc"],
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/polygon/assets/0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
       "extensions": {
-        "coingeckoId": "cosmos",
-        "isNative": true,
-        "network": "cosmos"
+        "website": "https://www.circle.com/usdc",
+        "coingeckoId": "usd-coin"
       }
     },
     {
-      "chainId": 0,
-      "address": "DOT",
-      "name": "Polkadot",
-      "symbol": "DOT",
-      "decimals": 10,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/polkadot/info/logo.png",
-      "tags": ["native", "layer-0", "smart-contracts", "staking-native", "parachain"],
+      "chainId": 137,
+      "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/polygon/assets/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/logo.png",
+      "tags": [
+        "wrapped",
+        "defi"
+      ],
       "extensions": {
-        "coingeckoId": "polkadot",
-        "isNative": true,
-        "network": "polkadot"
+        "website": "https://weth.io",
+        "coingeckoId": "weth"
       }
     },
     {
-      "chainId": 0,
-      "address": "ADA",
-      "name": "Cardano",
-      "symbol": "ADA",
+      "chainId": 137,
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "name": "Tether USD",
+      "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/cardano/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "proof-of-stake"],
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/polygon/assets/0xc2132D05D31c914a87C6611C10748AEb04B58e8F/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
       "extensions": {
-        "coingeckoId": "cardano",
-        "isNative": true,
-        "network": "cardano"
+        "website": "https://tether.to",
+        "coingeckoId": "tether"
       }
     },
     {
-      "chainId": 0,
-      "address": "NEAR",
-      "name": "NEAR Protocol",
-      "symbol": "NEAR",
-      "decimals": 24,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/near/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "sharding"],
-      "extensions": {
-        "coingeckoId": "near",
-        "isNative": true,
-        "network": "near"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "APT",
-      "name": "Aptos",
-      "symbol": "APT",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/aptos/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "move"],
-      "extensions": {
-        "coingeckoId": "aptos",
-        "isNative": true,
-        "network": "aptos"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "SUI",
-      "name": "Sui",
-      "symbol": "SUI",
-      "decimals": 9,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/sui/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "move"],
-      "extensions": {
-        "coingeckoId": "sui",
-        "isNative": true,
-        "network": "sui"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "XLM",
-      "name": "Stellar",
-      "symbol": "XLM",
-      "decimals": 7,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/stellar/info/logo.png",
-      "tags": ["native", "layer-1", "payments", "smart-contracts"],
-      "extensions": {
-        "coingeckoId": "stellar",
-        "isNative": true,
-        "network": "stellar"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "XRP",
-      "name": "XRP",
-      "symbol": "XRP",
+      "chainId": 101,
+      "address": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+      "name": "PayPal USD",
+      "symbol": "PYUSD",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/ripple/info/logo.png",
-      "tags": ["native", "layer-1", "payments", "enterprise"],
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/solana/assets/2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo/logo.png",
+      "tags": [
+        "stablecoin",
+        "payments"
+      ],
       "extensions": {
-        "coingeckoId": "ripple",
-        "isNative": true,
-        "network": "ripple"
+        "website": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd",
+        "coingeckoId": "paypal-usd"
       }
     },
     {
-      "chainId": 0,
-      "address": "LTC",
-      "name": "Litecoin",
-      "symbol": "LTC",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/litecoin/info/logo.png",
-      "tags": ["native", "layer-1", "pow", "payments"],
-      "extensions": {
-        "coingeckoId": "litecoin",
-        "isNative": true,
-        "network": "litecoin"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "BCH",
-      "name": "Bitcoin Cash",
-      "symbol": "BCH",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/bitcoin-cash/info/logo.png",
-      "tags": ["native", "layer-1", "pow", "payments"],
-      "extensions": {
-        "coingeckoId": "bitcoin-cash",
-        "isNative": true,
-        "network": "bitcoin-cash"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "DOGE",
-      "name": "Dogecoin",
-      "symbol": "DOGE",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/dogecoin/info/logo.png",
-      "tags": ["native", "layer-1", "pow", "payments", "meme"],
-      "extensions": {
-        "coingeckoId": "dogecoin",
-        "isNative": true,
-        "network": "dogecoin"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "DASH",
-      "name": "Dash",
-      "symbol": "DASH",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/dash/info/logo.png",
-      "tags": ["native", "layer-1", "pow", "payments", "privacy"],
-      "extensions": {
-        "coingeckoId": "dash",
-        "isNative": true,
-        "network": "dash"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "DGB",
-      "name": "DigiByte",
-      "symbol": "DGB",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/digibyte/info/logo.png",
-      "tags": ["native", "layer-1", "pow", "payments", "security"],
-      "extensions": {
-        "coingeckoId": "digibyte",
-        "isNative": true,
-        "network": "digibyte"
-      }
-    },
-    {
-      "chainId": 1666600000,
-      "address": "ONE",
-      "name": "Harmony",
-      "symbol": "ONE",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/harmony/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "evm", "sharding"],
-      "extensions": {
-        "coingeckoId": "harmony",
-        "isNative": true,
-        "network": "harmony"
-      }
-    },
-    {
-      "chainId": 1284,
-      "address": "GLMR",
-      "name": "Moonbeam",
-      "symbol": "GLMR",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/moonbeam/info/logo.png",
-      "tags": ["native", "parachain", "smart-contracts", "evm", "polkadot"],
-      "extensions": {
-        "coingeckoId": "moonbeam",
-        "isNative": true,
-        "network": "moonbeam"
-      }
-    },
-    {
-      "chainId": 1285,
-      "address": "MOVR",
-      "name": "Moonriver",
-      "symbol": "MOVR",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/moonriver/info/logo.png",
-      "tags": ["native", "parachain", "smart-contracts", "evm", "kusama"],
-      "extensions": {
-        "coingeckoId": "moonriver",
-        "isNative": true,
-        "network": "moonriver"
-      }
-    },
-    {
-      "chainId": 592,
-      "address": "ASTR",
-      "name": "Astar",
-      "symbol": "ASTR",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/astar/info/logo.png",
-      "tags": ["native", "parachain", "smart-contracts", "staking-native", "polkadot", "evm"],
-      "extensions": {
-        "coingeckoId": "astar",
-        "isNative": true,
-        "network": "astar"
-      }
-    },
-    {
-      "chainId": 88888,
-      "address": "CHZ",
-      "name": "Chiliz",
-      "symbol": "CHZ",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/chiliz/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "evm", "sports", "fan-tokens"],
-      "extensions": {
-        "coingeckoId": "chiliz",
-        "isNative": true,
-        "network": "chiliz"
-      }
-    },
-    {
-      "chainId": 13939,
-      "address": "REEF",
-      "name": "Reef",
-      "symbol": "REEF",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/reef/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "evm", "substrate", "defi"],
-      "extensions": {
-        "coingeckoId": "reef",
-        "isNative": true,
-        "network": "reef"
-      }
-    },
-    {
-      "chainId": 1101,
-      "address": "ETH",
-      "name": "Polygon zkEVM",
-      "symbol": "ETH",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/polygon-zkevm/info/logo.png",
-      "tags": ["native", "layer-2", "smart-contracts", "evm", "zk-rollup"],
-      "extensions": {
-        "coingeckoId": "ethereum",
-        "isNative": true,
-        "network": "polygon-zkevm"
-      }
-    },
-    {
-      "chainId": 570,
-      "address": "SYS",
-      "name": "Rollux",
-      "symbol": "SYS",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/rollux/info/logo.png",
-      "tags": ["native", "layer-2", "smart-contracts", "evm", "optimistic-rollup", "bitcoin-secured"],
-      "extensions": {
-        "coingeckoId": "syscoin",
-        "isNative": true,
-        "network": "rollux"
-      }
-    },
-    {
-      "chainId": 57,
-      "address": "SYS",
-      "name": "Syscoin NEVM",
-      "symbol": "SYS",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/syscoin-nevm/info/logo.png",
-      "tags": ["native", "layer-2", "smart-contracts", "evm"],
-      "extensions": {
-        "coingeckoId": "syscoin",
-        "isNative": true,
-        "network": "syscoin-nevm"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "KSM",
-      "name": "Kusama",
-      "symbol": "KSM",
-      "decimals": 12,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/kusama/info/logo.png",
-      "tags": ["native", "layer-0", "smart-contracts", "staking-native", "parachain"],
-      "extensions": {
-        "coingeckoId": "kusama",
-        "isNative": true,
-        "network": "kusama"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "ACA",
-      "name": "Acala",
-      "symbol": "ACA",
-      "decimals": 12,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/acala/info/logo.png",
-      "tags": ["native", "parachain", "smart-contracts", "staking-native", "polkadot", "defi"],
-      "extensions": {
-        "coingeckoId": "acala",
-        "isNative": true,
-        "network": "acala"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "KAR",
-      "name": "Karura",
-      "symbol": "KAR",
-      "decimals": 12,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/karura/info/logo.png",
-      "tags": ["native", "parachain", "smart-contracts", "staking-native", "kusama", "defi"],
-      "extensions": {
-        "coingeckoId": "karura",
-        "isNative": true,
-        "network": "karura"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "CFG",
-      "name": "Centrifuge",
-      "symbol": "CFG",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/centrifuge/info/logo.png",
-      "tags": ["native", "parachain", "rwa", "staking-native", "polkadot", "defi"],
-      "extensions": {
-        "coingeckoId": "centrifuge",
-        "isNative": true,
-        "network": "centrifuge"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "AIR",
-      "name": "Altair",
-      "symbol": "AIR",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/altair/info/logo.png",
-      "tags": ["native", "parachain", "rwa", "staking-native", "kusama"],
-      "extensions": {
-        "coingeckoId": "altair",
-        "isNative": true,
-        "network": "altair"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "KILT",
-      "name": "KILT Protocol",
-      "symbol": "KILT",
-      "decimals": 15,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/kilt/info/logo.png",
-      "tags": ["native", "parachain", "identity", "staking-native", "polkadot", "ai-agents"],
-      "extensions": {
-        "coingeckoId": "kilt-protocol",
-        "isNative": true,
-        "network": "kilt"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "AVAIL",
-      "name": "Avail",
-      "symbol": "AVAIL",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/avail/info/logo.png",
-      "tags": ["native", "modular", "staking-native", "data-availability", "substrate"],
-      "extensions": {
-        "coingeckoId": "avail",
-        "isNative": true,
-        "network": "avail"
-      }
-    },
-    {
-      "chainId": 336,
-      "address": "SDN",
-      "name": "Shiden",
-      "symbol": "SDN",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/sdn/info/logo.png",
-      "tags": ["native", "parachain", "smart-contracts", "staking-native", "kusama", "evm"],
-      "extensions": {
-        "coingeckoId": "shiden",
-        "isNative": true,
-        "network": "sdn"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "FLOW",
-      "name": "Flow",
-      "symbol": "FLOW",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/flow/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "nft"],
-      "extensions": {
-        "coingeckoId": "flow",
-        "isNative": true,
-        "network": "flow"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "HBAR",
-      "name": "Hedera",
-      "symbol": "HBAR",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/hedera/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "hashgraph"],
-      "extensions": {
-        "coingeckoId": "hedera-hashgraph",
-        "isNative": true,
-        "network": "hedera"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "ICP",
-      "name": "Internet Computer",
-      "symbol": "ICP",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/internet-computer/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "web3"],
-      "extensions": {
-        "coingeckoId": "internet-computer",
-        "isNative": true,
-        "network": "internet-computer"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "EGLD",
-      "name": "MultiversX",
-      "symbol": "EGLD",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/multiversx/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "sharding"],
-      "extensions": {
-        "coingeckoId": "multiversx-egld",
-        "isNative": true,
-        "network": "multiversx"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "TIA",
-      "name": "Celestia",
-      "symbol": "TIA",
+      "chainId": 101,
+      "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "name": "USD Coin",
+      "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/celestia/info/logo.png",
-      "tags": ["native", "modular", "staking-native", "data-availability", "cosmos"],
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/solana/assets/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
       "extensions": {
-        "coingeckoId": "celestia",
-        "isNative": true,
-        "network": "celestia"
+        "website": "https://www.circle.com/usdc",
+        "coingeckoId": "usd-coin"
       }
     },
     {
-      "chainId": 0,
-      "address": "CUDOS",
-      "name": "CUDOS",
-      "symbol": "CUDOS",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/cudos/info/logo.png",
-      "tags": ["native", "layer-1", "compute", "staking-native", "cosmos"],
-      "extensions": {
-        "coingeckoId": "cudos",
-        "isNative": true,
-        "network": "cudos"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "AURA",
-      "name": "Aura Network",
-      "symbol": "AURA",
+      "chainId": 101,
+      "address": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "name": "Tether USD",
+      "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/aura/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "staking-native", "cosmos", "nft"],
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/solana/assets/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
       "extensions": {
-        "coingeckoId": "aura-network",
-        "isNative": true,
-        "network": "aura"
+        "website": "https://tether.to",
+        "coingeckoId": "tether"
       }
     },
     {
-      "chainId": 0,
-      "address": "SYS",
-      "name": "Syscoin",
-      "symbol": "SYS",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/syscoin/info/logo.png",
-      "tags": ["native", "layer-1", "pow", "smart-contracts"],
-      "extensions": {
-        "coingeckoId": "syscoin",
-        "isNative": true,
-        "network": "syscoin"
-      }
-    },
-    {
-      "chainId": 0,
-      "address": "BNB",
-      "name": "BNB Beacon Chain",
-      "symbol": "BNB",
-      "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/binance-beacon/info/logo.png",
-      "tags": ["native", "layer-1", "staking-native", "dex"],
-      "extensions": {
-        "coingeckoId": "binancecoin",
-        "isNative": true,
-        "network": "binance-beacon"
-      }
-    },
-    {
-      "chainId": 128,
-      "address": "HT",
-      "name": "HECO Chain",
-      "symbol": "HT",
+      "chainId": 195,
+      "address": "TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4",
+      "name": "BitTorrent",
+      "symbol": "BTT",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/heco/info/logo.png",
-      "tags": ["native", "layer-1", "smart-contracts", "evm"],
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TAFjULxiVgT4qWk6UZwjqwZXTSaGaqnVp4/logo.png",
+      "tags": [
+        "storage",
+        "utility",
+        "infrastructure"
+      ],
       "extensions": {
-        "coingeckoId": "huobi-token",
-        "isNative": true,
-        "network": "heco"
+        "website": "https://www.bittorrent.com/btt/",
+        "coingeckoId": "bittorrent"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9",
+      "name": "JUST",
+      "symbol": "JST",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TCFLL5dx5ZJdKnWuesXxi1VPwjLVmWZZy9/logo.png",
+      "tags": [
+        "defi",
+        "governance",
+        "lending"
+      ],
+      "extensions": {
+        "website": "https://just.network/",
+        "coingeckoId": "just"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://www.circle.com/usdc",
+        "coingeckoId": "usd-coin"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://tether.to",
+        "coingeckoId": "tether"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+      "name": "SUN",
+      "symbol": "SUN",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S/logo.png",
+      "tags": [
+        "defi",
+        "governance",
+        "dex"
+      ],
+      "extensions": {
+        "website": "https://sun.io/",
+        "coingeckoId": "sun-token"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4",
+      "name": "TrueUSD",
+      "symbol": "TUSD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TUpMhErZL2fhh4sVNULAbNKLokS4GjC1F4/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://tusd.io/",
+        "coingeckoId": "true-usd"
+      }
+    },
+    {
+      "chainId": 195,
+      "address": "TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz",
+      "name": "USDD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/tron/assets/TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz/logo.png",
+      "tags": [
+        "stablecoin",
+        "defi"
+      ],
+      "extensions": {
+        "website": "https://usdd.io/",
+        "coingeckoId": "usdd"
       }
     }
   ]

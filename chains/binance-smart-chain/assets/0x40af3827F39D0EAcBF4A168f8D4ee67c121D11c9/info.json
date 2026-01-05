@@ -1,0 +1,19 @@
+{
+  "name": "TrueUSD",
+  "symbol": "TUSD",
+  "type": "BEP20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+  "description": "TrueUSD is a stablecoin backed 1:1 by U.S. dollars with live on-chain attestations by independent third-party institutions.",
+  "website": "https://tusd.io/",
+  "explorer": "https://bscscan.com/token/0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+  "tags": ["stablecoin"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/tusdio"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/true-usd"}
+  ],
+  "pricing": {
+    "coingecko_id": "true-usd"
+  }
+}

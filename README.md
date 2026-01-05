@@ -111,6 +111,26 @@ All submitted data should meet these criteria:
 - Manifest versions are updated on changes
 - Community review required for sensitive data (scams, verified badges)
 
+## Disclaimer
+
+**IMPORTANT: Please read carefully before using this data.**
+
+This repository contains community-contributed data and is provided "as-is" without any warranties of any kind, express or implied.
+
+- **No Guarantee of Accuracy**: While we strive to maintain accurate information, we cannot guarantee that all data (token addresses, contract information, validator details, etc.) is correct, complete, or up-to-date.
+
+- **Do Your Own Research (DYOR)**: Users are solely responsible for verifying any information before interacting with tokens, contracts, validators, or any blockchain addresses listed here. Always verify contract addresses through official project sources and block explorers.
+
+- **Not Financial Advice**: Nothing in this repository constitutes financial, investment, legal, or tax advice. The inclusion of any token or project does not represent an endorsement or recommendation.
+
+- **No Liability**: The maintainers, contributors, and Hexis Wallet are not responsible for any losses, damages, or other liabilities arising from the use of this data, including but not limited to losses from interacting with scam tokens, incorrect contract addresses, or malicious actors.
+
+- **Community Contributions**: This is an open-source, community-maintained repository. Anyone can submit pull requests, and while we review contributions, malicious or incorrect data may occasionally be merged.
+
+- **Report Issues**: If you discover incorrect or malicious data, please [report it immediately](https://github.com/fbsobreira/wallet-data/issues).
+
+**By using this data, you acknowledge that you have read and understood this disclaimer and agree to assume all risks associated with its use.**
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

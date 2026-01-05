@@ -138,6 +138,16 @@ validate_logo() {
         return 1
     fi
 
+    # Check if file is actually a PNG (not JPEG with .png extension)
+    if command -v file &> /dev/null; then
+        local file_type
+        file_type=$(file -b "$file" | cut -d' ' -f1)
+        if [ "$file_type" != "PNG" ]; then
+            log_error "$file is not a valid PNG file (detected: $file_type)"
+            return 1
+        fi
+    fi
+
     # Check file size (max 100KB)
     local size
     size=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null)
@@ -209,8 +219,8 @@ validate_chains() {
                 local network
                 network=$(basename "$network_dir")
 
-                # Validate EVM addresses
-                if [[ "$network" =~ ^(ethereum|polygon|bsc)$ ]]; then
+                # Validate EVM addresses (all EVM-compatible chains)
+                if [[ "$network" =~ ^(ethereum|polygon|polygon-zkevm|binance-smart-chain|arbitrum|optimism|base|avalanche|fantom|moonbeam|moonriver|harmony|heco|rollux|syscoin-nevm|chiliz)$ ]]; then
                     local address
                     address=$(basename "$asset_dir")
                     validate_evm_address "$address" "$info_file"

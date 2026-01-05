@@ -1,0 +1,19 @@
+{
+  "name": "OKB",
+  "symbol": "OKB",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0x75231F58b43240C9718Dd58B4967c5114342a86c",
+  "description": "OKB is the global utility token issued by the OK Blockchain Foundation for the OKX ecosystem.",
+  "website": "https://www.okx.com/okb",
+  "explorer": "https://etherscan.io/token/0x75231F58b43240C9718Dd58B4967c5114342a86c",
+  "tags": ["exchange", "utility"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/okx"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/okb"}
+  ],
+  "pricing": {
+    "coingecko_id": "okb"
+  }
+}

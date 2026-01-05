@@ -1,0 +1,32 @@
+{
+  "name": "KunaiKash",
+  "symbol": "KUNAI",
+  "type": "KDA",
+  "decimals": 6,
+  "status": "active",
+  "id": "KUNAI-18TK",
+  "description": "KunaiKash is a community token on the Klever blockchain.",
+  "website": "https://kunaikash.com",
+  "explorer": "https://kleverscan.org/asset/KUNAI-18TK",
+  "tags": ["community", "defi"],
+  "links": [
+    {"name": "kleverscan", "url": "https://kleverscan.org/asset/KUNAI-18TK"}
+  ],
+  "staking": {
+    "enabled": true,
+    "type": "native",
+    "native_staking": true,
+    "protocol": "Klever KDA Pool",
+    "rewards_token": "KUNAI"
+  },
+  "klever": {
+    "asset_type": "Fungible",
+    "precision": 6,
+    "owner": "klv1q286u2cn7gt6s6smu5gp6jkgu3munpykv6frrdr2cupcu33rs6xqc8mfnh",
+    "staking": {
+      "enabled": true,
+      "apr": "20%",
+      "claim_type": "manual"
+    }
+  }
+}

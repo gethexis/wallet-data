@@ -1,0 +1,25 @@
+{
+  "name": "SUN",
+  "symbol": "SUN",
+  "type": "TRC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+  "description": "SUN is the leading DeFi protocol on TRON for swap, stake, earn, liquidity mining and governance.",
+  "website": "https://sun.io/",
+  "explorer": "https://tronscan.org/#/token20/TSSMHYeV2uE9qYH95DqyoCuNCzEL1NvU3S",
+  "tags": ["defi", "governance", "dex"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/defi_sunio"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/sun-token"}
+  ],
+  "pricing": {
+    "coingecko_id": "sun-token"
+  },
+  "staking": {
+    "enabled": true,
+    "type": "pool",
+    "protocol": "SUN.io",
+    "staking_url": "https://sun.io/"
+  }
+}

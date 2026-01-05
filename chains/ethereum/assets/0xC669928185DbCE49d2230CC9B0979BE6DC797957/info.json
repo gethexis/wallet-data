@@ -1,0 +1,19 @@
+{
+  "name": "BitTorrent",
+  "symbol": "BTT",
+  "type": "ERC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "0xC669928185DbCE49d2230CC9B0979BE6DC797957",
+  "description": "BitTorrent token enables economic incentives for shared networking, bandwidth, and storage resources.",
+  "website": "https://www.bittorrent.com/btt/",
+  "explorer": "https://etherscan.io/token/0xC669928185DbCE49d2230CC9B0979BE6DC797957",
+  "tags": ["storage", "utility", "infrastructure"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/BitTorrent"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/bittorrent"}
+  ],
+  "pricing": {
+    "coingecko_id": "bittorrent"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "USDD",
+  "symbol": "USDD",
+  "type": "TRC20",
+  "decimals": 18,
+  "status": "active",
+  "id": "TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz",
+  "description": "USDD is a decentralized stablecoin on TRON, managed by the TRON DAO Reserve.",
+  "website": "https://usdd.io/",
+  "explorer": "https://tronscan.org/#/token20/TXDk8mbtRbXeYuMNS83CfKPaYYT8XWv9Hz",
+  "tags": ["stablecoin", "defi"],
+  "links": [
+    {"name": "twitter", "url": "https://x.com/usddio"},
+    {"name": "coingecko", "url": "https://www.coingecko.com/en/coins/usdd"}
+  ],
+  "pricing": {
+    "coingecko_id": "usdd"
+  }
+}
