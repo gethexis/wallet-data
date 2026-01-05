@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "statistics": {
+    "total_addresses": 13,
+    "total_domains": 10,
+    "total_contracts": 0,
+    "reports_30d": 0
+  },
+  "categories": [
+    "phishing",
+    "rugpull",
+    "honeypot",
+    "fake-token",
+    "drainer",
+    "scam-airdrop",
+    "impersonation",
+    "ponzi"
+  ],
+  "networks": [
+    "ethereum",
+    "binance-smart-chain",
+    "tron",
+    "polygon",
+    "arbitrum",
+    "klever",
+    "solana"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "sources": [
+    "https://github.com/MetaMask/eth-phishing-detect",
+    "https://chainpatrol.io",
+    "community reports"
+  ],
+  "domains": [
+    {
+      "domain": "metamask-wallet.io",
+      "type": "phishing",
+      "impersonates": "MetaMask",
+      "severity": "critical",
+      "first_reported": "2024-01-01T00:00:00Z",
+      "status": "active",
+      "evidence": ["Fake MetaMask download page"],
+      "verified": true
+    },
+    {
+      "domain": "uniswap-airdrop.com",
+      "type": "phishing",
+      "impersonates": "Uniswap",
+      "severity": "critical",
+      "first_reported": "2024-01-01T00:00:00Z",
+      "status": "active",
+      "evidence": ["Fake airdrop claiming UNI tokens"],
+      "verified": true
+    },
+    {
+      "domain": "pancakeswap-v3.com",
+      "type": "phishing",
+      "impersonates": "PancakeSwap",
+      "severity": "critical",
+      "first_reported": "2024-01-01T00:00:00Z",
+      "status": "active",
+      "evidence": ["Fake DEX interface with drainer"],
+      "verified": true
+    },
+    {
+      "domain": "opensea-nft.io",
+      "type": "phishing",
+      "impersonates": "OpenSea",
+      "severity": "critical",
+      "first_reported": "2024-01-01T00:00:00Z",
+      "status": "active",
+      "evidence": ["Fake NFT marketplace"],
+      "verified": true
+    },
+    {
+      "domain": "etherscan-verify.com",
+      "type": "phishing",
+      "impersonates": "Etherscan",
+      "severity": "critical",
+      "first_reported": "2024-01-01T00:00:00Z",
+      "status": "active",
+      "evidence": ["Fake verification page stealing keys"],
+      "verified": true
+    },
+    {
+      "domain": "trust-wallet-app.com",
+      "type": "phishing",
+      "impersonates": "Trust Wallet",
+      "severity": "critical",
+      "first_reported": "2024-01-01T00:00:00Z",
+      "status": "active",
+      "evidence": ["Fake wallet download"],
+      "verified": true
+    },
+    {
+      "domain": "coinbase-pro-login.com",
+      "type": "phishing",
+      "impersonates": "Coinbase",
+      "severity": "critical",
+      "first_reported": "2024-01-01T00:00:00Z",
+      "status": "active",
+      "evidence": ["Fake exchange login"],
+      "verified": true
+    },
+    {
+      "domain": "binance-dex.io",
+      "type": "phishing",
+      "impersonates": "Binance",
+      "severity": "critical",
+      "first_reported": "2024-01-01T00:00:00Z",
+      "status": "active",
+      "evidence": ["Fake Binance DEX"],
+      "verified": true
+    },
+    {
+      "domain": "ledger-live-app.com",
+      "type": "phishing",
+      "impersonates": "Ledger",
+      "severity": "critical",
+      "first_reported": "2024-01-01T00:00:00Z",
+      "status": "active",
+      "evidence": ["Fake Ledger Live download"],
+      "verified": true
+    },
+    {
+      "domain": "aave-v3-airdrop.com",
+      "type": "phishing",
+      "impersonates": "Aave",
+      "severity": "critical",
+      "first_reported": "2024-01-01T00:00:00Z",
+      "status": "active",
+      "evidence": ["Fake Aave airdrop"],
+      "verified": true
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "*-airdrop.com",
+      "description": "Common airdrop scam pattern",
+      "severity": "high"
+    },
+    {
+      "pattern": "*-wallet-*.com",
+      "description": "Fake wallet download sites",
+      "severity": "high"
+    },
+    {
+      "pattern": "*-verify.com",
+      "description": "Fake verification sites",
+      "severity": "high"
+    },
+    {
+      "pattern": "*-claim.com",
+      "description": "Fake token claim sites",
+      "severity": "high"
+    }
+  ]
+}
