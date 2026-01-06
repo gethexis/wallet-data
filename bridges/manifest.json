@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-06T00:00:00Z",
+  "description": "Cross-chain bridge protocols for token transfers between networks",
+  "categories": [
+    "official",
+    "third-party",
+    "messaging"
+  ],
+  "risk_levels": {
+    "low": "Official chain bridges with strong security guarantees",
+    "medium": "Established third-party bridges with audits",
+    "high": "Newer or less audited bridge protocols"
+  }
+}

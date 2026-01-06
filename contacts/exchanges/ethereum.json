@@ -1,0 +1,75 @@
+{
+  "network": "ethereum",
+  "category": "exchanges",
+  "version": "1.0.0",
+  "updated": "2026-01-06T00:00:00Z",
+  "contacts": [
+    {
+      "name": "Binance",
+      "addresses": [
+        {
+          "address": "0x28C6c06298d514Db089934071355E5743bf21d60",
+          "label": "Binance 14"
+        },
+        {
+          "address": "0x21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+          "label": "Binance 15"
+        },
+        {
+          "address": "0xDFd5293D8e347dFe59E90eFd55b2956a1343963d",
+          "label": "Binance 16"
+        }
+      ],
+      "website": "https://www.binance.com",
+      "verified": true
+    },
+    {
+      "name": "Coinbase",
+      "addresses": [
+        {
+          "address": "0x71660c4005BA85c37ccec55d0C4493E66Fe775d3",
+          "label": "Coinbase 1"
+        },
+        {
+          "address": "0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43",
+          "label": "Coinbase 10"
+        }
+      ],
+      "website": "https://www.coinbase.com",
+      "verified": true
+    },
+    {
+      "name": "Kraken",
+      "addresses": [
+        {
+          "address": "0x2910543Af39abA0Cd09dBb2D50200b3E800A63D2",
+          "label": "Kraken 1"
+        }
+      ],
+      "website": "https://www.kraken.com",
+      "verified": true
+    },
+    {
+      "name": "OKX",
+      "addresses": [
+        {
+          "address": "0x6cC5F688a315f3dC28A7781717a9A798a59fDA7b",
+          "label": "OKX"
+        }
+      ],
+      "website": "https://www.okx.com",
+      "verified": true
+    },
+    {
+      "name": "KuCoin",
+      "addresses": [
+        {
+          "address": "0xD6216fC19DB775Df9774a6E33526131dA7D19a2c",
+          "label": "KuCoin 6"
+        }
+      ],
+      "website": "https://www.kucoin.com",
+      "verified": true
+    }
+  ]
+}

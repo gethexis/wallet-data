@@ -1,0 +1,91 @@
+{
+  "name": "Hexis Wallet: Optimism",
+  "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/optimism/info/logo.png",
+  "timestamp": "2026-01-06T16:09:26Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "hexis",
+    "hexis-wallet:-optimism"
+  ],
+  "tokens": [
+    {
+      "chainId": 0,
+      "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/optimism/assets/0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://www.circle.com/usdc"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/optimism/assets/0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6/logo.png",
+      "tags": [
+        "defi",
+        "oracle"
+      ],
+      "extensions": {
+        "website": "https://chain.link"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x4200000000000000000000000000000000000042",
+      "name": "Optimism",
+      "symbol": "OP",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/optimism/assets/0x4200000000000000000000000000000000000042/logo.png",
+      "tags": [
+        "governance",
+        "layer2"
+      ],
+      "extensions": {
+        "website": "https://optimism.io"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/optimism/assets/0x68f180fcCe6836688e9084f035309E29Bf0A2095/logo.png",
+      "tags": [
+        "wrapped",
+        "bitcoin"
+      ],
+      "extensions": {
+        "website": "https://wbtc.network"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x6fd9d7AD17242c41f7131d257212c54A0e816691",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/optimism/assets/0x6fd9d7AD17242c41f7131d257212c54A0e816691/logo.png",
+      "tags": [
+        "defi",
+        "governance",
+        "dex"
+      ],
+      "extensions": {
+        "website": "https://uniswap.org"
+      }
+    }
+  ]
+}

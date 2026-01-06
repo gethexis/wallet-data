@@ -1,0 +1,60 @@
+{
+  "name": "Hexis Wallet: Base",
+  "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/base/info/logo.png",
+  "timestamp": "2026-01-06T16:09:25Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "hexis",
+    "hexis-wallet:-base"
+  ],
+  "tokens": [
+    {
+      "chainId": 0,
+      "address": "0x1ceA84203673764244E05693e42E6Ace62bE9BA5",
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/base/assets/0x1ceA84203673764244E05693e42E6Ace62bE9BA5/logo.png",
+      "tags": [
+        "wrapped",
+        "bitcoin"
+      ],
+      "extensions": {
+        "website": "https://wbtc.network"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/base/assets/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://www.circle.com/usdc"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/base/assets/0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196/logo.png",
+      "tags": [
+        "defi",
+        "oracle"
+      ],
+      "extensions": {
+        "website": "https://chain.link"
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Hexis Wallet: Avalanche C-Chain",
+  "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/avalanche/info/logo.png",
+  "timestamp": "2026-01-06T16:09:25Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "hexis",
+    "hexis-wallet:-avalanche-c-chain"
+  ],
+  "tokens": [
+    {
+      "chainId": 0,
+      "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/avalanche/assets/0x0555E30da8f98308EdB960aa94C0Db47230d2B9c/logo.png",
+      "tags": [
+        "wrapped",
+        "bitcoin"
+      ],
+      "extensions": {
+        "website": "https://wbtc.network"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x5947BB275c521040051D82396192181b413227A3",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/avalanche/assets/0x5947BB275c521040051D82396192181b413227A3/logo.png",
+      "tags": [
+        "defi",
+        "oracle"
+      ],
+      "extensions": {
+        "website": "https://chain.link"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/avalanche/assets/0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580/logo.png",
+      "tags": [
+        "defi",
+        "governance",
+        "dex"
+      ],
+      "extensions": {
+        "website": "https://uniswap.org"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/avalanche/assets/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://tether.to"
+      }
+    },
+    {
+      "chainId": 0,
+      "address": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/fbsobreira/wallet-data/main/chains/avalanche/assets/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/logo.png",
+      "tags": [
+        "stablecoin"
+      ],
+      "extensions": {
+        "website": "https://www.circle.com/usdc"
+      }
+    }
+  ]
+}

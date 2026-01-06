@@ -19,12 +19,12 @@ WARNINGS=0
 
 log_error() {
     echo -e "${RED}ERROR:${NC} $1"
-    ((ERRORS++))
+    ERRORS=$((ERRORS + 1))
 }
 
 log_warning() {
     echo -e "${YELLOW}WARNING:${NC} $1"
-    ((WARNINGS++))
+    WARNINGS=$((WARNINGS + 1))
 }
 
 log_success() {
@@ -184,8 +184,12 @@ validate_evm_address() {
     fi
 
     # Check if it has mixed case (indicates checksum format)
-    if [[ "$address" =~ ^0x[a-f0-9]{40}$ ]] || [[ "$address" =~ ^0x[A-F0-9]{40}$ ]]; then
-        log_warning "Address should use checksum format: $address in $file"
+    # Skip warning for addresses without letters (e.g., 0x4200...0042) - no checksum possible
+    local addr_body="${address:2}"
+    if [[ "$addr_body" =~ [a-fA-F] ]]; then
+        if [[ "$address" =~ ^0x[a-f0-9]{40}$ ]] || [[ "$address" =~ ^0x[A-F0-9]{40}$ ]]; then
+            log_warning "Address should use checksum format: $address in $file"
+        fi
     fi
 
     return 0

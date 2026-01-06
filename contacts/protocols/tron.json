@@ -1,0 +1,45 @@
+{
+  "network": "tron",
+  "category": "protocols",
+  "version": "1.0.0",
+  "updated": "2026-01-06T00:00:00Z",
+  "contacts": [
+    {
+      "name": "SunSwap",
+      "addresses": [
+        {
+          "address": "TKzxdSv2FZKQrEqkKVgp5DcwEXBEKMg2Ax",
+          "label": "SunSwap V2 Router"
+        }
+      ],
+      "website": "https://sunswap.com",
+      "verified": true
+    },
+    {
+      "name": "JustLend DAO",
+      "addresses": [
+        {
+          "address": "TGjYzgCyPobsNS9n6WcbdLVR9dH7mWqFx7",
+          "label": "Unitroller (Main Entry)"
+        },
+        {
+          "address": "TB23wYojvAsSx6gR8ebHiBqwSeABiBMPAr",
+          "label": "Comptroller (Implementation)"
+        }
+      ],
+      "website": "https://justlend.org",
+      "verified": true
+    },
+    {
+      "name": "USDT TRC20",
+      "addresses": [
+        {
+          "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+          "label": "USDT Token Contract"
+        }
+      ],
+      "website": "https://tether.to",
+      "verified": true
+    }
+  ]
+}

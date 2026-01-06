@@ -1,0 +1,32 @@
+{
+  "network": "klever",
+  "category": "protocols",
+  "version": "1.0.0",
+  "updated": "2026-01-06T00:00:00Z",
+  "contacts": [
+    {
+      "name": "Klever System: Zero Address",
+      "addresses": [
+        {
+          "address": "klv1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqpgm89z",
+          "label": "Zero Address"
+        }
+      ],
+      "website": "https://klever.org",
+      "description": "System zero address used for token minting and burning operations",
+      "verified": true
+    },
+    {
+      "name": "Klever System: Blackhole",
+      "addresses": [
+        {
+          "address": "klv1000000000000000000000000000000000000000000000000000ql8r3r7",
+          "label": "Blackhole"
+        }
+      ],
+      "website": "https://klever.org",
+      "description": "Permanently locks assets. Used to cap supply on mintable tokens without allowing future minting",
+      "verified": true
+    }
+  ]
+}

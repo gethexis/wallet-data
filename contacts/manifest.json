@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-06T00:00:00Z",
+  "description": "Known and verified blockchain addresses for identification",
+  "categories": {
+    "exchanges": "Centralized exchange hot/cold wallets",
+    "foundations": "Blockchain foundations and official entities",
+    "notable": "Notable public figures and known addresses",
+    "protocols": "DeFi protocols and smart contract addresses"
+  },
+  "networks": ["ethereum", "polygon", "arbitrum", "bsc", "tron", "solana", "klever"]
+}

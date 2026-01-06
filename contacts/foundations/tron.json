@@ -1,0 +1,20 @@
+{
+  "network": "tron",
+  "category": "foundations",
+  "version": "1.0.0",
+  "updated": "2026-01-06T00:00:00Z",
+  "contacts": [
+    {
+      "name": "TRON DAO",
+      "addresses": [
+        {
+          "address": "TLsV52sRDL79HXGGm9yzwKibb6BeruhUzy",
+          "label": "Blackhole (Burn Address)"
+        }
+      ],
+      "website": "https://trondao.org",
+      "description": "System burn address for removing tokens from circulation",
+      "verified": true
+    }
+  ]
+}

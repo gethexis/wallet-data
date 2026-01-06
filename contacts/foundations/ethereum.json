@@ -1,0 +1,19 @@
+{
+  "network": "ethereum",
+  "category": "foundations",
+  "version": "1.0.0",
+  "updated": "2026-01-06T00:00:00Z",
+  "contacts": [
+    {
+      "name": "Ethereum Foundation",
+      "addresses": [
+        {
+          "address": "0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe",
+          "label": "EthDev"
+        }
+      ],
+      "website": "https://ethereum.foundation",
+      "verified": true
+    }
+  ]
+}

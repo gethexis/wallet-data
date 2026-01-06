@@ -1,0 +1,30 @@
+{
+  "network": "ethereum",
+  "category": "notable",
+  "version": "1.0.0",
+  "updated": "2026-01-06T00:00:00Z",
+  "contacts": [
+    {
+      "name": "Vitalik Buterin",
+      "addresses": [
+        {
+          "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+          "label": "vitalik.eth"
+        }
+      ],
+      "description": "Ethereum co-founder",
+      "verified": true
+    },
+    {
+      "name": "Justin Sun",
+      "addresses": [
+        {
+          "address": "0x3DdfA8eC3052539b6C9549F12cEA2C295cfF5296",
+          "label": "Justin Sun ETH"
+        }
+      ],
+      "description": "TRON founder",
+      "verified": true
+    }
+  ]
+}

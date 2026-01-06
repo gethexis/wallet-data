@@ -1,0 +1,182 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-06T00:00:00Z",
+  "bridges": [
+    {
+      "id": "arbitrum-bridge",
+      "name": "Arbitrum Bridge",
+      "description": "Official Arbitrum One canonical bridge",
+      "url": "https://portal.arbitrum.io/bridge",
+      "category": "official",
+      "risk_level": "low",
+      "supported_chains": ["ethereum", "arbitrum"],
+      "token_types": ["native", "erc20"],
+      "status": "active",
+      "audit": {
+        "audited": true,
+        "auditors": ["Trail of Bits", "OpenZeppelin"]
+      },
+      "social": {
+        "twitter": "https://x.com/arbitrum"
+      }
+    },
+    {
+      "id": "optimism-bridge",
+      "name": "Optimism Bridge",
+      "description": "Official Optimism canonical bridge",
+      "url": "https://app.optimism.io/bridge",
+      "category": "official",
+      "risk_level": "low",
+      "supported_chains": ["ethereum", "optimism"],
+      "token_types": ["native", "erc20"],
+      "status": "active",
+      "audit": {
+        "audited": true,
+        "auditors": ["Trail of Bits", "OpenZeppelin"]
+      },
+      "social": {
+        "twitter": "https://x.com/Optimism"
+      }
+    },
+    {
+      "id": "polygon-bridge",
+      "name": "Polygon Bridge",
+      "description": "Official Polygon PoS bridge",
+      "url": "https://portal.polygon.technology/bridge",
+      "category": "official",
+      "risk_level": "low",
+      "supported_chains": ["ethereum", "polygon"],
+      "token_types": ["native", "erc20"],
+      "status": "active",
+      "audit": {
+        "audited": true
+      },
+      "social": {
+        "twitter": "https://x.com/0xPolygon"
+      }
+    },
+    {
+      "id": "base-bridge",
+      "name": "Base Bridge (Superbridge)",
+      "description": "Official Base bridge interface via Superbridge",
+      "url": "https://superbridge.app/base",
+      "category": "official",
+      "risk_level": "low",
+      "supported_chains": ["ethereum", "base"],
+      "token_types": ["native", "erc20"],
+      "status": "active",
+      "notes": "Original bridge.base.org deprecated in 2024. Now uses Superbridge interface.",
+      "social": {
+        "twitter": "https://x.com/base"
+      }
+    },
+    {
+      "id": "stargate",
+      "name": "Stargate Finance",
+      "description": "Cross-chain bridge built on LayerZero",
+      "url": "https://stargate.finance",
+      "category": "third-party",
+      "risk_level": "medium",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base", "bsc", "avalanche"],
+      "token_types": ["stablecoins", "native"],
+      "status": "active",
+      "audit": {
+        "audited": true,
+        "auditors": ["Quantstamp", "Zokyo"]
+      },
+      "social": {
+        "twitter": "https://x.com/StargateFinance"
+      }
+    },
+    {
+      "id": "across",
+      "name": "Across Protocol",
+      "description": "Fast and low-cost cross-chain bridge",
+      "url": "https://across.to",
+      "category": "third-party",
+      "risk_level": "medium",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base", "bsc"],
+      "token_types": ["native", "erc20"],
+      "status": "active",
+      "audit": {
+        "audited": true,
+        "auditors": ["OpenZeppelin"]
+      },
+      "social": {
+        "twitter": "https://x.com/AcrossProtocol"
+      }
+    },
+    {
+      "id": "hop-protocol",
+      "name": "Hop Protocol",
+      "description": "Token bridge for rollups and sidechains",
+      "url": "https://hop.exchange",
+      "category": "third-party",
+      "risk_level": "medium",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base"],
+      "token_types": ["native", "erc20", "stablecoins"],
+      "status": "active",
+      "audit": {
+        "audited": true,
+        "auditors": ["OpenZeppelin"]
+      },
+      "social": {
+        "twitter": "https://x.com/HopProtocol"
+      }
+    },
+    {
+      "id": "synapse",
+      "name": "Synapse Protocol",
+      "description": "Cross-chain bridge and messaging protocol",
+      "url": "https://synapseprotocol.com",
+      "category": "third-party",
+      "risk_level": "medium",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "bsc", "avalanche"],
+      "token_types": ["native", "erc20", "stablecoins"],
+      "status": "active",
+      "audit": {
+        "audited": true
+      },
+      "social": {
+        "twitter": "https://x.com/SynapseProtocol"
+      }
+    },
+    {
+      "id": "wormhole",
+      "name": "Wormhole",
+      "description": "Generic message passing protocol connecting multiple chains",
+      "url": "https://wormhole.com",
+      "category": "messaging",
+      "risk_level": "medium",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "bsc", "avalanche", "solana"],
+      "token_types": ["native", "erc20"],
+      "status": "active",
+      "audit": {
+        "audited": true,
+        "auditors": ["Neodyme", "Kudelski"]
+      },
+      "notes": "Had security incident in Feb 2022, since patched",
+      "social": {
+        "twitter": "https://x.com/wormhole"
+      }
+    },
+    {
+      "id": "layerzero",
+      "name": "LayerZero",
+      "description": "Omnichain interoperability protocol",
+      "url": "https://layerzero.network",
+      "category": "messaging",
+      "risk_level": "medium",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base", "bsc", "avalanche"],
+      "token_types": ["native", "erc20"],
+      "status": "active",
+      "audit": {
+        "audited": true,
+        "auditors": ["Quantstamp", "Zellic"]
+      },
+      "social": {
+        "twitter": "https://x.com/LayerZero_Labs"
+      }
+    }
+  ]
+}

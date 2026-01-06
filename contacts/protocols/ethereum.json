@@ -1,0 +1,56 @@
+{
+  "network": "ethereum",
+  "category": "protocols",
+  "version": "1.0.0",
+  "updated": "2026-01-06T00:00:00Z",
+  "contacts": [
+    {
+      "name": "Uniswap",
+      "addresses": [
+        {
+          "address": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+          "label": "Uniswap V3 Factory"
+        },
+        {
+          "address": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+          "label": "Uniswap Router"
+        }
+      ],
+      "website": "https://uniswap.org",
+      "verified": true
+    },
+    {
+      "name": "Aave",
+      "addresses": [
+        {
+          "address": "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2",
+          "label": "Aave V3 Pool"
+        }
+      ],
+      "website": "https://aave.com",
+      "verified": true
+    },
+    {
+      "name": "Lido",
+      "addresses": [
+        {
+          "address": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+          "label": "Lido stETH"
+        }
+      ],
+      "website": "https://lido.fi",
+      "verified": true
+    },
+    {
+      "name": "Chainlink",
+      "addresses": [
+        {
+          "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+          "label": "LINK Token"
+        }
+      ],
+      "website": "https://chain.link",
+      "verified": true
+    }
+  ]
+}
