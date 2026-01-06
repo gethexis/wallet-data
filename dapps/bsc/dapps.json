@@ -1,0 +1,119 @@
+{
+  "network_id": "bsc",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "dapps": [
+    {
+      "id": "pancakeswap",
+      "name": "PancakeSwap",
+      "description": "Leading DEX on BNB Chain with farms and pools",
+      "url": "https://pancakeswap.finance",
+      "category": "defi",
+      "subcategory": "dex",
+      "contracts": [
+        {
+          "name": "Router V3",
+          "address": "0x13f4EA83D0bd40E75C8222255bc855a974568Dd4"
+        }
+      ],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Certik", "SlowMist", "PeckShield"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["swap", "dex", "farming", "lottery"],
+      "social": {
+        "twitter": "https://x.com/PancakeSwap",
+        "github": "https://github.com/pancakeswap"
+      }
+    },
+    {
+      "id": "bscscan",
+      "name": "BscScan",
+      "description": "Block explorer for BNB Smart Chain",
+      "url": "https://bscscan.com",
+      "category": "utility",
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["explorer", "analytics"],
+      "social": {
+        "twitter": "https://x.com/bscscan"
+      }
+    },
+    {
+      "id": "venus",
+      "name": "Venus Protocol",
+      "description": "Algorithmic money market and stablecoin protocol",
+      "url": "https://app.venus.io",
+      "category": "defi",
+      "subcategory": "lending",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Certik", "Hacken", "PeckShield"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["lending", "borrowing", "stablecoin"],
+      "social": {
+        "twitter": "https://x.com/VenusProtocol",
+        "github": "https://github.com/VenusProtocol"
+      }
+    },
+    {
+      "id": "biswap",
+      "name": "Biswap",
+      "description": "DEX with multi-type referral system",
+      "url": "https://biswap.org",
+      "category": "defi",
+      "subcategory": "dex",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Certik"]
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["swap", "dex", "farming"],
+      "social": {
+        "twitter": "https://x.com/Biswap_Dex"
+      }
+    },
+    {
+      "id": "thena",
+      "name": "Thena",
+      "description": "Native liquidity layer on BNB Chain",
+      "url": "https://thena.fi",
+      "category": "defi",
+      "subcategory": "dex",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["OpenZeppelin"]
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["swap", "liquidity", "ve-token"],
+      "social": {
+        "twitter": "https://x.com/ThenaFi_"
+      }
+    }
+  ]
+}

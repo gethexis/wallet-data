@@ -1,0 +1,111 @@
+{
+  "network_id": "arbitrum",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "dapps": [
+    {
+      "id": "gmx",
+      "name": "GMX",
+      "description": "Decentralized perpetual exchange with low fees",
+      "url": "https://app.gmx.io",
+      "category": "defi",
+      "subcategory": "dex",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["ABDK", "Quantstamp"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["perpetuals", "trading", "leverage"],
+      "social": {
+        "twitter": "https://x.com/GMX_IO",
+        "github": "https://github.com/gmx-io"
+      }
+    },
+    {
+      "id": "camelot",
+      "name": "Camelot",
+      "description": "Native Arbitrum DEX with concentrated liquidity",
+      "url": "https://app.camelot.exchange",
+      "category": "defi",
+      "subcategory": "dex",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Paladin", "Hacken"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["swap", "dex", "liquidity", "native"],
+      "social": {
+        "twitter": "https://x.com/CamelotDEX"
+      }
+    },
+    {
+      "id": "arbiscan",
+      "name": "Arbiscan",
+      "description": "Block explorer for Arbitrum One",
+      "url": "https://arbiscan.io",
+      "category": "utility",
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["explorer", "analytics"]
+    },
+    {
+      "id": "radiant",
+      "name": "Radiant Capital",
+      "description": "Cross-chain lending protocol",
+      "url": "https://app.radiant.capital",
+      "category": "defi",
+      "subcategory": "lending",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["PeckShield", "Zokyo"]
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["lending", "borrowing", "cross-chain"],
+      "social": {
+        "twitter": "https://x.com/RDNTCapital",
+        "discord": "https://discord.gg/radiantcapital"
+      }
+    },
+    {
+      "id": "pendle",
+      "name": "Pendle",
+      "description": "Yield trading protocol for fixed and variable yields",
+      "url": "https://app.pendle.finance",
+      "category": "defi",
+      "subcategory": "yield",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Ackee Blockchain", "Dedaub"]
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["yield", "trading", "defi"],
+      "social": {
+        "twitter": "https://x.com/pendle_fi",
+        "github": "https://github.com/pendle-finance"
+      }
+    }
+  ]
+}

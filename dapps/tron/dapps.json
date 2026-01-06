@@ -1,0 +1,71 @@
+{
+  "network_id": "tron",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "dapps": [
+    {
+      "id": "tronscan",
+      "name": "TRONSCAN",
+      "description": "Official block explorer for TRON network",
+      "url": "https://tronscan.org",
+      "category": "utility",
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["explorer", "analytics"],
+      "social": {
+        "twitter": "https://x.com/TRONSCAN_ORG"
+      }
+    },
+    {
+      "id": "sunswap",
+      "name": "SunSwap",
+      "description": "Official DEX on TRON network by Sun.io",
+      "url": "https://sunswap.com",
+      "category": "defi",
+      "subcategory": "dex",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["SlowMist"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["swap", "dex", "liquidity"]
+    },
+    {
+      "id": "justlend",
+      "name": "JustLend",
+      "description": "Official lending protocol on TRON",
+      "url": "https://justlend.org",
+      "category": "defi",
+      "subcategory": "lending",
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["lending", "borrowing", "defi"],
+      "social": {
+        "twitter": "https://x.com/DeFi_JUST"
+      }
+    },
+    {
+      "id": "sun-io",
+      "name": "Sun.io",
+      "description": "Integrated DeFi ecosystem on TRON",
+      "url": "https://sun.io",
+      "category": "defi",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["defi", "staking", "governance"]
+    }
+  ]
+}

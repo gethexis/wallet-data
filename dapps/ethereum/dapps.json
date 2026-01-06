@@ -1,0 +1,181 @@
+{
+  "network_id": "ethereum",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "dapps": [
+    {
+      "id": "ens",
+      "name": "ENS Domains",
+      "description": "Decentralized naming system for Ethereum addresses",
+      "url": "https://app.ens.domains",
+      "category": "utility",
+      "contracts": [
+        {
+          "name": "ENS Registry",
+          "address": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+        }
+      ],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["OpenZeppelin"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["naming", "identity", "domains"],
+      "social": {
+        "twitter": "https://x.com/ensdomains",
+        "github": "https://github.com/ensdomains"
+      }
+    },
+    {
+      "id": "maker",
+      "name": "MakerDAO",
+      "description": "Decentralized stablecoin protocol behind DAI",
+      "url": "https://app.spark.fi",
+      "category": "defi",
+      "subcategory": "lending",
+      "contracts": [
+        {
+          "name": "DAI Token",
+          "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        }
+      ],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Trail of Bits", "PeckShield"]
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["stablecoin", "dai", "lending", "cdp"],
+      "social": {
+        "twitter": "https://x.com/MakerDAO",
+        "github": "https://github.com/makerdao"
+      }
+    },
+    {
+      "id": "blur",
+      "name": "Blur",
+      "description": "NFT marketplace for professional traders",
+      "url": "https://blur.io",
+      "category": "nft",
+      "subcategory": "marketplace",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["nft", "marketplace", "trading"],
+      "social": {
+        "twitter": "https://x.com/blur_io"
+      }
+    },
+    {
+      "id": "eigenlayer",
+      "name": "EigenLayer",
+      "description": "Restaking protocol for Ethereum security",
+      "url": "https://app.eigenlayer.xyz",
+      "category": "defi",
+      "subcategory": "staking",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Consensys Diligence", "Sigma Prime"]
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["restaking", "staking", "security"],
+      "social": {
+        "twitter": "https://x.com/eigenlayer",
+        "discord": "https://discord.gg/eigenlayer",
+        "github": "https://github.com/Layr-Labs"
+      }
+    },
+    {
+      "id": "etherscan",
+      "name": "Etherscan",
+      "description": "Block explorer and analytics platform for Ethereum",
+      "url": "https://etherscan.io",
+      "category": "utility",
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["explorer", "analytics", "verification"],
+      "social": {
+        "twitter": "https://x.com/etherscan"
+      }
+    },
+    {
+      "id": "safe",
+      "name": "Safe (Gnosis Safe)",
+      "description": "Multi-signature smart contract wallet",
+      "url": "https://app.safe.global",
+      "category": "utility",
+      "contracts": [
+        {
+          "name": "Safe Proxy Factory",
+          "address": "0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2"
+        }
+      ],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["G0 Group", "Runtime Verification"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["multisig", "wallet", "security"],
+      "social": {
+        "twitter": "https://x.com/safe",
+        "github": "https://github.com/safe-global"
+      }
+    },
+    {
+      "id": "rocket-pool",
+      "name": "Rocket Pool",
+      "description": "Decentralized Ethereum staking protocol",
+      "url": "https://stake.rocketpool.net",
+      "category": "defi",
+      "subcategory": "staking",
+      "contracts": [
+        {
+          "name": "rETH Token",
+          "address": "0xae78736Cd615f374D3085123A210448E74Fc6393"
+        }
+      ],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Sigma Prime", "Consensys Diligence"]
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["staking", "liquid-staking", "eth"],
+      "social": {
+        "twitter": "https://x.com/Rocket_Pool",
+        "discord": "https://discord.gg/rocketpool",
+        "github": "https://github.com/rocket-pool"
+      }
+    }
+  ]
+}

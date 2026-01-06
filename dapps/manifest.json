@@ -1,0 +1,50 @@
+{
+  "version": "1.1.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "image_specs": {
+    "format": "png",
+    "size": "256x256",
+    "location": "images/{dapp_id}.png",
+    "background": "transparent"
+  },
+  "networks": {
+    "multichain": {
+      "version": "1.0.0",
+      "description": "Cross-chain dApps supporting multiple networks"
+    },
+    "ethereum": {
+      "version": "1.0.0",
+      "description": "Ethereum mainnet dApps"
+    },
+    "klever": {
+      "version": "1.0.0",
+      "description": "Klever blockchain native dApps"
+    },
+    "polygon": {
+      "version": "1.0.0",
+      "description": "Polygon network dApps"
+    },
+    "arbitrum": {
+      "version": "1.0.0",
+      "description": "Arbitrum One dApps"
+    },
+    "bsc": {
+      "version": "1.0.0",
+      "description": "BNB Smart Chain dApps"
+    },
+    "tron": {
+      "version": "1.0.0",
+      "description": "TRON network dApps"
+    }
+  },
+  "categories": [
+    "defi",
+    "nft",
+    "gaming",
+    "social",
+    "exchange",
+    "bridge",
+    "dao",
+    "utility"
+  ]
+}

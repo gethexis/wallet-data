@@ -1,0 +1,83 @@
+{
+  "network_id": "polygon",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "dapps": [
+    {
+      "id": "quickswap",
+      "name": "QuickSwap",
+      "description": "Leading DEX on Polygon with concentrated liquidity",
+      "url": "https://quickswap.exchange",
+      "category": "defi",
+      "subcategory": "dex",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Certik"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["swap", "dex", "amm", "liquidity"],
+      "social": {
+        "twitter": "https://x.com/QuickswapDEX",
+        "github": "https://github.com/QuickSwap"
+      }
+    },
+    {
+      "id": "polygonscan",
+      "name": "PolygonScan",
+      "description": "Block explorer for Polygon network",
+      "url": "https://polygonscan.com",
+      "category": "utility",
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["explorer", "analytics"]
+    },
+    {
+      "id": "polymarket",
+      "name": "Polymarket",
+      "description": "Prediction market platform",
+      "url": "https://polymarket.com",
+      "category": "defi",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["prediction", "betting", "markets"],
+      "social": {
+        "twitter": "https://x.com/Polymarket"
+      }
+    },
+    {
+      "id": "balancer",
+      "name": "Balancer",
+      "description": "Automated portfolio manager and DEX",
+      "url": "https://app.balancer.fi",
+      "category": "defi",
+      "subcategory": "dex",
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Trail of Bits", "OpenZeppelin"]
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["swap", "liquidity", "amm"],
+      "social": {
+        "twitter": "https://x.com/Balancer",
+        "github": "https://github.com/balancer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "network_id": "klever",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "dapps": [
+    {
+      "id": "kleverscan",
+      "name": "KleverScan",
+      "description": "Official block explorer for Klever blockchain",
+      "url": "https://kleverscan.org",
+      "category": "utility",
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["explorer", "analytics"],
+      "social": {
+        "twitter": "https://x.com/klever_org"
+      }
+    },
+    {
+      "id": "klever-ito",
+      "name": "Klever ITO",
+      "description": "Initial Token Offering platform for KDA tokens",
+      "url": "https://kleverscan.org/ito",
+      "category": "defi",
+      "subcategory": "launchpad",
+      "status": "active",
+      "verified": true,
+      "tags": ["ito", "launchpad", "kda"],
+      "social": {
+        "twitter": "https://x.com/klever_org"
+      }
+    }
+  ]
+}

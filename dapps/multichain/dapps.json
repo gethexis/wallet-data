@@ -1,0 +1,246 @@
+{
+  "network_id": "multichain",
+  "version": "1.0.0",
+  "updated": "2026-01-05T00:00:00Z",
+  "dapps": [
+    {
+      "id": "uniswap",
+      "name": "Uniswap",
+      "description": "Leading decentralized exchange protocol for swapping tokens",
+      "url": "https://app.uniswap.org",
+      "logo": "https://app.uniswap.org/favicon.ico",
+      "category": "defi",
+      "subcategory": "dex",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base", "bsc", "avalanche"],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Trail of Bits", "ABDK"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["swap", "liquidity", "amm", "defi"],
+      "social": {
+        "twitter": "https://x.com/Uniswap",
+        "github": "https://github.com/Uniswap"
+      }
+    },
+    {
+      "id": "1inch",
+      "name": "1inch",
+      "description": "DEX aggregator finding best swap rates across exchanges",
+      "url": "https://app.1inch.io",
+      "logo": "https://app.1inch.io/favicon.ico",
+      "category": "defi",
+      "subcategory": "dex",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base", "bsc", "avalanche"],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["OpenZeppelin", "Consensys Diligence"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["aggregator", "swap", "defi"],
+      "social": {
+        "twitter": "https://x.com/1inch",
+        "github": "https://github.com/1inch"
+      }
+    },
+    {
+      "id": "aave",
+      "name": "Aave",
+      "description": "Decentralized lending and borrowing protocol",
+      "url": "https://app.aave.com",
+      "logo": "https://app.aave.com/favicon.ico",
+      "category": "defi",
+      "subcategory": "lending",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base", "avalanche"],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Certik", "SigmaPrime", "Trail of Bits"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["lending", "borrowing", "defi", "flash-loans"],
+      "social": {
+        "twitter": "https://x.com/aave",
+        "github": "https://github.com/aave"
+      }
+    },
+    {
+      "id": "opensea",
+      "name": "OpenSea",
+      "description": "Largest NFT marketplace for buying, selling, and discovering digital assets",
+      "url": "https://opensea.io",
+      "logo": "https://opensea.io/favicon.ico",
+      "category": "nft",
+      "subcategory": "marketplace",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base", "avalanche", "bsc"],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["nft", "marketplace", "collectibles"],
+      "social": {
+        "twitter": "https://x.com/opensea"
+      }
+    },
+    {
+      "id": "lido",
+      "name": "Lido",
+      "description": "Liquid staking protocol for Ethereum and other networks",
+      "url": "https://stake.lido.fi",
+      "logo": "https://stake.lido.fi/favicon.ico",
+      "category": "defi",
+      "subcategory": "staking",
+      "supported_chains": ["ethereum", "polygon"],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Quantstamp", "MixBytes", "SigmaPrime"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["staking", "liquid-staking", "eth", "defi"],
+      "social": {
+        "twitter": "https://x.com/lidofinance",
+        "github": "https://github.com/lidofinance"
+      }
+    },
+    {
+      "id": "curve",
+      "name": "Curve Finance",
+      "description": "DEX optimized for stablecoin and pegged asset trading",
+      "url": "https://curve.fi",
+      "logo": "https://curve.fi/favicon.ico",
+      "category": "defi",
+      "subcategory": "dex",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base", "avalanche"],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Trail of Bits", "Quantstamp"]
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["stablecoin", "swap", "amm", "defi"],
+      "social": {
+        "twitter": "https://x.com/CurveFinance",
+        "github": "https://github.com/curvefi"
+      }
+    },
+    {
+      "id": "compound",
+      "name": "Compound",
+      "description": "Algorithmic money market protocol for lending and borrowing",
+      "url": "https://app.compound.finance",
+      "logo": "https://app.compound.finance/favicon.ico",
+      "category": "defi",
+      "subcategory": "lending",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "base"],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["OpenZeppelin", "Trail of Bits"]
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["lending", "borrowing", "defi"],
+      "social": {
+        "twitter": "https://x.com/compoundfinance",
+        "github": "https://github.com/compound-finance"
+      }
+    },
+    {
+      "id": "stargate",
+      "name": "Stargate Finance",
+      "description": "Cross-chain bridge built on LayerZero",
+      "url": "https://stargate.finance",
+      "logo": "https://stargate.finance/favicon.ico",
+      "category": "bridge",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base", "bsc", "avalanche"],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "audit": {
+        "audited": true,
+        "auditors": ["Quantstamp", "Zokyo"]
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["bridge", "cross-chain", "layerzero"],
+      "social": {
+        "twitter": "https://x.com/StargateFinance"
+      }
+    },
+    {
+      "id": "snapshot",
+      "name": "Snapshot",
+      "description": "Off-chain gasless governance platform for DAOs",
+      "url": "https://snapshot.org",
+      "logo": "https://snapshot.org/favicon.ico",
+      "category": "dao",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "bsc", "avalanche"],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "status": "active",
+      "verified": true,
+      "featured": true,
+      "tags": ["governance", "voting", "dao"],
+      "social": {
+        "twitter": "https://x.com/SnapshotLabs",
+        "github": "https://github.com/snapshot-labs"
+      }
+    },
+    {
+      "id": "zapper",
+      "name": "Zapper",
+      "description": "DeFi dashboard for managing positions and discovering opportunities",
+      "url": "https://zapper.xyz",
+      "logo": "https://zapper.xyz/favicon.ico",
+      "category": "utility",
+      "supported_chains": ["ethereum", "polygon", "arbitrum", "optimism", "base", "bsc", "avalanche"],
+      "wallet_connect": {
+        "supported": true,
+        "version": 2
+      },
+      "status": "active",
+      "verified": true,
+      "tags": ["dashboard", "portfolio", "defi"],
+      "social": {
+        "twitter": "https://x.com/zapper_fi"
+      }
+    }
+  ]
+}
