@@ -7,25 +7,58 @@
   "id": "TRX",
   "description": "TRON is dedicated to building the infrastructure for a truly decentralized Internet.",
   "website": "https://tron.network/",
-  "explorer": "https://tronscan.io/",
-  "api": {
-    "mainnet": {
-      "node": ["https://tron-rpc.publicnode.com", "https://rpc.ankr.com/tron"],
-      "indexer": ["https://api.trongrid.io"]
-    },
-    "testnet": {
-      "indexer": ["https://api.shasta.trongrid.io"]
-    },
-    "nile": {
-      "indexer": ["https://nile.trongrid.io"]
+  "explorer": {
+    "base": "https://tronscan.org",
+    "paths": {
+      "address": "/#/address/{value}",
+      "transaction": "/#/transaction/{value}",
+      "token": "/#/token20/{value}",
+      "block": "/#/block/{value}"
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-1"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://tron-rpc.publicnode.com",
+        "https://rpc.ankr.com/tron"
+      ],
+      "indexer": [
+        "https://api.trongrid.io"
+      ]
+    },
+    "testnet": {
+      "indexer": [
+        "https://api.shasta.trongrid.io"
+      ]
+    },
+    "nile": {
+      "indexer": [
+        "https://nile.trongrid.io"
+      ]
+    }
+  },
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-1"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/tronprotocol"},
-    {"name": "twitter", "url": "https://x.com/Tronfoundation"},
-    {"name": "reddit", "url": "https://reddit.com/r/Tronix"},
-    {"name": "docs", "url": "https://developers.tron.network/docs"}
+    {
+      "name": "github",
+      "url": "https://github.com/tronprotocol"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/Tronfoundation"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/Tronix"
+    },
+    {
+      "name": "docs",
+      "url": "https://developers.tron.network/docs"
+    }
   ],
   "pricing": {
     "coingecko_id": "tron"

@@ -7,7 +7,15 @@
   "id": "BASE",
   "description": "Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
   "website": "https://base.org/",
-  "explorer": "https://basescan.org/",
+  "explorer": {
+    "base": "https://basescan.org",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 8453,
   "api": {
     "mainnet": {
@@ -19,14 +27,30 @@
       ]
     },
     "testnet": {
-      "node": ["https://sepolia.base.org"]
+      "node": [
+        "https://sepolia.base.org"
+      ]
     }
   },
-  "tags": ["smart-contracts", "evm", "layer-2", "optimistic-rollup"],
+  "tags": [
+    "smart-contracts",
+    "evm",
+    "layer-2",
+    "optimistic-rollup"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/base-org"},
-    {"name": "twitter", "url": "https://x.com/buildonbase"},
-    {"name": "docs", "url": "https://docs.base.org/"}
+    {
+      "name": "github",
+      "url": "https://github.com/base-org"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/buildonbase"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.base.org/"
+    }
   ],
   "pricing": {
     "coingecko_id": "ethereum"

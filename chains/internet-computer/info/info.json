@@ -7,18 +7,46 @@
   "id": "ICP",
   "description": "The Internet Computer is a blockchain that enables developers to build and deploy decentralized applications at web speed.",
   "website": "https://internetcomputer.org/",
-  "explorer": "https://dashboard.internetcomputer.org/",
-  "api": {
-    "mainnet": {
-      "node": ["https://ic0.app", "https://icp-api.io"]
+  "explorer": {
+    "base": "https://dashboard.internetcomputer.org",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/transaction/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-1", "web3"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://ic0.app",
+        "https://icp-api.io"
+      ]
+    }
+  },
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-1",
+    "web3"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/dfinity"},
-    {"name": "twitter", "url": "https://x.com/dfinity"},
-    {"name": "reddit", "url": "https://reddit.com/r/dfinity"},
-    {"name": "docs", "url": "https://internetcomputer.org/docs/"}
+    {
+      "name": "github",
+      "url": "https://github.com/dfinity"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/dfinity"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/dfinity"
+    },
+    {
+      "name": "docs",
+      "url": "https://internetcomputer.org/docs/"
+    }
   ],
   "pricing": {
     "coingecko_id": "internet-computer"

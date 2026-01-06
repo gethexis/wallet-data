@@ -7,21 +7,50 @@
   "id": "AVAIL",
   "description": "Avail is a modular blockchain focused on data availability, enabling rollups and sovereign chains to scale securely.",
   "website": "https://www.availproject.org/",
-  "explorer": "https://avail.subscan.io/",
-  "api": {
-    "mainnet": {
-      "node": ["wss://mainnet-rpc.avail.so/ws", "wss://avail-mainnet.public.blastapi.io"]
-    },
-    "testnet": {
-      "node": ["wss://turing-rpc.avail.so/ws"]
+  "explorer": {
+    "base": "https://avail.subscan.io",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/extrinsic/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["modular", "staking-native", "data-availability", "substrate"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "wss://mainnet-rpc.avail.so/ws",
+        "wss://avail-mainnet.public.blastapi.io"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "wss://turing-rpc.avail.so/ws"
+      ]
+    }
+  },
+  "tags": [
+    "modular",
+    "staking-native",
+    "data-availability",
+    "substrate"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/availproject"},
-    {"name": "twitter", "url": "https://x.com/AvailProject"},
-    {"name": "discord", "url": "https://discord.gg/availproject"},
-    {"name": "docs", "url": "https://docs.availproject.org/"}
+    {
+      "name": "github",
+      "url": "https://github.com/availproject"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/AvailProject"
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.gg/availproject"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.availproject.org/"
+    }
   ],
   "pricing": {
     "coingecko_id": "avail"

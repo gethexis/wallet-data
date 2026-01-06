@@ -7,21 +7,51 @@
   "id": "ADA",
   "description": "Cardano is a decentralized platform that allows complex programmable transfers of value in a secure and scalable fashion.",
   "website": "https://cardano.org/",
-  "explorer": "https://cardanoscan.io/",
-  "api": {
-    "mainnet": {
-      "indexer": ["https://cardano-mainnet.blockfrost.io/api", "https://api.koios.rest/api"]
-    },
-    "testnet": {
-      "indexer": ["https://cardano-preprod.blockfrost.io/api"]
+  "explorer": {
+    "base": "https://cardanoscan.io",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/transaction/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-1", "proof-of-stake"],
+  "api": {
+    "mainnet": {
+      "indexer": [
+        "https://cardano-mainnet.blockfrost.io/api",
+        "https://api.koios.rest/api"
+      ]
+    },
+    "testnet": {
+      "indexer": [
+        "https://cardano-preprod.blockfrost.io/api"
+      ]
+    }
+  },
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-1",
+    "proof-of-stake"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/input-output-hk/cardano-node"},
-    {"name": "twitter", "url": "https://x.com/cardano"},
-    {"name": "reddit", "url": "https://reddit.com/r/cardano"},
-    {"name": "docs", "url": "https://docs.cardano.org/"}
+    {
+      "name": "github",
+      "url": "https://github.com/input-output-hk/cardano-node"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/cardano"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/cardano"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.cardano.org/"
+    }
   ],
   "pricing": {
     "coingecko_id": "cardano"

@@ -7,23 +7,57 @@
   "id": "DASH",
   "description": "Dash is digital cash designed to offer financial freedom to everyone with instant, easy, and secure payments with near-zero fees.",
   "website": "https://dash.org/",
-  "explorer": "https://blockchair.com/dash",
-  "api": {
-    "mainnet": {
-      "node": ["https://insight.dash.org/api", "https://blockchair.com/dash/api"],
-      "indexer": ["https://insight.dash.org/api", "https://blockchair.com/dash/api"]
-    },
-    "testnet": {
-      "node": ["https://testnet-insight.dash.org/api"],
-      "indexer": ["https://testnet-insight.dash.org/api"]
+  "explorer": {
+    "base": "https://blockchair.com/dash",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/transaction/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["pow", "payments", "layer-1", "privacy"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://insight.dash.org/api",
+        "https://blockchair.com/dash/api"
+      ],
+      "indexer": [
+        "https://insight.dash.org/api",
+        "https://blockchair.com/dash/api"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "https://testnet-insight.dash.org/api"
+      ],
+      "indexer": [
+        "https://testnet-insight.dash.org/api"
+      ]
+    }
+  },
+  "tags": [
+    "pow",
+    "payments",
+    "layer-1",
+    "privacy"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/dashpay/dash"},
-    {"name": "twitter", "url": "https://x.com/Dashpay"},
-    {"name": "reddit", "url": "https://reddit.com/r/dashpay"},
-    {"name": "whitepaper", "url": "https://github.com/dashpay/dash/wiki/Whitepaper"}
+    {
+      "name": "github",
+      "url": "https://github.com/dashpay/dash"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/Dashpay"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/dashpay"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://github.com/dashpay/dash/wiki/Whitepaper"
+    }
   ],
   "pricing": {
     "coingecko_id": "dash"

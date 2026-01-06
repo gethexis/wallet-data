@@ -7,17 +7,41 @@
   "id": "KSM",
   "description": "Kusama is a canary network for Polkadot - an early, highly experimental version presenting real economic conditions.",
   "website": "https://kusama.network/",
-  "explorer": "https://kusama.subscan.io/",
-  "api": {
-    "mainnet": {
-      "node": ["wss://kusama-rpc.polkadot.io", "wss://kusama-rpc.dwellir.com"]
+  "explorer": {
+    "base": "https://kusama.subscan.io",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/extrinsic/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-0", "parachain"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "wss://kusama-rpc.polkadot.io",
+        "wss://kusama-rpc.dwellir.com"
+      ]
+    }
+  },
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-0",
+    "parachain"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/paritytech/polkadot-sdk"},
-    {"name": "twitter", "url": "https://x.com/kusamanetwork"},
-    {"name": "reddit", "url": "https://reddit.com/r/Kusama"}
+    {
+      "name": "github",
+      "url": "https://github.com/paritytech/polkadot-sdk"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/kusamanetwork"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/Kusama"
+    }
   ],
   "pricing": {
     "coingecko_id": "kusama"

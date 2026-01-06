@@ -7,26 +7,62 @@
   "id": "KLV",
   "description": "Klever is a next-generation blockchain platform built for scalability, security, and user-friendly decentralized applications.",
   "website": "https://klever.org/",
-  "explorer": "https://kleverscan.org/",
-  "api": {
-    "mainnet": {
-      "node": ["https://node.mainnet.klever.finance"],
-      "indexer": ["https://api.mainnet.klever.org", "https://api.mainnet.klever.finance"]
-    },
-    "testnet": {
-      "node": ["https://node.testnet.klever.finance"],
-      "indexer": ["https://api.testnet.klever.org"]
-    },
-    "devnet": {
-      "indexer": ["https://api.devnet.klever.org"]
+  "explorer": {
+    "base": "https://kleverscan.org",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/transaction/{value}",
+      "token": "/asset/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-1", "kda"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://node.mainnet.klever.finance"
+      ],
+      "indexer": [
+        "https://api.mainnet.klever.org",
+        "https://api.mainnet.klever.finance"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "https://node.testnet.klever.finance"
+      ],
+      "indexer": [
+        "https://api.testnet.klever.org"
+      ]
+    },
+    "devnet": {
+      "indexer": [
+        "https://api.devnet.klever.org"
+      ]
+    }
+  },
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-1",
+    "kda"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/klever-io"},
-    {"name": "twitter", "url": "https://x.com/klever_org"},
-    {"name": "telegram", "url": "https://t.me/Klever_io"},
-    {"name": "docs", "url": "https://docs.klever.org/"}
+    {
+      "name": "github",
+      "url": "https://github.com/klever-io"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/klever_org"
+    },
+    {
+      "name": "telegram",
+      "url": "https://t.me/Klever_io"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.klever.org/"
+    }
   ],
   "pricing": {
     "coingecko_id": "klever"

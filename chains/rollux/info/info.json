@@ -7,21 +7,49 @@
   "id": "ROLLUX",
   "description": "Rollux is an optimistic rollup that settles on Bitcoin via Syscoin for EVM-compatible, low-cost, high-throughput transactions.",
   "website": "https://rollux.com/",
-  "explorer": "https://explorer.rollux.com/",
+  "explorer": {
+    "base": "https://explorer.rollux.com",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 570,
   "api": {
     "mainnet": {
-      "node": ["https://rpc.rollux.com", "https://rpc.ankr.com/rollux"]
+      "node": [
+        "https://rpc.rollux.com",
+        "https://rpc.ankr.com/rollux"
+      ]
     },
     "testnet": {
-      "node": ["https://rpc-tanenbaum.rollux.com"]
+      "node": [
+        "https://rpc-tanenbaum.rollux.com"
+      ]
     }
   },
-  "tags": ["smart-contracts", "evm", "layer-2", "optimistic-rollup", "bitcoin-secured"],
+  "tags": [
+    "smart-contracts",
+    "evm",
+    "layer-2",
+    "optimistic-rollup",
+    "bitcoin-secured"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/SYS-Labs/rollux"},
-    {"name": "twitter", "url": "https://x.com/RolluxL2"},
-    {"name": "docs", "url": "https://docs.rollux.com/"}
+    {
+      "name": "github",
+      "url": "https://github.com/SYS-Labs/rollux"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/RolluxL2"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.rollux.com/"
+    }
   ],
   "pricing": {
     "coingecko_id": "syscoin"

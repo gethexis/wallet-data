@@ -7,21 +7,50 @@
   "id": "DOT",
   "description": "Polkadot is a blockchain project that aims to connect blockchains, to enable the transfer of value and logic across chains.",
   "website": "https://polkadot.com/",
-  "explorer": "https://polkadot.subscan.io/",
-  "api": {
-    "mainnet": {
-      "node": ["wss://rpc.polkadot.io", "wss://polkadot-rpc.dwellir.com"]
-    },
-    "testnet": {
-      "node": ["wss://westend-rpc.polkadot.io"]
+  "explorer": {
+    "base": "https://polkadot.subscan.io",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/extrinsic/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-0", "parachain"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "wss://rpc.polkadot.io",
+        "wss://polkadot-rpc.dwellir.com"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "wss://westend-rpc.polkadot.io"
+      ]
+    }
+  },
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-0",
+    "parachain"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/paritytech/polkadot-sdk"},
-    {"name": "twitter", "url": "https://x.com/polkadotnetwork"},
-    {"name": "reddit", "url": "https://reddit.com/r/dot"},
-    {"name": "whitepaper", "url": "https://polkadot.network/PolkaDotPaper.pdf"}
+    {
+      "name": "github",
+      "url": "https://github.com/paritytech/polkadot-sdk"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/polkadotnetwork"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/dot"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://polkadot.network/PolkaDotPaper.pdf"
+    }
   ],
   "pricing": {
     "coingecko_id": "polkadot"

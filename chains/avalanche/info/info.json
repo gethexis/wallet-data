@@ -7,7 +7,15 @@
   "id": "AVAX",
   "description": "Avalanche is an open-source platform for launching highly decentralized applications, new financial primitives, and new interoperable blockchains.",
   "website": "https://avax.network/",
-  "explorer": "https://snowtrace.io/",
+  "explorer": {
+    "base": "https://snowtrace.io",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 43114,
   "api": {
     "mainnet": {
@@ -19,14 +27,30 @@
       ]
     },
     "testnet": {
-      "node": ["https://api.avax-test.network/ext/bc/C/rpc"]
+      "node": [
+        "https://api.avax-test.network/ext/bc/C/rpc"
+      ]
     }
   },
-  "tags": ["smart-contracts", "evm", "layer-1", "defi"],
+  "tags": [
+    "smart-contracts",
+    "evm",
+    "layer-1",
+    "defi"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/ava-labs"},
-    {"name": "twitter", "url": "https://x.com/avax"},
-    {"name": "whitepaper", "url": "https://www.avalabs.org/whitepapers"}
+    {
+      "name": "github",
+      "url": "https://github.com/ava-labs"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/avax"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://www.avalabs.org/whitepapers"
+    }
   ],
   "pricing": {
     "coingecko_id": "avalanche-2"

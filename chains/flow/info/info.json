@@ -7,21 +7,51 @@
   "id": "FLOW",
   "description": "Flow is a fast, decentralized, and developer-friendly blockchain designed as the foundation for a new generation of games, apps, and digital assets.",
   "website": "https://flow.com/",
-  "explorer": "https://flowscan.org/",
-  "api": {
-    "mainnet": {
-      "node": ["https://rest-mainnet.onflow.org", "https://access.mainnet.nodes.onflow.org"]
-    },
-    "testnet": {
-      "node": ["https://rest-testnet.onflow.org"]
+  "explorer": {
+    "base": "https://flowscan.org",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/transaction/{value}",
+      "token": "/contract/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-1", "nft"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://rest-mainnet.onflow.org",
+        "https://access.mainnet.nodes.onflow.org"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "https://rest-testnet.onflow.org"
+      ]
+    }
+  },
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-1",
+    "nft"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/onflow"},
-    {"name": "twitter", "url": "https://x.com/flow_blockchain"},
-    {"name": "discord", "url": "https://discord.com/invite/flow"},
-    {"name": "docs", "url": "https://docs.onflow.org/"}
+    {
+      "name": "github",
+      "url": "https://github.com/onflow"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/flow_blockchain"
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.com/invite/flow"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.onflow.org/"
+    }
   ],
   "pricing": {
     "coingecko_id": "flow"

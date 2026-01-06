@@ -7,21 +7,50 @@
   "id": "CUDOS",
   "description": "CUDOS powers a decentralised compute network that bridges the gap between the blockchain and external distributed computing.",
   "website": "https://www.cudos.org/",
-  "explorer": "https://explorer.cudos.org/",
-  "api": {
-    "mainnet": {
-      "node": ["https://rpc.cudos.org:26657", "https://mainnet-full-node-01.hosts.cudos.org:26657"]
-    },
-    "testnet": {
-      "node": ["https://sentry1.gcp-uscentral1.cudos.org:26657"]
+  "explorer": {
+    "base": "https://explorer.cudos.org",
+    "paths": {
+      "address": "/accounts/{value}",
+      "transaction": "/transactions/{value}",
+      "block": "/blocks/{value}"
     }
   },
-  "tags": ["compute", "staking-native", "cosmos", "layer-1"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://rpc.cudos.org:26657",
+        "https://mainnet-full-node-01.hosts.cudos.org:26657"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "https://sentry1.gcp-uscentral1.cudos.org:26657"
+      ]
+    }
+  },
+  "tags": [
+    "compute",
+    "staking-native",
+    "cosmos",
+    "layer-1"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/CudoVentures"},
-    {"name": "twitter", "url": "https://x.com/CUDOS_"},
-    {"name": "telegram", "url": "https://t.me/cudostelegram"},
-    {"name": "docs", "url": "https://docs.cudos.org/"}
+    {
+      "name": "github",
+      "url": "https://github.com/CudoVentures"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/CUDOS_"
+    },
+    {
+      "name": "telegram",
+      "url": "https://t.me/cudostelegram"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.cudos.org/"
+    }
   ],
   "pricing": {
     "coingecko_id": "cudos"

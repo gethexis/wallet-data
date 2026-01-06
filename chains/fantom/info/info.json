@@ -7,7 +7,15 @@
   "id": "FTM",
   "description": "A DAG-Based Smart-Contract Platform.",
   "website": "https://fantom.foundation/",
-  "explorer": "https://ftmscan.com/",
+  "explorer": {
+    "base": "https://ftmscan.com",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 250,
   "api": {
     "mainnet": {
@@ -18,15 +26,34 @@
       ]
     },
     "testnet": {
-      "node": ["https://rpc.testnet.fantom.network"]
+      "node": [
+        "https://rpc.testnet.fantom.network"
+      ]
     }
   },
-  "tags": ["smart-contracts", "staking-native", "evm", "layer-1"],
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "evm",
+    "layer-1"
+  ],
   "links": [
-    {"name": "twitter", "url": "https://x.com/FantomFDN"},
-    {"name": "telegram", "url": "https://t.me/fantomfoundation"},
-    {"name": "reddit", "url": "https://reddit.com/r/FantomFoundation"},
-    {"name": "discord", "url": "https://discord.com/invite/fantom"}
+    {
+      "name": "twitter",
+      "url": "https://x.com/FantomFDN"
+    },
+    {
+      "name": "telegram",
+      "url": "https://t.me/fantomfoundation"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/FantomFoundation"
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.com/invite/fantom"
+    }
   ],
   "pricing": {
     "coingecko_id": "fantom"

@@ -7,7 +7,15 @@
   "id": "BNB",
   "description": "A blockchain with a full-fledged environment for developing high-performance decentralized applications and cross-chain compatibility.",
   "website": "https://www.bnbchain.world/",
-  "explorer": "https://bscscan.com/",
+  "explorer": {
+    "base": "https://bscscan.com",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 56,
   "api": {
     "mainnet": {
@@ -19,15 +27,34 @@
       ]
     },
     "testnet": {
-      "node": ["https://data-seed-prebsc-1-s1.binance.org:8545"]
+      "node": [
+        "https://data-seed-prebsc-1-s1.binance.org:8545"
+      ]
     }
   },
-  "tags": ["smart-contracts", "staking-native", "evm", "layer-1"],
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "evm",
+    "layer-1"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/bnb-chain"},
-    {"name": "twitter", "url": "https://x.com/BNBCHAIN"},
-    {"name": "reddit", "url": "https://reddit.com/r/BinanceExchange"},
-    {"name": "whitepaper", "url": "https://www.binance.com/resources/ico/Binance_WhitePaper_en.pdf"}
+    {
+      "name": "github",
+      "url": "https://github.com/bnb-chain"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/BNBCHAIN"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/BinanceExchange"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://www.binance.com/resources/ico/Binance_WhitePaper_en.pdf"
+    }
   ],
   "pricing": {
     "coingecko_id": "binancecoin"

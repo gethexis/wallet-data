@@ -7,23 +7,56 @@
   "id": "BTC",
   "description": "Bitcoin is a cryptocurrency and worldwide payment system. It is the first decentralized digital currency.",
   "website": "https://bitcoin.org/",
-  "explorer": "https://mempool.space/",
-  "api": {
-    "mainnet": {
-      "node": ["https://mempool.space/api", "https://blockstream.info/api"],
-      "indexer": ["https://mempool.space/api", "https://blockstream.info/api"]
-    },
-    "testnet": {
-      "node": ["https://mempool.space/testnet/api"],
-      "indexer": ["https://mempool.space/testnet/api"]
+  "explorer": {
+    "base": "https://mempool.space",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["pow", "store-of-value", "layer-1"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://mempool.space/api",
+        "https://blockstream.info/api"
+      ],
+      "indexer": [
+        "https://mempool.space/api",
+        "https://blockstream.info/api"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "https://mempool.space/testnet/api"
+      ],
+      "indexer": [
+        "https://mempool.space/testnet/api"
+      ]
+    }
+  },
+  "tags": [
+    "pow",
+    "store-of-value",
+    "layer-1"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/bitcoin"},
-    {"name": "twitter", "url": "https://x.com/Bitcoin"},
-    {"name": "reddit", "url": "https://reddit.com/r/Bitcoin"},
-    {"name": "whitepaper", "url": "https://bitcoin.org/bitcoin.pdf"}
+    {
+      "name": "github",
+      "url": "https://github.com/bitcoin"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/Bitcoin"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/Bitcoin"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://bitcoin.org/bitcoin.pdf"
+    }
   ],
   "pricing": {
     "coingecko_id": "bitcoin"

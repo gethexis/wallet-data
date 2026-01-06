@@ -7,7 +7,15 @@
   "id": "SOL",
   "description": "Solana is the world's most performant blockchain, achieving high throughput by encoding the passage of time as data.",
   "website": "https://solana.com/",
-  "explorer": "https://explorer.solana.com/",
+  "explorer": {
+    "base": "https://explorer.solana.com",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/address/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "api": {
     "mainnet": {
       "node": [
@@ -17,18 +25,39 @@
       ]
     },
     "testnet": {
-      "node": ["https://api.testnet.solana.com"]
+      "node": [
+        "https://api.testnet.solana.com"
+      ]
     },
     "devnet": {
-      "node": ["https://api.devnet.solana.com"]
+      "node": [
+        "https://api.devnet.solana.com"
+      ]
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-1", "high-performance"],
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-1",
+    "high-performance"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/solana-labs"},
-    {"name": "twitter", "url": "https://x.com/solana"},
-    {"name": "reddit", "url": "https://reddit.com/r/solana"},
-    {"name": "whitepaper", "url": "https://github.com/solana-labs/whitepaper"}
+    {
+      "name": "github",
+      "url": "https://github.com/solana-labs"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/solana"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/solana"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://github.com/solana-labs/whitepaper"
+    }
   ],
   "pricing": {
     "coingecko_id": "solana"

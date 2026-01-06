@@ -7,21 +7,50 @@
   "id": "TIA",
   "description": "Celestia is a modular data availability network that makes it easy for anyone to securely launch their own blockchain.",
   "website": "https://celestia.org/",
-  "explorer": "https://celenium.io/",
-  "api": {
-    "mainnet": {
-      "node": ["https://rpc.celestia.nodestake.top", "https://celestia-rpc.publicnode.com:443"]
-    },
-    "testnet": {
-      "node": ["https://celestia-mocha-rpc.publicnode.com:443"]
+  "explorer": {
+    "base": "https://celenium.io",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["modular", "staking-native", "data-availability", "cosmos"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://rpc.celestia.nodestake.top",
+        "https://celestia-rpc.publicnode.com:443"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "https://celestia-mocha-rpc.publicnode.com:443"
+      ]
+    }
+  },
+  "tags": [
+    "modular",
+    "staking-native",
+    "data-availability",
+    "cosmos"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/celestiaorg"},
-    {"name": "twitter", "url": "https://x.com/CelestiaOrg"},
-    {"name": "discord", "url": "https://discord.gg/celestiacommunity"},
-    {"name": "docs", "url": "https://docs.celestia.org/"}
+    {
+      "name": "github",
+      "url": "https://github.com/celestiaorg"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/CelestiaOrg"
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.gg/celestiacommunity"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.celestia.org/"
+    }
   ],
   "pricing": {
     "coingecko_id": "celestia"

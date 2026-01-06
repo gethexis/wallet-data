@@ -7,20 +7,47 @@
   "id": "HBAR",
   "description": "Hedera is the 3rd generation public ledger using hashgraph consensus for high throughput and low fees.",
   "website": "https://hedera.com/",
-  "explorer": "https://hashscan.io/",
-  "api": {
-    "mainnet": {
-      "indexer": ["https://mainnet-public.mirrornode.hedera.com/api/v1", "https://mainnet.hashio.io/api"]
-    },
-    "testnet": {
-      "indexer": ["https://testnet.mirrornode.hedera.com/api/v1"]
+  "explorer": {
+    "base": "https://hashscan.io",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/transaction/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-1", "hashgraph"],
+  "api": {
+    "mainnet": {
+      "indexer": [
+        "https://mainnet-public.mirrornode.hedera.com/api/v1",
+        "https://mainnet.hashio.io/api"
+      ]
+    },
+    "testnet": {
+      "indexer": [
+        "https://testnet.mirrornode.hedera.com/api/v1"
+      ]
+    }
+  },
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-1",
+    "hashgraph"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/hashgraph"},
-    {"name": "twitter", "url": "https://x.com/hedera"},
-    {"name": "discord", "url": "https://discord.com/invite/hedera"}
+    {
+      "name": "github",
+      "url": "https://github.com/hashgraph"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/hedera"
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.com/invite/hedera"
+    }
   ],
   "pricing": {
     "coingecko_id": "hedera-hashgraph"

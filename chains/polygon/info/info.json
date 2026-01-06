@@ -7,7 +7,15 @@
   "id": "POL",
   "description": "Polygon strives to solve the scalability and usability issues while not compromising on decentralization.",
   "website": "https://polygon.technology/",
-  "explorer": "https://polygonscan.com/",
+  "explorer": {
+    "base": "https://polygonscan.com",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 137,
   "api": {
     "mainnet": {
@@ -18,16 +26,38 @@
       ]
     },
     "testnet": {
-      "node": ["https://rpc-amoy.polygon.technology"]
+      "node": [
+        "https://rpc-amoy.polygon.technology"
+      ]
     }
   },
-  "tags": ["smart-contracts", "staking-native", "evm", "layer-2"],
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "evm",
+    "layer-2"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/maticnetwork"},
-    {"name": "twitter", "url": "https://x.com/0xPolygon"},
-    {"name": "reddit", "url": "https://reddit.com/r/maticnetwork"},
-    {"name": "whitepaper", "url": "https://github.com/maticnetwork/whitepaper"},
-    {"name": "docs", "url": "https://docs.polygon.technology/"}
+    {
+      "name": "github",
+      "url": "https://github.com/maticnetwork"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/0xPolygon"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/maticnetwork"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://github.com/maticnetwork/whitepaper"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.polygon.technology/"
+    }
   ],
   "pricing": {
     "coingecko_id": "polygon-ecosystem-token"

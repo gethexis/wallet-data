@@ -77,12 +77,107 @@ chains/
   "status": "active",
   "description": "Open source platform for decentralized applications",
   "website": "https://ethereum.org",
-  "explorer": "https://etherscan.io",
+  "explorer": {
+    "base": "https://etherscan.io",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "tags": ["smart-contracts", "staking-native", "evm"],
   "links": [
     {"name": "twitter", "url": "https://x.com/ethereum"},
     {"name": "github", "url": "https://github.com/ethereum"}
   ]
+}
+```
+
+### Explorer Structure
+
+The `explorer` field is an object with a base URL and path patterns:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `base` | string | Base URL of the block explorer (no trailing slash) |
+| `paths` | object | URL path patterns for different actions |
+
+#### Path Patterns
+
+| Path | Description | Example |
+|------|-------------|---------|
+| `address` | View address/account | `/address/{value}` |
+| `transaction` | View transaction | `/tx/{value}` |
+| `token` | View token (optional for UTXO chains) | `/token/{value}` |
+| `block` | View block | `/block/{value}` |
+
+The `{value}` placeholder is replaced with the actual address, transaction hash, token address, or block number.
+
+#### Chain-Specific Patterns
+
+Different blockchains use different URL patterns:
+
+**EVM Chains** (Ethereum, Polygon, BSC, Arbitrum, etc.):
+```json
+"explorer": {
+  "base": "https://etherscan.io",
+  "paths": {
+    "address": "/address/{value}",
+    "transaction": "/tx/{value}",
+    "token": "/token/{value}",
+    "block": "/block/{value}"
+  }
+}
+```
+
+**Klever**:
+```json
+"explorer": {
+  "base": "https://kleverscan.org",
+  "paths": {
+    "address": "/account/{value}",
+    "transaction": "/transaction/{value}",
+    "token": "/asset/{value}",
+    "block": "/block/{value}"
+  }
+}
+```
+
+**Tron** (uses hash fragments):
+```json
+"explorer": {
+  "base": "https://tronscan.org",
+  "paths": {
+    "address": "/#/address/{value}",
+    "transaction": "/#/transaction/{value}",
+    "token": "/#/token20/{value}",
+    "block": "/#/block/{value}"
+  }
+}
+```
+
+**Bitcoin/UTXO Chains** (no token path):
+```json
+"explorer": {
+  "base": "https://mempool.space",
+  "paths": {
+    "address": "/address/{value}",
+    "transaction": "/tx/{value}",
+    "block": "/block/{value}"
+  }
+}
+```
+
+**Polkadot/Subscan**:
+```json
+"explorer": {
+  "base": "https://polkadot.subscan.io",
+  "paths": {
+    "address": "/account/{value}",
+    "transaction": "/extrinsic/{value}",
+    "block": "/block/{value}"
+  }
 }
 ```
 
@@ -120,16 +215,18 @@ chains/
 | `status` | string | `active`, `deprecated`, or `spam` |
 | `id` | string | Contract address (must match folder name) |
 
-### Basic Optional Fields
+### Basic Optional Fields (Token Assets)
 
 | Field | Type | Description |
 |-------|------|-------------|
 | `description` | string | Brief description (max 500 chars) |
 | `website` | string | Official website URL |
-| `explorer` | string | Block explorer link |
+| `explorer` | string | Direct link to token on block explorer |
 | `chain_id` | number | Chain ID for EVM-compatible networks |
 | `tags` | array | Categories: `stablecoin`, `wrapped`, `defi`, `gaming`, etc. |
 | `links` | array | Social/external links |
+
+> **Note**: For token assets, `explorer` is a direct URL string (e.g., `https://etherscan.io/token/0x...`). For blockchain info files, `explorer` is an object with path patterns (see [Explorer Structure](#explorer-structure) above).
 
 ### API/RPC Endpoints
 

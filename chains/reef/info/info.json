@@ -7,22 +7,52 @@
   "id": "REEF",
   "description": "Reef is an EVM compatible blockchain for DeFi built on Substrate with fast, scalable, and low-cost transactions.",
   "website": "https://reef.io/",
-  "explorer": "https://reefscan.com/",
+  "explorer": {
+    "base": "https://reefscan.com",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/extrinsic/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 13939,
   "api": {
     "mainnet": {
-      "node": ["https://rpc.reefscan.com"]
+      "node": [
+        "https://rpc.reefscan.com"
+      ]
     },
     "testnet": {
-      "node": ["https://rpc-testnet.reefscan.com"]
+      "node": [
+        "https://rpc-testnet.reefscan.com"
+      ]
     }
   },
-  "tags": ["smart-contracts", "evm", "layer-1", "substrate", "defi"],
+  "tags": [
+    "smart-contracts",
+    "evm",
+    "layer-1",
+    "substrate",
+    "defi"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/reef-chain"},
-    {"name": "twitter", "url": "https://x.com/Reef_Chain"},
-    {"name": "telegram", "url": "https://t.me/reefchain"},
-    {"name": "docs", "url": "https://docs.reef.io/"}
+    {
+      "name": "github",
+      "url": "https://github.com/reef-chain"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/Reef_Chain"
+    },
+    {
+      "name": "telegram",
+      "url": "https://t.me/reefchain"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.reef.io/"
+    }
   ],
   "pricing": {
     "coingecko_id": "reef"

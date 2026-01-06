@@ -7,23 +7,56 @@
   "id": "LTC",
   "description": "Litecoin is a peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world.",
   "website": "https://litecoin.org/",
-  "explorer": "https://blockchair.com/litecoin",
-  "api": {
-    "mainnet": {
-      "node": ["https://litecoinspace.org/api", "https://blockchair.com/litecoin/api"],
-      "indexer": ["https://litecoinspace.org/api", "https://blockchair.com/litecoin/api"]
-    },
-    "testnet": {
-      "node": ["https://litecoinspace.org/testnet/api"],
-      "indexer": ["https://litecoinspace.org/testnet/api"]
+  "explorer": {
+    "base": "https://blockchair.com/litecoin",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/transaction/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["pow", "payments", "layer-1"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://litecoinspace.org/api",
+        "https://blockchair.com/litecoin/api"
+      ],
+      "indexer": [
+        "https://litecoinspace.org/api",
+        "https://blockchair.com/litecoin/api"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "https://litecoinspace.org/testnet/api"
+      ],
+      "indexer": [
+        "https://litecoinspace.org/testnet/api"
+      ]
+    }
+  },
+  "tags": [
+    "pow",
+    "payments",
+    "layer-1"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/litecoin-project/litecoin"},
-    {"name": "twitter", "url": "https://x.com/LitecoinProject"},
-    {"name": "reddit", "url": "https://reddit.com/r/litecoin"},
-    {"name": "whitepaper", "url": "https://www.allcryptowhitepapers.com/litecoin-whitepaper/"}
+    {
+      "name": "github",
+      "url": "https://github.com/litecoin-project/litecoin"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/LitecoinProject"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/litecoin"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://www.allcryptowhitepapers.com/litecoin-whitepaper/"
+    }
   ],
   "pricing": {
     "coingecko_id": "litecoin"

@@ -7,7 +7,15 @@
   "id": "OP",
   "description": "Optimism is a Layer 2 scaling solution for Ethereum using optimistic rollups.",
   "website": "https://optimism.io/",
-  "explorer": "https://optimistic.etherscan.io/",
+  "explorer": {
+    "base": "https://optimistic.etherscan.io",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 10,
   "api": {
     "mainnet": {
@@ -19,14 +27,30 @@
       ]
     },
     "testnet": {
-      "node": ["https://sepolia.optimism.io"]
+      "node": [
+        "https://sepolia.optimism.io"
+      ]
     }
   },
-  "tags": ["smart-contracts", "evm", "layer-2", "optimistic-rollup"],
+  "tags": [
+    "smart-contracts",
+    "evm",
+    "layer-2",
+    "optimistic-rollup"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/ethereum-optimism"},
-    {"name": "twitter", "url": "https://x.com/optimism"},
-    {"name": "docs", "url": "https://docs.optimism.io/"}
+    {
+      "name": "github",
+      "url": "https://github.com/ethereum-optimism"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/optimism"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.optimism.io/"
+    }
   ],
   "pricing": {
     "coingecko_id": "ethereum"

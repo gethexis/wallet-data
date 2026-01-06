@@ -7,21 +7,48 @@
   "id": "GLMR",
   "description": "Moonbeam combines the best of both worlds: the familiar and easy-to-use tooling of Ethereum and the scalable, interoperable architecture of Polkadot.",
   "website": "https://moonbeam.network/",
-  "explorer": "https://moonscan.io/",
+  "explorer": {
+    "base": "https://moonscan.io",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 1284,
   "api": {
     "mainnet": {
-      "node": ["https://rpc.api.moonbeam.network", "https://rpc.ankr.com/moonbeam"]
+      "node": [
+        "https://rpc.api.moonbeam.network",
+        "https://rpc.ankr.com/moonbeam"
+      ]
     },
     "testnet": {
-      "node": ["https://rpc.api.moonbase.moonbeam.network"]
+      "node": [
+        "https://rpc.api.moonbase.moonbeam.network"
+      ]
     }
   },
-  "tags": ["smart-contracts", "evm", "parachain", "polkadot"],
+  "tags": [
+    "smart-contracts",
+    "evm",
+    "parachain",
+    "polkadot"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/moonbeam-foundation/moonbeam"},
-    {"name": "twitter", "url": "https://x.com/moonbeamnetwork"},
-    {"name": "docs", "url": "https://docs.moonbeam.network/"}
+    {
+      "name": "github",
+      "url": "https://github.com/moonbeam-foundation/moonbeam"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/moonbeamnetwork"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.moonbeam.network/"
+    }
   ],
   "pricing": {
     "coingecko_id": "moonbeam"

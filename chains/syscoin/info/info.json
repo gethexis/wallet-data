@@ -7,18 +7,44 @@
   "id": "SYS",
   "description": "Syscoin is designed to support the future of smart contracts within Metaverse, IoT, Smart Cities, and future interplanetary economies.",
   "website": "https://syscoin.org/",
-  "explorer": "https://explorer.syscoin.org/",
-  "api": {
-    "mainnet": {
-      "node": ["https://blockbook.elint.services", "https://sys1.bcfn.ca"],
-      "indexer": ["https://blockbook.elint.services", "https://sys1.bcfn.ca"]
+  "explorer": {
+    "base": "https://explorer.syscoin.org",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["pow", "smart-contracts", "layer-1"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://blockbook.elint.services",
+        "https://sys1.bcfn.ca"
+      ],
+      "indexer": [
+        "https://blockbook.elint.services",
+        "https://sys1.bcfn.ca"
+      ]
+    }
+  },
+  "tags": [
+    "pow",
+    "smart-contracts",
+    "layer-1"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/syscoin"},
-    {"name": "twitter", "url": "https://x.com/syscoin"},
-    {"name": "docs", "url": "https://docs.syscoin.org/"}
+    {
+      "name": "github",
+      "url": "https://github.com/syscoin"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/syscoin"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.syscoin.org/"
+    }
   ],
   "pricing": {
     "coingecko_id": "syscoin"

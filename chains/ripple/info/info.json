@@ -7,20 +7,45 @@
   "id": "XRP",
   "description": "XRP is the native cryptocurrency of the XRP Ledger, designed for fast, low-cost cross-border payments.",
   "website": "https://xrpl.org/",
-  "explorer": "https://xrpscan.com/",
-  "api": {
-    "mainnet": {
-      "node": ["https://xrplcluster.com", "https://s1.ripple.com:51234"]
-    },
-    "testnet": {
-      "node": ["https://s.altnet.rippletest.net:51234"]
+  "explorer": {
+    "base": "https://xrpscan.com",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/tx/{value}",
+      "block": "/ledger/{value}"
     }
   },
-  "tags": ["payments", "layer-1", "enterprise"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://xrplcluster.com",
+        "https://s1.ripple.com:51234"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "https://s.altnet.rippletest.net:51234"
+      ]
+    }
+  },
+  "tags": [
+    "payments",
+    "layer-1",
+    "enterprise"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/ripple"},
-    {"name": "twitter", "url": "https://x.com/Ripple"},
-    {"name": "docs", "url": "https://xrpl.org/docs.html"}
+    {
+      "name": "github",
+      "url": "https://github.com/ripple"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/Ripple"
+    },
+    {
+      "name": "docs",
+      "url": "https://xrpl.org/docs.html"
+    }
   ],
   "pricing": {
     "coingecko_id": "ripple"

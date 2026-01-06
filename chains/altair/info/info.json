@@ -7,17 +7,41 @@
   "id": "AIR",
   "description": "Altair combines the industry-leading infrastructure built by Centrifuge to finance real-world assets on Kusama.",
   "website": "https://centrifuge.io/altair/",
-  "explorer": "https://altair.subscan.io/",
-  "api": {
-    "mainnet": {
-      "node": ["wss://fullnode.altair.centrifuge.io", "wss://altair-rpc.dwellir.com"]
+  "explorer": {
+    "base": "https://altair.subscan.io",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/extrinsic/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["rwa", "staking-native", "parachain", "kusama"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "wss://fullnode.altair.centrifuge.io",
+        "wss://altair-rpc.dwellir.com"
+      ]
+    }
+  },
+  "tags": [
+    "rwa",
+    "staking-native",
+    "parachain",
+    "kusama"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/centrifuge"},
-    {"name": "twitter", "url": "https://x.com/altair_network"},
-    {"name": "docs", "url": "https://docs.centrifuge.io/"}
+    {
+      "name": "github",
+      "url": "https://github.com/centrifuge"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/altair_network"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.centrifuge.io/"
+    }
   ],
   "pricing": {
     "coingecko_id": "altair"

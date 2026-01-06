@@ -7,21 +7,47 @@
   "id": "HT",
   "description": "HECO (Huobi ECO Chain) is a decentralized, EVM-compatible public chain with high efficiency and low transaction costs, using HPoS consensus.",
   "website": "https://www.hecochain.com/",
-  "explorer": "https://www.hecoinfo.com/",
+  "explorer": {
+    "base": "https://www.hecoinfo.com",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 128,
   "api": {
     "mainnet": {
-      "node": ["https://http-mainnet.hecochain.com", "https://http-mainnet-node.huobichain.com"]
+      "node": [
+        "https://http-mainnet.hecochain.com",
+        "https://http-mainnet-node.huobichain.com"
+      ]
     },
     "testnet": {
-      "node": ["https://http-testnet.hecochain.com"]
+      "node": [
+        "https://http-testnet.hecochain.com"
+      ]
     }
   },
-  "tags": ["smart-contracts", "evm", "layer-1"],
+  "tags": [
+    "smart-contracts",
+    "evm",
+    "layer-1"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/HuobiGroup/huobi-eco-chain"},
-    {"name": "twitter", "url": "https://x.com/HECO_Chain"},
-    {"name": "docs", "url": "https://github.com/stars-labs/heco-chain-docs"}
+    {
+      "name": "github",
+      "url": "https://github.com/HuobiGroup/huobi-eco-chain"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/HECO_Chain"
+    },
+    {
+      "name": "docs",
+      "url": "https://github.com/stars-labs/heco-chain-docs"
+    }
   ],
   "pricing": {
     "coingecko_id": "huobi-token"

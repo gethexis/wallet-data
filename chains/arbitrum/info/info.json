@@ -7,7 +7,15 @@
   "id": "ARB",
   "description": "Arbitrum is a Layer 2 cryptocurrency platform that makes smart contracts scalable, fast, and private.",
   "website": "https://arbitrum.io/",
-  "explorer": "https://arbiscan.io/",
+  "explorer": {
+    "base": "https://arbiscan.io",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 42161,
   "api": {
     "mainnet": {
@@ -19,14 +27,30 @@
       ]
     },
     "testnet": {
-      "node": ["https://sepolia-rollup.arbitrum.io/rpc"]
+      "node": [
+        "https://sepolia-rollup.arbitrum.io/rpc"
+      ]
     }
   },
-  "tags": ["smart-contracts", "evm", "layer-2", "optimistic-rollup"],
+  "tags": [
+    "smart-contracts",
+    "evm",
+    "layer-2",
+    "optimistic-rollup"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/OffchainLabs"},
-    {"name": "twitter", "url": "https://x.com/arbitrum"},
-    {"name": "docs", "url": "https://docs.arbitrum.io/"}
+    {
+      "name": "github",
+      "url": "https://github.com/OffchainLabs"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/arbitrum"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.arbitrum.io/"
+    }
   ],
   "pricing": {
     "coingecko_id": "ethereum"

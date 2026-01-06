@@ -7,22 +7,53 @@
   "id": "ASTR",
   "description": "Astar Network is a multi-chain smart contract platform that supports multiple blockchains and virtual machines on Polkadot.",
   "website": "https://astar.network/",
-  "explorer": "https://astar.subscan.io/",
+  "explorer": {
+    "base": "https://astar.subscan.io",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/extrinsic/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 592,
   "api": {
     "mainnet": {
-      "node": ["https://evm.astar.network", "https://rpc.astar.network:8545"]
+      "node": [
+        "https://evm.astar.network",
+        "https://rpc.astar.network:8545"
+      ]
     },
     "testnet": {
-      "node": ["https://rpc.shibuya.astar.network:8545"]
+      "node": [
+        "https://rpc.shibuya.astar.network:8545"
+      ]
     }
   },
-  "tags": ["smart-contracts", "staking-native", "parachain", "polkadot", "evm"],
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "parachain",
+    "polkadot",
+    "evm"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/AstarNetwork"},
-    {"name": "twitter", "url": "https://x.com/AstarNetwork"},
-    {"name": "discord", "url": "https://discord.gg/astarnetwork"},
-    {"name": "docs", "url": "https://docs.astar.network/"}
+    {
+      "name": "github",
+      "url": "https://github.com/AstarNetwork"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/AstarNetwork"
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.gg/astarnetwork"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.astar.network/"
+    }
   ],
   "pricing": {
     "coingecko_id": "astar"

@@ -7,23 +7,52 @@
   "id": "APT",
   "description": "Building the safest and most scalable Layer 1 blockchain.",
   "website": "https://aptoslabs.com/",
-  "explorer": "https://explorer.aptoslabs.com/",
-  "api": {
-    "mainnet": {
-      "node": ["https://fullnode.mainnet.aptoslabs.com/v1", "https://aptos-mainnet.pontem.network/v1"]
-    },
-    "testnet": {
-      "node": ["https://fullnode.testnet.aptoslabs.com/v1"]
-    },
-    "devnet": {
-      "node": ["https://fullnode.devnet.aptoslabs.com/v1"]
+  "explorer": {
+    "base": "https://explorer.aptoslabs.com",
+    "paths": {
+      "address": "/account/{value}",
+      "transaction": "/txn/{value}",
+      "token": "/fungible_asset/{value}",
+      "block": "/block/{value}"
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-1", "move"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://fullnode.mainnet.aptoslabs.com/v1",
+        "https://aptos-mainnet.pontem.network/v1"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "https://fullnode.testnet.aptoslabs.com/v1"
+      ]
+    },
+    "devnet": {
+      "node": [
+        "https://fullnode.devnet.aptoslabs.com/v1"
+      ]
+    }
+  },
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-1",
+    "move"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/aptos-labs"},
-    {"name": "twitter", "url": "https://x.com/aptoslabs"},
-    {"name": "discord", "url": "https://discord.com/invite/aptoslabs"}
+    {
+      "name": "github",
+      "url": "https://github.com/aptos-labs"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/aptoslabs"
+    },
+    {
+      "name": "discord",
+      "url": "https://discord.com/invite/aptoslabs"
+    }
   ],
   "pricing": {
     "coingecko_id": "aptos"

@@ -7,21 +7,48 @@
   "id": "ZKEVM",
   "description": "Polygon zkEVM is the leading zero knowledge scaling solution that's fully equivalent with the Ethereum Virtual Machine.",
   "website": "https://polygon.technology/polygon-zkevm",
-  "explorer": "https://zkevm.polygonscan.com/",
+  "explorer": {
+    "base": "https://zkevm.polygonscan.com",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 1101,
   "api": {
     "mainnet": {
-      "node": ["https://zkevm-rpc.com", "https://rpc.ankr.com/polygon_zkevm"]
+      "node": [
+        "https://zkevm-rpc.com",
+        "https://rpc.ankr.com/polygon_zkevm"
+      ]
     },
     "testnet": {
-      "node": ["https://rpc.cardona.zkevm-rpc.com"]
+      "node": [
+        "https://rpc.cardona.zkevm-rpc.com"
+      ]
     }
   },
-  "tags": ["smart-contracts", "evm", "layer-2", "zk-rollup"],
+  "tags": [
+    "smart-contracts",
+    "evm",
+    "layer-2",
+    "zk-rollup"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/0xPolygonHermez"},
-    {"name": "twitter", "url": "https://x.com/0xPolygon"},
-    {"name": "docs", "url": "https://wiki.polygon.technology/docs/zkevm/"}
+    {
+      "name": "github",
+      "url": "https://github.com/0xPolygonHermez"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/0xPolygon"
+    },
+    {
+      "name": "docs",
+      "url": "https://wiki.polygon.technology/docs/zkevm/"
+    }
   ],
   "pricing": {
     "coingecko_id": "ethereum"

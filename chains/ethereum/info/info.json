@@ -7,7 +7,15 @@
   "id": "ETH",
   "description": "Open source platform to write and distribute decentralized applications.",
   "website": "https://ethereum.org/",
-  "explorer": "https://etherscan.io/",
+  "explorer": {
+    "base": "https://etherscan.io",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 1,
   "api": {
     "mainnet": {
@@ -19,15 +27,34 @@
       ]
     },
     "testnet": {
-      "node": ["https://rpc.sepolia.org"]
+      "node": [
+        "https://rpc.sepolia.org"
+      ]
     }
   },
-  "tags": ["smart-contracts", "staking-native", "evm", "layer-1"],
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "evm",
+    "layer-1"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/ethereum"},
-    {"name": "twitter", "url": "https://x.com/ethereum"},
-    {"name": "reddit", "url": "https://reddit.com/r/ethereum"},
-    {"name": "whitepaper", "url": "https://github.com/ethereum/wiki/wiki/White-Paper"}
+    {
+      "name": "github",
+      "url": "https://github.com/ethereum"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/ethereum"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/ethereum"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://github.com/ethereum/wiki/wiki/White-Paper"
+    }
   ],
   "pricing": {
     "coingecko_id": "ethereum"

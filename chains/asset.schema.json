@@ -53,9 +53,48 @@
       "description": "Official website URL"
     },
     "explorer": {
-      "type": "string",
-      "format": "uri",
-      "description": "Block explorer URL for the token"
+      "oneOf": [
+        {
+          "type": "string",
+          "format": "uri",
+          "description": "Direct block explorer URL for the token"
+        },
+        {
+          "type": "object",
+          "description": "Block explorer configuration with URL patterns (for blockchain info)",
+          "required": ["base", "paths"],
+          "properties": {
+            "base": {
+              "type": "string",
+              "description": "Base URL of the block explorer (no trailing slash)"
+            },
+            "paths": {
+              "type": "object",
+              "description": "URL path patterns for different actions. Use {value} as placeholder.",
+              "required": ["address", "transaction", "block"],
+              "properties": {
+                "address": {
+                  "type": "string",
+                  "description": "Path pattern for viewing addresses/accounts"
+                },
+                "transaction": {
+                  "type": "string",
+                  "description": "Path pattern for viewing transactions"
+                },
+                "token": {
+                  "type": "string",
+                  "description": "Path pattern for viewing tokens (optional for UTXO chains)"
+                },
+                "block": {
+                  "type": "string",
+                  "description": "Path pattern for viewing blocks"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "description": "Block explorer: URL string for tokens, or object with path patterns for chains"
     },
     "chain_id": {
       "type": "integer",

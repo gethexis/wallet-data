@@ -7,21 +7,51 @@
   "id": "NEAR",
   "description": "NEAR is an open source platform that accelerates the development of decentralized applications.",
   "website": "https://near.org/",
-  "explorer": "https://nearblocks.io/",
-  "api": {
-    "mainnet": {
-      "node": ["https://rpc.mainnet.near.org", "https://rpc.ankr.com/near"]
-    },
-    "testnet": {
-      "node": ["https://rpc.testnet.near.org"]
+  "explorer": {
+    "base": "https://nearblocks.io",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/txns/{value}",
+      "token": "/token/{value}",
+      "block": "/blocks/{value}"
     }
   },
-  "tags": ["smart-contracts", "staking-native", "layer-1", "sharding"],
+  "api": {
+    "mainnet": {
+      "node": [
+        "https://rpc.mainnet.near.org",
+        "https://rpc.ankr.com/near"
+      ]
+    },
+    "testnet": {
+      "node": [
+        "https://rpc.testnet.near.org"
+      ]
+    }
+  },
+  "tags": [
+    "smart-contracts",
+    "staking-native",
+    "layer-1",
+    "sharding"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/near"},
-    {"name": "twitter", "url": "https://x.com/nearprotocol"},
-    {"name": "reddit", "url": "https://reddit.com/r/nearprotocol"},
-    {"name": "whitepaper", "url": "https://near.org/papers/the-official-near-white-paper"}
+    {
+      "name": "github",
+      "url": "https://github.com/near"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/nearprotocol"
+    },
+    {
+      "name": "reddit",
+      "url": "https://reddit.com/r/nearprotocol"
+    },
+    {
+      "name": "whitepaper",
+      "url": "https://near.org/papers/the-official-near-white-paper"
+    }
   ],
   "pricing": {
     "coingecko_id": "near"

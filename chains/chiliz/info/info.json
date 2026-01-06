@@ -7,21 +7,49 @@
   "id": "CHZ",
   "description": "Chiliz Chain is a blockchain for sports and entertainment, powering fan tokens and engagement platforms.",
   "website": "https://chiliz.com/",
-  "explorer": "https://scan.chiliz.com/",
+  "explorer": {
+    "base": "https://scan.chiliz.com",
+    "paths": {
+      "address": "/address/{value}",
+      "transaction": "/tx/{value}",
+      "token": "/token/{value}",
+      "block": "/block/{value}"
+    }
+  },
   "chain_id": 88888,
   "api": {
     "mainnet": {
-      "node": ["https://rpc.ankr.com/chiliz", "https://rpc.chiliz.com"]
+      "node": [
+        "https://rpc.ankr.com/chiliz",
+        "https://rpc.chiliz.com"
+      ]
     },
     "testnet": {
-      "node": ["https://spicy-rpc.chiliz.com"]
+      "node": [
+        "https://spicy-rpc.chiliz.com"
+      ]
     }
   },
-  "tags": ["smart-contracts", "evm", "layer-1", "sports", "fan-tokens"],
+  "tags": [
+    "smart-contracts",
+    "evm",
+    "layer-1",
+    "sports",
+    "fan-tokens"
+  ],
   "links": [
-    {"name": "github", "url": "https://github.com/chiliz-chain"},
-    {"name": "twitter", "url": "https://x.com/Chiliz"},
-    {"name": "docs", "url": "https://docs.chiliz.com/"}
+    {
+      "name": "github",
+      "url": "https://github.com/chiliz-chain"
+    },
+    {
+      "name": "twitter",
+      "url": "https://x.com/Chiliz"
+    },
+    {
+      "name": "docs",
+      "url": "https://docs.chiliz.com/"
+    }
   ],
   "pricing": {
     "coingecko_id": "chiliz"
