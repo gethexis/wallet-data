@@ -18,12 +18,14 @@
   "api": {
     "mainnet": {
       "node": [
+        "https://api.blockcypher.com/v1/doge/main",
         "https://dogechain.info/api",
-        "https://blockchair.com/dogecoin/api"
+        "https://api.blockchair.com/dogecoin"
       ],
       "indexer": [
+        "https://api.blockcypher.com/v1/doge/main",
         "https://dogechain.info/api",
-        "https://blockchair.com/dogecoin/api"
+        "https://api.blockchair.com/dogecoin"
       ]
     }
   },
