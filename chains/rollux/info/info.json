@@ -22,6 +22,9 @@
       "node": [
         "https://rpc.rollux.com",
         "https://rpc.ankr.com/rollux"
+      ],
+      "indexer": [
+        "https://explorer.rollux.com"
       ]
     },
     "testnet": {
