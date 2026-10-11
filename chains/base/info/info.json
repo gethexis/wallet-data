@@ -29,6 +29,9 @@
     "testnet": {
       "node": [
         "https://sepolia.base.org"
+      ],
+      "indexer": [
+        "https://base-sepolia.blockscout.com"
       ]
     }
   },

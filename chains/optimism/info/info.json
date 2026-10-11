@@ -24,11 +24,17 @@
         "https://optimism.llamarpc.com",
         "https://optimism-rpc.publicnode.com",
         "https://rpc.ankr.com/optimism"
+      ],
+      "indexer": [
+        "https://explorer.optimism.io"
       ]
     },
     "testnet": {
       "node": [
         "https://sepolia.optimism.io"
+      ],
+      "indexer": [
+        "https://testnet-explorer.optimism.io"
       ]
     }
   },

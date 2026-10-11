@@ -22,11 +22,17 @@
       "node": [
         "https://rpc.syscoin.org",
         "https://rpc.ankr.com/syscoin"
+      ],
+      "indexer": [
+        "https://explorer.syscoin.org"
       ]
     },
     "testnet": {
       "node": [
         "https://rpc.tanenbaum.io"
+      ],
+      "indexer": [
+        "https://explorer.tanenbaum.io"
       ]
     }
   },
