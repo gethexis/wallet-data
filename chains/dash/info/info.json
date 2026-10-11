@@ -18,20 +18,10 @@
   "api": {
     "mainnet": {
       "node": [
-        "https://insight.dash.org/api",
-        "https://blockchair.com/dash/api"
+        "https://api.blockcypher.com/v1/dash/main"
       ],
       "indexer": [
-        "https://insight.dash.org/api",
-        "https://blockchair.com/dash/api"
-      ]
-    },
-    "testnet": {
-      "node": [
-        "https://testnet-insight.dash.org/api"
-      ],
-      "indexer": [
-        "https://testnet-insight.dash.org/api"
+        "https://api.blockcypher.com/v1/dash/main"
       ]
     }
   },

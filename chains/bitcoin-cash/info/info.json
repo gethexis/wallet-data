@@ -18,12 +18,12 @@
   "api": {
     "mainnet": {
       "node": [
-        "https://bch.blockbook.bitcoin-cash.org/api",
-        "https://blockchair.com/bitcoin-cash/api"
+        "https://bchblockexplorer.com/api",
+        "https://api.blockchair.com/bitcoin-cash"
       ],
       "indexer": [
-        "https://bch.blockbook.bitcoin-cash.org/api",
-        "https://blockchair.com/bitcoin-cash/api"
+        "https://bchblockexplorer.com/api",
+        "https://api.blockchair.com/bitcoin-cash"
       ]
     }
   },

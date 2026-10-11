@@ -19,11 +19,13 @@
     "mainnet": {
       "node": [
         "https://litecoinspace.org/api",
-        "https://blockchair.com/litecoin/api"
+        "https://litecoinblockexplorer.net/api",
+        "https://api.blockcypher.com/v1/ltc/main"
       ],
       "indexer": [
         "https://litecoinspace.org/api",
-        "https://blockchair.com/litecoin/api"
+        "https://litecoinblockexplorer.net/api",
+        "https://api.blockcypher.com/v1/ltc/main"
       ]
     },
     "testnet": {

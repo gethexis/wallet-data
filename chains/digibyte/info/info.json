@@ -18,12 +18,10 @@
   "api": {
     "mainnet": {
       "node": [
-        "https://digiexplorer.info/api",
-        "https://blockchair.com/digibyte/api"
+        "https://api.blockchair.com/digibyte"
       ],
       "indexer": [
-        "https://digiexplorer.info/api",
-        "https://blockchair.com/digibyte/api"
+        "https://api.blockchair.com/digibyte"
       ]
     }
   },
